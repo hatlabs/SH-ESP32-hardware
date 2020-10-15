@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP S8050
+D 0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, SOT-23
+K S8050 NPN Low Voltage High Current Transistor
+F http://www.unisonic.com.tw/datasheet/S8050.pdf
+$ENDCMP
+#
+#End Doc Library

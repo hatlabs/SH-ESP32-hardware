@@ -1,0 +1,430 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title "Sailor Hat for ESP32"
+Date ""
+Rev "0.1.0"
+Comp "Hat Laboratories"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5FB305CD
+P 2050 4650
+F 0 "R?" V 1843 4650 50  0000 C CNN
+F 1 "220R" V 1934 4650 50  0000 C CNN
+F 2 "" V 1980 4650 50  0001 C CNN
+F 3 "~" H 2050 4650 50  0001 C CNN
+	1    2050 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB3123D
+P 2150 4850
+F 0 "#PWR?" H 2150 4600 50  0001 C CNN
+F 1 "GND" H 2155 4677 50  0000 C CNN
+F 2 "" H 2150 4850 50  0001 C CNN
+F 3 "" H 2150 4850 50  0001 C CNN
+	1    2150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4850 2300 4850
+Wire Wire Line
+	2300 4650 2200 4650
+Wire Wire Line
+	1900 4650 1800 4650
+$Comp
+L Isolator:EL817 U?
+U 1 1 5FB321C6
+P 2600 4750
+F 0 "U?" H 2600 5075 50  0000 C CNN
+F 1 "EL817" H 2600 4984 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 2400 4550 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 2600 4750 50  0001 L CNN
+	1    2600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:MMBT5551L Q?
+U 1 1 5FB347F2
+P 3500 4650
+F 0 "Q?" H 3691 4696 50  0000 L CNN
+F 1 "MMBT5551L" H 3691 4605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3700 4575 50  0001 L CIN
+F 3 "www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF" H 3500 4650 50  0001 L CNN
+	1    3500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB354D0
+P 3050 4250
+F 0 "R?" H 3120 4296 50  0000 L CNN
+F 1 "5.1k" H 3120 4205 50  0000 L CNN
+F 2 "" V 2980 4250 50  0001 C CNN
+F 3 "~" H 3050 4250 50  0001 C CNN
+	1    3050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB36FDC
+P 3600 4150
+F 0 "R?" H 3670 4196 50  0000 L CNN
+F 1 "5.1k" H 3670 4105 50  0000 L CNN
+F 2 "" V 3530 4150 50  0001 C CNN
+F 3 "~" H 3600 4150 50  0001 C CNN
+	1    3600 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4100 3050 3850
+Wire Wire Line
+	3600 4000 3600 3850
+Wire Wire Line
+	2900 4650 3050 4650
+Wire Wire Line
+	3050 4400 3050 4650
+Connection ~ 3050 4650
+Wire Wire Line
+	3050 4650 3300 4650
+Wire Wire Line
+	3600 4300 3600 4350
+Connection ~ 3600 4350
+Wire Wire Line
+	3600 4350 3600 4450
+Wire Wire Line
+	3600 4850 3600 5100
+Wire Wire Line
+	3000 5100 3000 4850
+Wire Wire Line
+	3000 4850 2900 4850
+Wire Wire Line
+	3000 5100 3300 5100
+Wire Wire Line
+	3300 5100 3300 5250
+Connection ~ 3300 5100
+Wire Wire Line
+	3300 5100 3600 5100
+Text Label 3300 5250 3    50   ~ 0
+ISO_GND
+Text Label 4500 4350 0    50   ~ 0
+ISO_OUT
+Text Label 3050 3850 1    50   ~ 0
+V_ISO
+Text Label 3600 3850 1    50   ~ 0
+V_ISO
+$Comp
+L Isolator:EL817 U?
+U 1 1 5FB3BE11
+P 3400 2400
+F 0 "U?" H 3400 2725 50  0000 C CNN
+F 1 "EL817" H 3400 2634 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3200 2200 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 3400 2400 50  0001 L CNN
+	1    3400 2400
+	-1   0    0    -1  
+$EndComp
+Text Label 3900 2700 3    50   ~ 0
+ISO_GND
+$Comp
+L Device:R R?
+U 1 1 5FB3CD58
+P 3950 2300
+F 0 "R?" V 3743 2300 50  0000 C CNN
+F 1 "1k" V 3834 2300 50  0000 C CNN
+F 2 "" V 3880 2300 50  0001 C CNN
+F 3 "~" H 3950 2300 50  0001 C CNN
+	1    3950 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB3D3D9
+P 2850 1950
+F 0 "R?" H 2920 1996 50  0000 L CNN
+F 1 "5.1k" H 2920 1905 50  0000 L CNN
+F 2 "" V 2780 1950 50  0001 C CNN
+F 3 "~" H 2850 1950 50  0001 C CNN
+	1    2850 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB3DDF1
+P 2850 1800
+F 0 "#PWR?" H 2850 1650 50  0001 C CNN
+F 1 "+3.3V" H 2865 1973 50  0000 C CNN
+F 2 "" H 2850 1800 50  0001 C CNN
+F 3 "" H 2850 1800 50  0001 C CNN
+	1    2850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB3E620
+P 2750 2700
+F 0 "#PWR?" H 2750 2450 50  0001 C CNN
+F 1 "GND" H 2755 2527 50  0000 C CNN
+F 2 "" H 2750 2700 50  0001 C CNN
+F 3 "" H 2750 2700 50  0001 C CNN
+	1    2750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2700 2750 2500
+Wire Wire Line
+	2750 2500 3100 2500
+Wire Wire Line
+	3100 2300 2850 2300
+Wire Wire Line
+	2850 2300 2850 2100
+Wire Wire Line
+	2850 2300 2600 2300
+Connection ~ 2850 2300
+Wire Wire Line
+	3700 2500 3900 2500
+Wire Wire Line
+	3900 2500 3900 2700
+Wire Wire Line
+	3800 2300 3700 2300
+Wire Wire Line
+	4100 2300 4250 2300
+Text Label 4250 2300 0    50   ~ 0
+ISO_IN
+$Comp
+L Connector:Screw_Terminal_01x04 J?
+U 1 1 5FB4157F
+P 9550 2800
+F 0 "J?" H 9630 2792 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 9630 2701 50  0000 L CNN
+F 2 "" H 9550 2800 50  0001 C CNN
+F 3 "~" H 9550 2800 50  0001 C CNN
+	1    9550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5FB44FD9
+P 7250 2050
+AR Path="/5F89C30A/5FB44FD9" Ref="FB?"  Part="1" 
+AR Path="/5FB2AE13/5FB44FD9" Ref="FB?"  Part="1" 
+F 0 "FB?" V 6976 2050 50  0000 C CNN
+F 1 "GZ2012D601TF" V 7067 2050 50  0000 C CNN
+F 2 "" V 7180 2050 50  0001 C CNN
+F 3 "~" H 7250 2050 50  0001 C CNN
+	1    7250 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5FB45373
+P 7250 1550
+AR Path="/5F89C30A/5FB45373" Ref="FB?"  Part="1" 
+AR Path="/5FB2AE13/5FB45373" Ref="FB?"  Part="1" 
+F 0 "FB?" V 6976 1550 50  0000 C CNN
+F 1 "GZ2012D601TF" V 7067 1550 50  0000 C CNN
+F 2 "" V 7180 1550 50  0001 C CNN
+F 3 "~" H 7250 1550 50  0001 C CNN
+	1    7250 1550
+	0    1    1    0   
+$EndComp
+Text Label 7650 3300 0    50   ~ 0
+ISO_IN_CONN
+Wire Wire Line
+	6950 3300 7050 3300
+Wire Wire Line
+	7650 3300 7500 3300
+$Comp
+L Device:C C?
+U 1 1 5FB49AD1
+P 7050 3450
+AR Path="/5FB49AD1" Ref="C?"  Part="1" 
+AR Path="/5F9BE197/5FB49AD1" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FB49AD1" Ref="C?"  Part="1" 
+F 0 "C?" H 7165 3496 50  0000 L CNN
+F 1 "33p" H 7165 3405 50  0000 L CNN
+F 2 "" H 7088 3300 50  0001 C CNN
+F 3 "~" H 7050 3450 50  0001 C CNN
+	1    7050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB49ADD
+P 7500 3450
+AR Path="/5FB49ADD" Ref="C?"  Part="1" 
+AR Path="/5F9BE197/5FB49ADD" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FB49ADD" Ref="C?"  Part="1" 
+F 0 "C?" H 7615 3496 50  0000 L CNN
+F 1 "33p" H 7615 3405 50  0000 L CNN
+F 2 "" H 7538 3300 50  0001 C CNN
+F 3 "~" H 7500 3450 50  0001 C CNN
+	1    7500 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 7050 3300
+Wire Wire Line
+	7050 3300 7150 3300
+Connection ~ 7500 3300
+Wire Wire Line
+	7500 3300 7450 3300
+Text Label 7050 3600 3    50   ~ 0
+ISO_GND
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5FB49AEA
+P 7300 3300
+AR Path="/5F89C30A/5FB49AEA" Ref="FB?"  Part="1" 
+AR Path="/5F9BE197/5FB49AEA" Ref="FB?"  Part="1" 
+AR Path="/5FB2AE13/5FB49AEA" Ref="FB?"  Part="1" 
+F 0 "FB?" V 7026 3300 50  0000 C CNN
+F 1 "GZ2012D101TF" V 7117 3300 50  0000 C CNN
+F 2 "" V 7230 3300 50  0001 C CNN
+F 3 "~" H 7300 3300 50  0001 C CNN
+	1    7300 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 1550 7400 1550
+Wire Wire Line
+	7500 2050 7400 2050
+Text Label 6950 3300 2    50   ~ 0
+ISO_IN
+Text Label 9350 2700 2    50   ~ 0
+ISO_GND_CONN
+Text Label 9350 2800 2    50   ~ 0
+V_ISO_CONN
+Text Label 9350 2900 2    50   ~ 0
+ISO_IN_CONN
+Text Label 9350 3000 2    50   ~ 0
+ISO_OUT_CONN
+Text Label 7550 1550 0    50   ~ 0
+ISO_GND_CONN
+Text Label 6900 1550 2    50   ~ 0
+ISO_GND
+Wire Wire Line
+	7100 1550 6900 1550
+$Comp
+L Device:C C?
+U 1 1 5FB5449D
+P 7500 2200
+AR Path="/5FB5449D" Ref="C?"  Part="1" 
+AR Path="/5F9BE197/5FB5449D" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FB5449D" Ref="C?"  Part="1" 
+F 0 "C?" H 7615 2246 50  0000 L CNN
+F 1 "10u" H 7615 2155 50  0000 L CNN
+F 2 "" H 7538 2050 50  0001 C CNN
+F 3 "~" H 7500 2200 50  0001 C CNN
+	1    7500 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB54A5E
+P 7000 2200
+AR Path="/5FB54A5E" Ref="C?"  Part="1" 
+AR Path="/5F9BE197/5FB54A5E" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FB54A5E" Ref="C?"  Part="1" 
+F 0 "C?" H 7115 2246 50  0000 L CNN
+F 1 "10u" H 7115 2155 50  0000 L CNN
+F 2 "" H 7038 2050 50  0001 C CNN
+F 3 "~" H 7000 2200 50  0001 C CNN
+	1    7000 2200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2050 7000 2050
+Wire Wire Line
+	7500 2050 7650 2050
+Connection ~ 7500 2050
+Wire Wire Line
+	7000 2050 6650 2050
+Connection ~ 7000 2050
+Text Label 7500 2350 3    50   ~ 0
+ISO_GND_CONN
+Text Label 7000 2350 3    50   ~ 0
+ISO_GND
+Text Label 6650 2050 2    50   ~ 0
+V_ISO
+Text Label 7650 2050 0    50   ~ 0
+V_ISO_CONN
+Text Label 7500 3600 3    50   ~ 0
+ISO_GND_CONN
+Text Label 7650 4450 0    50   ~ 0
+ISO_OUT_CONN
+Wire Wire Line
+	6950 4450 7050 4450
+Wire Wire Line
+	7650 4450 7500 4450
+$Comp
+L Device:C C?
+U 1 1 5FB5DCAF
+P 7050 4600
+AR Path="/5FB5DCAF" Ref="C?"  Part="1" 
+AR Path="/5F9BE197/5FB5DCAF" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FB5DCAF" Ref="C?"  Part="1" 
+F 0 "C?" H 7165 4646 50  0000 L CNN
+F 1 "33p" H 7165 4555 50  0000 L CNN
+F 2 "" H 7088 4450 50  0001 C CNN
+F 3 "~" H 7050 4600 50  0001 C CNN
+	1    7050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB5DCB5
+P 7500 4600
+AR Path="/5FB5DCB5" Ref="C?"  Part="1" 
+AR Path="/5F9BE197/5FB5DCB5" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FB5DCB5" Ref="C?"  Part="1" 
+F 0 "C?" H 7615 4646 50  0000 L CNN
+F 1 "33p" H 7615 4555 50  0000 L CNN
+F 2 "" H 7538 4450 50  0001 C CNN
+F 3 "~" H 7500 4600 50  0001 C CNN
+	1    7500 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 7050 4450
+Wire Wire Line
+	7050 4450 7150 4450
+Connection ~ 7500 4450
+Wire Wire Line
+	7500 4450 7450 4450
+Text Label 7050 4750 3    50   ~ 0
+ISO_GND
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5FB5DCC0
+P 7300 4450
+AR Path="/5F89C30A/5FB5DCC0" Ref="FB?"  Part="1" 
+AR Path="/5F9BE197/5FB5DCC0" Ref="FB?"  Part="1" 
+AR Path="/5FB2AE13/5FB5DCC0" Ref="FB?"  Part="1" 
+F 0 "FB?" V 7026 4450 50  0000 C CNN
+F 1 "GZ2012D101TF" V 7117 4450 50  0000 C CNN
+F 2 "" V 7230 4450 50  0001 C CNN
+F 3 "~" H 7300 4450 50  0001 C CNN
+	1    7300 4450
+	0    1    1    0   
+$EndComp
+Text Label 6950 4450 2    50   ~ 0
+ISO_OUT
+Text Label 7500 4750 3    50   ~ 0
+ISO_GND_CONN
+Wire Wire Line
+	3600 4350 4500 4350
+Text Notes 3900 3950 0    50   ~ 0
+FIXME: What do we want to achieve with\nthe optoisolated output? Could also\nmake a relay driver
+Text HLabel 2600 2300 0    50   Input ~ 0
+IN1
+Text HLabel 1800 4650 0    50   Input ~ 0
+OUT1
+$EndSCHEMATC
