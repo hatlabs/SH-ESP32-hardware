@@ -27,16 +27,15 @@ F7 "SCL" I R 6150 2550 50
 F8 "DQ" I R 6150 2850 50 
 F9 "OPTO_IN1" I R 6150 3150 50 
 F10 "OPTO_OUT1" I R 6150 3300 50 
-F11 "LED" I L 4800 2950 50 
-F12 "RESET" I L 4800 2650 50 
-F13 "BOOT" I L 4800 2800 50 
+F11 "LED" I L 4800 2900 50 
+F12 "RESET" I L 4800 2600 50 
+F13 "BOOT" I L 4800 2750 50 
 $EndSheet
 $Sheet
 S 950  950  1300 800 
 U 5F6FAF6E
 F0 "Power input" 50
 F1 "power-input.sch" 50
-F2 "Vin" I R 2250 1150 50 
 $EndSheet
 $Sheet
 S 950  2150 1300 1250
@@ -45,8 +44,8 @@ F0 "USB" 50
 F1 "USB.sch" 50
 F2 "TXD" I R 2250 2350 50 
 F3 "RXD" I R 2250 2500 50 
-F4 "BOOT" I R 2250 3250 50 
-F5 "RESET" I R 2250 3100 50 
+F4 "BOOT" I R 2250 3000 50 
+F5 "RESET" I R 2250 2850 50 
 $EndSheet
 $Sheet
 S 950  3750 1300 1050
@@ -64,7 +63,6 @@ F0 "CAN bus" 50
 F1 "canbus.sch" 50
 F2 "CAN_RX" I L 9300 1150 50 
 F3 "CAN_TX" I L 9300 1300 50 
-F4 "Vin" I L 9300 1600 50 
 $EndSheet
 $Sheet
 S 9300 2150 1250 750 
@@ -89,14 +87,14 @@ F1 "optocouplers.sch" 50
 F2 "IN1" I L 9300 4500 50 
 F3 "OUT1" I L 9300 4650 50 
 $EndSheet
-Text Label 2350 3250 0    50   ~ 0
+Text Label 2350 3000 0    50   ~ 0
 BOOT
-Text Label 2350 3100 0    50   ~ 0
+Text Label 2350 2850 0    50   ~ 0
 RESET
 Wire Wire Line
-	2350 3250 2250 3250
+	2350 3000 2250 3000
 Wire Wire Line
-	2350 3100 2250 3100
+	2350 2850 2250 2850
 Wire Wire Line
 	9300 2300 9200 2300
 Wire Wire Line
@@ -153,18 +151,18 @@ Text Label 2350 4250 0    50   ~ 0
 LED
 Wire Wire Line
 	2350 4250 2250 4250
-Text Label 4700 2800 2    50   ~ 0
+Text Label 4700 2750 2    50   ~ 0
 BOOT
-Text Label 4700 2650 2    50   ~ 0
+Text Label 4700 2600 2    50   ~ 0
 RESET
 Wire Wire Line
-	4700 2800 4800 2800
+	4700 2750 4800 2750
 Wire Wire Line
-	4700 2650 4800 2650
-Text Label 4700 2950 2    50   ~ 0
+	4700 2600 4800 2600
+Text Label 4700 2900 2    50   ~ 0
 LED
 Wire Wire Line
-	4700 2950 4800 2950
+	4700 2900 4800 2900
 Text Label 6250 2150 0    50   ~ 0
 CAN_TX
 Text Label 6250 2000 0    50   ~ 0
@@ -193,12 +191,4 @@ Wire Wire Line
 	6250 3150 6150 3150
 Wire Wire Line
 	6250 3300 6150 3300
-Text Label 9200 1600 2    50   ~ 0
-Vin
-Wire Wire Line
-	9300 1600 9200 1600
-Text Label 2350 1150 0    50   ~ 0
-Vin
-Wire Wire Line
-	2250 1150 2350 1150
 $EndSCHEMATC
