@@ -262,22 +262,8 @@ F 3 "~" H 4050 1450 50  0001 C CNN
 	1    4050 1450
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5F9D0612
-P 3850 2150
-F 0 "#PWR0104" H 3850 1900 50  0001 C CNN
-F 1 "GND" H 3855 1977 50  0000 C CNN
-F 2 "" H 3850 2150 50  0001 C CNN
-F 3 "" H 3850 2150 50  0001 C CNN
-	1    3850 2150
-	1    0    0    -1  
-$EndComp
-Connection ~ 3850 1450
-Wire Wire Line
-	3850 1450 3850 1200
 Text Notes 3850 950  0    50   ~ 0
 Mounting holes
-Wire Wire Line
-	3850 1450 3850 2150
+NoConn ~ 3850 1450
+NoConn ~ 3850 1200
 $EndSCHEMATC

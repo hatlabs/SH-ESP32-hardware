@@ -236,8 +236,6 @@ Text HLabel 5700 3550 2    50   Input ~ 0
 RESET
 Text HLabel 5700 5150 2    50   Input ~ 0
 BOOT
-NoConn ~ 3300 2350
-NoConn ~ 4000 2350
 Wire Wire Line
 	1600 2200 1600 2150
 Wire Wire Line
@@ -295,18 +293,9 @@ Connection ~ 3600 2750
 Wire Wire Line
 	3600 2750 3600 2700
 Wire Wire Line
-	2700 1550 3200 1550
-Wire Wire Line
 	2900 1650 3150 1650
 Wire Wire Line
 	2950 1750 3100 1750
-Wire Wire Line
-	3200 1550 3200 2050
-Wire Wire Line
-	3200 2050 3300 2050
-Connection ~ 3200 1550
-Wire Wire Line
-	3200 1550 4050 1550
 Wire Wire Line
 	3150 1650 3150 2150
 Wire Wire Line
@@ -321,11 +310,6 @@ Wire Wire Line
 Connection ~ 3100 1750
 Wire Wire Line
 	3100 1750 4150 1750
-Wire Wire Line
-	4000 2050 4050 2050
-Wire Wire Line
-	4050 2050 4050 1550
-Connection ~ 4050 1550
 Wire Wire Line
 	4000 2150 4100 2150
 Wire Wire Line
@@ -407,12 +391,28 @@ Wire Wire Line
 Text Notes 5300 2200 0    50   ~ 0
 FIXME: Remember to make virtual!
 Wire Wire Line
-	4050 1550 4750 1550
-Wire Wire Line
 	1600 2200 1700 2200
 Connection ~ 1700 2200
 Wire Wire Line
 	1700 2200 1700 2400
 Text GLabel 4750 1550 2    50   Input ~ 0
 USB_5V
+Wire Wire Line
+	2700 1550 3050 1550
+Wire Wire Line
+	3050 1550 3050 2350
+Wire Wire Line
+	3050 2350 3300 2350
+Connection ~ 3050 1550
+Wire Wire Line
+	3050 1550 4200 1550
+Wire Wire Line
+	4200 1550 4200 2350
+Wire Wire Line
+	4200 2350 4000 2350
+Connection ~ 4200 1550
+Wire Wire Line
+	4200 1550 4750 1550
+NoConn ~ 4000 2050
+NoConn ~ 3300 2050
 $EndSCHEMATC
