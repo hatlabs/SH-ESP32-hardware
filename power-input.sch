@@ -266,20 +266,19 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5CA62DDA
-P 3600 4600
+P 3800 4600
 AR Path="/5C3476D8/5CA62DDA" Ref="#FLG?"  Part="1" 
 AR Path="/5CA65CC5/5CA62DDA" Ref="#FLG?"  Part="1" 
 AR Path="/5F6FAF6E/5CA62DDA" Ref="#FLG0301"  Part="1" 
-F 0 "#FLG0301" H 3600 4675 50  0001 C CNN
-F 1 "PWR_FLAG" H 3600 4774 50  0000 C CNN
-F 2 "" H 3600 4600 50  0001 C CNN
-F 3 "~" H 3600 4600 50  0001 C CNN
-	1    3600 4600
+F 0 "#FLG0301" H 3800 4675 50  0001 C CNN
+F 1 "PWR_FLAG" H 3800 4774 50  0000 C CNN
+F 2 "" H 3800 4600 50  0001 C CNN
+F 3 "~" H 3800 4600 50  0001 C CNN
+	1    3800 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 4600 3600 4800
-Connection ~ 3600 4800
+	3800 4600 3800 4800
 Text Label 5550 4800 2    50   ~ 0
 SW
 Text Label 5850 5000 0    50   ~ 0
@@ -311,13 +310,9 @@ Wire Wire Line
 	5800 4800 5200 4800
 Wire Wire Line
 	5800 4250 5800 4800
-Wire Wire Line
-	3600 4800 3850 4800
 Connection ~ 3850 4800
 Wire Wire Line
 	3850 4800 4500 4800
-Wire Wire Line
-	3350 4800 3600 4800
 Wire Wire Line
 	4600 5000 4500 5000
 Wire Wire Line
@@ -360,7 +355,7 @@ F 3 "" H 8350 4250 50  0001 C CNN
 $EndComp
 Text Label 7300 2100 0    50   ~ 0
 Vin_protected
-Text Label 3350 4800 2    50   ~ 0
+Text Label 2600 4800 2    50   ~ 0
 Vin_protected
 Connection ~ 6800 4250
 Wire Wire Line
@@ -591,4 +586,36 @@ $EndComp
 Connection ~ 8000 4250
 Wire Wire Line
 	8000 4250 8350 4250
+$Comp
+L Device:D_Schottky D?
+U 1 1 5FAEC660
+P 3200 4350
+AR Path="/5C3476D8/5FAEC660" Ref="D?"  Part="1" 
+AR Path="/5CA65CC5/5FAEC660" Ref="D?"  Part="1" 
+AR Path="/5F6FAF6E/5FAEC660" Ref="D304"  Part="1" 
+F 0 "D304" H 3100 4450 50  0000 L CNN
+F 1 "B5819W" H 2900 4550 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 3200 4350 50  0001 C CNN
+F 3 "~" H 3200 4350 50  0001 C CNN
+F 4 "" V 3200 4350 50  0001 C CNN "Notes"
+F 5 "C8598" H 3200 4350 50  0001 C CNN "LCSC"
+	1    3200 4350
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3800 4800
+Wire Wire Line
+	3800 4800 3850 4800
+Wire Wire Line
+	2600 4800 3550 4800
+Wire Wire Line
+	3350 4350 3550 4350
+Wire Wire Line
+	3550 4350 3550 4800
+Connection ~ 3550 4800
+Wire Wire Line
+	3550 4800 3800 4800
+Wire Wire Line
+	3050 4350 2600 4350
+Text GLabel 2600 4350 0    50   Input ~ 0
+USB_5V
 $EndSCHEMATC
