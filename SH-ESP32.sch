@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "Sailor Hat for ESP32"
 Date ""
 Rev "0.1.0"
@@ -191,4 +191,10 @@ Wire Wire Line
 	6250 3150 6150 3150
 Wire Wire Line
 	6250 3300 6150 3300
+$Sheet
+S 950  5150 1300 750 
+U 5FC0C355
+F0 "PCB" 50
+F1 "PCB.sch" 50
+$EndSheet
 $EndSCHEMATC

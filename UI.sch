@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 5 10
 Title "Sailor Hat for ESP32"
 Date ""
 Rev "0.1.0"
@@ -248,28 +248,4 @@ Text HLabel 2450 3050 2    50   Input ~ 0
 BOOT
 Text HLabel 1750 1200 1    50   Input ~ 0
 LED
-Text Notes 3850 950  0    50   ~ 0
-Mounting holes
-$Comp
-L Mechanical:MountingHole H501
-U 1 1 5FAE48D5
-P 4150 1200
-F 0 "H501" H 4250 1246 50  0000 L CNN
-F 1 "MountingHole" H 4250 1155 50  0000 L CNN
-F 2 "SH-ESP32:MountingHole_3.2mm_M3_Unplated" H 4150 1200 50  0001 C CNN
-F 3 "~" H 4150 1200 50  0001 C CNN
-	1    4150 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H502
-U 1 1 5FAE4D95
-P 4150 1500
-F 0 "H502" H 4250 1546 50  0000 L CNN
-F 1 "MountingHole" H 4250 1455 50  0000 L CNN
-F 2 "SH-ESP32:MountingHole_3.2mm_M3_Unplated" H 4150 1500 50  0001 C CNN
-F 3 "~" H 4150 1500 50  0001 C CNN
-	1    4150 1500
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

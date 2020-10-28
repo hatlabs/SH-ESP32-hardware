@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 10
 Title "Sailor Hat for ESP32"
 Date ""
 Rev "0.1.0"
@@ -107,57 +107,57 @@ Text Label 4300 4250 0    50   ~ 0
 IO34
 Text Label 4300 4350 0    50   ~ 0
 IO35
-Text Label 5950 2100 2    50   ~ 0
+Text Label 5700 1500 2    50   ~ 0
 EN
-Text Label 5950 2200 2    50   ~ 0
+Text Label 5700 1600 2    50   ~ 0
 SENSOR_VP
-Text Label 5950 2300 2    50   ~ 0
+Text Label 5700 1700 2    50   ~ 0
 SENSOR_VN
-Text Label 5950 2400 2    50   ~ 0
+Text Label 5700 1800 2    50   ~ 0
 IO34
-Text Label 5950 2500 2    50   ~ 0
+Text Label 5700 1900 2    50   ~ 0
 IO35
-Text Label 5950 2600 2    50   ~ 0
+Text Label 5700 2000 2    50   ~ 0
 IO32
-Text Label 5950 2700 2    50   ~ 0
+Text Label 5700 2100 2    50   ~ 0
 IO33
-Text Label 5950 2800 2    50   ~ 0
+Text Label 5700 2200 2    50   ~ 0
 IO25
-Text Label 5950 2900 2    50   ~ 0
-IO26
-Text Label 5950 3000 2    50   ~ 0
-IO27
-Text Label 5950 3100 2    50   ~ 0
+Text Label 5700 2300 2    50   ~ 0
+IO26_C
+Text Label 5700 2400 2    50   ~ 0
+IO27_C
+Text Label 5700 2500 2    50   ~ 0
 IO14
-Text Label 5950 3200 2    50   ~ 0
+Text Label 5700 2600 2    50   ~ 0
 IO12
-Text Label 5950 3300 2    50   ~ 0
+Text Label 5700 2700 2    50   ~ 0
 IO13
-Text Label 6450 2100 0    50   ~ 0
+Text Label 6200 1500 0    50   ~ 0
 IO23
-Text Label 6450 2200 0    50   ~ 0
-IO22
-Text Label 6450 2300 0    50   ~ 0
-TXD0
-Text Label 6450 2400 0    50   ~ 0
-RXD0
-Text Label 6450 2500 0    50   ~ 0
-IO21
-Text Label 6450 2600 0    50   ~ 0
-IO19
-Text Label 6450 2700 0    50   ~ 0
-IO18
-Text Label 6450 2800 0    50   ~ 0
+Text Label 6200 1600 0    50   ~ 0
+IO22_C
+Text Label 6200 1700 0    50   ~ 0
+TXD0_C
+Text Label 6200 1800 0    50   ~ 0
+RXD0_C
+Text Label 6200 1900 0    50   ~ 0
+IO21_C
+Text Label 6200 2000 0    50   ~ 0
+IO19_C
+Text Label 6200 2100 0    50   ~ 0
+IO18_C
+Text Label 6200 2200 0    50   ~ 0
 IO5
-Text Label 6450 2900 0    50   ~ 0
+Text Label 6200 2300 0    50   ~ 0
 IO17
-Text Label 6450 3000 0    50   ~ 0
+Text Label 6200 2400 0    50   ~ 0
 IO16
-Text Label 6450 3100 0    50   ~ 0
-IO4
-Text Label 6450 3200 0    50   ~ 0
+Text Label 6200 2500 0    50   ~ 0
+IO4_C
+Text Label 6200 2600 0    50   ~ 0
 IO2
-Text Label 6450 3300 0    50   ~ 0
+Text Label 6200 2700 0    50   ~ 0
 IO15
 $Comp
 L Device:C C?
@@ -229,216 +229,216 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5FC84F55
-P 8450 1800
+P 7600 1450
 AR Path="/5F89C30A/5FC84F55" Ref="R?"  Part="1" 
 AR Path="/5FC84F55" Ref="R?"  Part="1" 
 AR Path="/5FC3847D/5FC84F55" Ref="R202"  Part="1" 
-F 0 "R202" V 8350 1700 50  0000 C CNN
-F 1 "0R" V 8350 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8380 1800 50  0001 C CNN
-F 3 "~" H 8450 1800 50  0001 C CNN
-F 4 "C21189" H 8450 1800 50  0001 C CNN "LCSC"
-	1    8450 1800
+F 0 "R202" V 7500 1350 50  0000 C CNN
+F 1 "0R" V 7500 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 1450 50  0001 C CNN
+F 3 "~" H 7600 1450 50  0001 C CNN
+F 4 "C21189" H 7600 1450 50  0001 C CNN "LCSC"
+	1    7600 1450
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5FC84F5B
-P 8450 2000
+P 7600 1650
 AR Path="/5F89C30A/5FC84F5B" Ref="R?"  Part="1" 
 AR Path="/5FC84F5B" Ref="R?"  Part="1" 
 AR Path="/5FC3847D/5FC84F5B" Ref="R203"  Part="1" 
-F 0 "R203" V 8350 1900 50  0000 C CNN
-F 1 "0R" V 8350 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8380 2000 50  0001 C CNN
-F 3 "~" H 8450 2000 50  0001 C CNN
-F 4 "C21189" H 8450 2000 50  0001 C CNN "LCSC"
-	1    8450 2000
+F 0 "R203" V 7500 1550 50  0000 C CNN
+F 1 "0R" V 7500 1750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 1650 50  0001 C CNN
+F 3 "~" H 7600 1650 50  0001 C CNN
+F 4 "C21189" H 7600 1650 50  0001 C CNN "LCSC"
+	1    7600 1650
 	0    -1   1    0   
 $EndComp
-Text Label 8200 1800 2    50   ~ 0
+Text Label 7350 1450 2    50   ~ 0
 TXD0
-Text Label 8200 2000 2    50   ~ 0
+Text Label 7350 1650 2    50   ~ 0
 RXD0
 Wire Wire Line
-	8300 1800 8200 1800
+	7450 1450 7350 1450
 Wire Wire Line
-	8200 2000 8300 2000
+	7350 1650 7450 1650
 $Comp
 L Device:R R?
 U 1 1 5FC84F65
-P 8450 2650
+P 7600 2300
 AR Path="/5F89C30A/5FC84F65" Ref="R?"  Part="1" 
 AR Path="/5FC84F65" Ref="R?"  Part="1" 
 AR Path="/5FC3847D/5FC84F65" Ref="R205"  Part="1" 
-F 0 "R205" V 8350 2750 50  0000 C CNN
-F 1 "0R" V 8350 2550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8380 2650 50  0001 C CNN
-F 3 "~" H 8450 2650 50  0001 C CNN
-F 4 "C21189" H 8450 2650 50  0001 C CNN "LCSC"
-	1    8450 2650
+F 0 "R205" V 7500 2400 50  0000 C CNN
+F 1 "0R" V 7500 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 2300 50  0001 C CNN
+F 3 "~" H 7600 2300 50  0001 C CNN
+F 4 "C21189" H 7600 2300 50  0001 C CNN "LCSC"
+	1    7600 2300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8200 2650 8300 2650
+	7350 2300 7450 2300
 $Comp
 L Device:R R?
 U 1 1 5FC84F6C
-P 8450 2400
+P 7600 2050
 AR Path="/5F89C30A/5FC84F6C" Ref="R?"  Part="1" 
 AR Path="/5FC84F6C" Ref="R?"  Part="1" 
 AR Path="/5FC3847D/5FC84F6C" Ref="R204"  Part="1" 
-F 0 "R204" V 8350 2500 50  0000 C CNN
-F 1 "0R" V 8350 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8380 2400 50  0001 C CNN
-F 3 "~" H 8450 2400 50  0001 C CNN
-F 4 "C21189" H 8450 2400 50  0001 C CNN "LCSC"
-	1    8450 2400
+F 0 "R204" V 7500 2150 50  0000 C CNN
+F 1 "0R" V 7500 1950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 2050 50  0001 C CNN
+F 3 "~" H 7600 2050 50  0001 C CNN
+F 4 "C21189" H 7600 2050 50  0001 C CNN "LCSC"
+	1    7600 2050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8200 2400 8300 2400
-Text Label 8200 2650 2    50   ~ 0
+	7350 2050 7450 2050
+Text Label 7350 2300 2    50   ~ 0
 IO18
-Text Label 8200 2400 2    50   ~ 0
+Text Label 7350 2050 2    50   ~ 0
 IO19
 $Comp
 L Device:R R?
 U 1 1 5FC84F75
-P 8450 3750
+P 7600 3400
 AR Path="/5F89C30A/5FC84F75" Ref="R?"  Part="1" 
 AR Path="/5FC84F75" Ref="R?"  Part="1" 
 AR Path="/5FAEF03B/5FC84F75" Ref="R?"  Part="1" 
 AR Path="/5FC3847D/5FC84F75" Ref="R208"  Part="1" 
-F 0 "R208" V 8350 3850 50  0000 C CNN
-F 1 "0R" V 8350 3650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8380 3750 50  0001 C CNN
-F 3 "~" H 8450 3750 50  0001 C CNN
-F 4 "C21189" H 8450 3750 50  0001 C CNN "LCSC"
-	1    8450 3750
+F 0 "R208" V 7500 3500 50  0000 C CNN
+F 1 "0R" V 7500 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 3400 50  0001 C CNN
+F 3 "~" H 7600 3400 50  0001 C CNN
+F 4 "C21189" H 7600 3400 50  0001 C CNN "LCSC"
+	1    7600 3400
 	0    1    1    0   
 $EndComp
-Text Label 8200 3750 2    50   ~ 0
+Text Label 7350 3400 2    50   ~ 0
 IO4
 Wire Wire Line
-	8200 3750 8300 3750
+	7350 3400 7450 3400
 Wire Wire Line
-	8700 2000 8600 2000
+	7850 1650 7750 1650
 Wire Wire Line
-	8700 1800 8600 1800
+	7850 1450 7750 1450
 Wire Wire Line
-	8600 3750 8700 3750
+	7750 3400 7850 3400
 $Comp
 L Device:R R?
 U 1 1 5FC84F80
-P 8450 4200
+P 7600 3850
 AR Path="/5F89C30A/5FC84F80" Ref="R?"  Part="1" 
 AR Path="/5FC84F80" Ref="R?"  Part="1" 
 AR Path="/5FAEF03B/5FC84F80" Ref="R?"  Part="1" 
 AR Path="/5FC3847D/5FC84F80" Ref="R209"  Part="1" 
-F 0 "R209" V 8350 4300 50  0000 C CNN
-F 1 "0R" V 8350 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8380 4200 50  0001 C CNN
-F 3 "~" H 8450 4200 50  0001 C CNN
-F 4 "C21189" H 8450 4200 50  0001 C CNN "LCSC"
-	1    8450 4200
+F 0 "R209" V 7500 3950 50  0000 C CNN
+F 1 "0R" V 7500 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 3850 50  0001 C CNN
+F 3 "~" H 7600 3850 50  0001 C CNN
+F 4 "C21189" H 7600 3850 50  0001 C CNN "LCSC"
+	1    7600 3850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8200 4200 8300 4200
+	7350 3850 7450 3850
 $Comp
 L Device:R R?
 U 1 1 5FC84F87
-P 8450 4400
+P 7600 4050
 AR Path="/5F89C30A/5FC84F87" Ref="R?"  Part="1" 
 AR Path="/5FC84F87" Ref="R?"  Part="1" 
 AR Path="/5FAEF03B/5FC84F87" Ref="R?"  Part="1" 
 AR Path="/5FC3847D/5FC84F87" Ref="R210"  Part="1" 
-F 0 "R210" V 8350 4500 50  0000 C CNN
-F 1 "0R" V 8350 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8380 4400 50  0001 C CNN
-F 3 "~" H 8450 4400 50  0001 C CNN
-F 4 "C21189" H 8450 4400 50  0001 C CNN "LCSC"
-	1    8450 4400
+F 0 "R210" V 7500 4150 50  0000 C CNN
+F 1 "0R" V 7500 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 4050 50  0001 C CNN
+F 3 "~" H 7600 4050 50  0001 C CNN
+F 4 "C21189" H 7600 4050 50  0001 C CNN "LCSC"
+	1    7600 4050
 	0    1    1    0   
 $EndComp
-Text Label 8200 4200 2    50   ~ 0
+Text Label 7350 3850 2    50   ~ 0
 IO26
 Wire Wire Line
-	8200 4400 8300 4400
+	7350 4050 7450 4050
 Wire Wire Line
-	8600 4200 8700 4200
+	7750 3850 7850 3850
 Wire Wire Line
-	8700 4400 8600 4400
-Text Label 8200 4400 2    50   ~ 0
+	7850 4050 7750 4050
+Text Label 7350 4050 2    50   ~ 0
 IO27
 Wire Wire Line
-	8600 2650 8700 2650
+	7750 2300 7850 2300
 Wire Wire Line
-	8600 2400 8700 2400
-Text Label 8200 3050 2    50   ~ 0
+	7750 2050 7850 2050
+Text Label 7350 2700 2    50   ~ 0
 IO21
-Text Label 8200 3300 2    50   ~ 0
+Text Label 7350 2950 2    50   ~ 0
 IO22
 $Comp
 L Device:R R?
 U 1 1 5FC9B3F5
-P 8450 3050
+P 7600 2700
 AR Path="/5F89C30A/5FC9B3F5" Ref="R?"  Part="1" 
 AR Path="/5FC9B3F5" Ref="R?"  Part="1" 
 AR Path="/5FAEF03B/5FC9B3F5" Ref="R?"  Part="1" 
 AR Path="/5FC3847D/5FC9B3F5" Ref="R206"  Part="1" 
-F 0 "R206" V 8350 3150 50  0000 C CNN
-F 1 "0R" V 8350 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8380 3050 50  0001 C CNN
-F 3 "~" H 8450 3050 50  0001 C CNN
-F 4 "C21189" H 8450 3050 50  0001 C CNN "LCSC"
-	1    8450 3050
+F 0 "R206" V 7500 2800 50  0000 C CNN
+F 1 "0R" V 7500 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 2700 50  0001 C CNN
+F 3 "~" H 7600 2700 50  0001 C CNN
+F 4 "C21189" H 7600 2700 50  0001 C CNN "LCSC"
+	1    7600 2700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8200 3050 8300 3050
+	7350 2700 7450 2700
 $Comp
 L Device:R R?
 U 1 1 5FC9B3FC
-P 8450 3300
+P 7600 2950
 AR Path="/5F89C30A/5FC9B3FC" Ref="R?"  Part="1" 
 AR Path="/5FC9B3FC" Ref="R?"  Part="1" 
 AR Path="/5FAEF03B/5FC9B3FC" Ref="R?"  Part="1" 
 AR Path="/5FC3847D/5FC9B3FC" Ref="R207"  Part="1" 
-F 0 "R207" V 8350 3400 50  0000 C CNN
-F 1 "0R" V 8350 3200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8380 3300 50  0001 C CNN
-F 3 "~" H 8450 3300 50  0001 C CNN
-F 4 "C21189" H 8450 3300 50  0001 C CNN "LCSC"
-	1    8450 3300
+F 0 "R207" V 7500 3050 50  0000 C CNN
+F 1 "0R" V 7500 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 2950 50  0001 C CNN
+F 3 "~" H 7600 2950 50  0001 C CNN
+F 4 "C21189" H 7600 2950 50  0001 C CNN "LCSC"
+	1    7600 2950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8200 3300 8300 3300
+	7350 2950 7450 2950
 Wire Wire Line
-	8600 3050 8700 3050
+	7750 2700 7850 2700
 Wire Wire Line
-	8700 3300 8600 3300
-Text HLabel 8700 1800 2    50   Input ~ 0
+	7850 2950 7750 2950
+Text HLabel 7850 1450 2    50   Input ~ 0
 USB_TXD
-Text HLabel 8700 2000 2    50   Input ~ 0
+Text HLabel 7850 1650 2    50   Input ~ 0
 USB_RXD
-Text HLabel 8700 2400 2    50   Input ~ 0
+Text HLabel 7850 2050 2    50   Input ~ 0
 CAN_RX
-Text HLabel 8700 2650 2    50   Input ~ 0
+Text HLabel 7850 2300 2    50   Input ~ 0
 CAN_TX
-Text HLabel 8700 3050 2    50   Input ~ 0
+Text HLabel 7850 2700 2    50   Input ~ 0
 SDA
-Text HLabel 8700 3300 2    50   Input ~ 0
+Text HLabel 7850 2950 2    50   Input ~ 0
 SCL
-Text HLabel 8700 3750 2    50   Input ~ 0
+Text HLabel 7850 3400 2    50   Input ~ 0
 DQ
-Text HLabel 8700 4200 2    50   Input ~ 0
+Text HLabel 7850 3850 2    50   Input ~ 0
 OPTO_IN1
-Text HLabel 8700 4400 2    50   Input ~ 0
+Text HLabel 7850 4050 2    50   Input ~ 0
 OPTO_OUT1
-Text Notes 7950 1250 0    50   ~ 0
+Text Notes 7100 900  0    50   ~ 0
 0R jumpers allow for rerouting\nand disabling peripherals
 Text HLabel 1250 2600 0    50   Input ~ 0
 RESET
@@ -562,134 +562,271 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J203
 U 1 1 5FA4C35A
-P 6150 5400
-F 0 "J203" H 6230 5392 50  0000 L CNN
-F 1 "Conn_01x02" H 6230 5301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6150 5400 50  0001 C CNN
-F 3 "~" H 6150 5400 50  0001 C CNN
-F 4 "C376075" H 6150 5400 50  0001 C CNN "LCSC"
-	1    6150 5400
+P 5900 4800
+F 0 "J203" H 5980 4792 50  0000 L CNN
+F 1 "Conn_01x02" H 5980 4701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5900 4800 50  0001 C CNN
+F 3 "~" H 5900 4800 50  0001 C CNN
+F 4 "C376075" H 5900 4800 50  0001 C CNN "LCSC"
+	1    5900 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0202
 U 1 1 5FA4CC5B
-P 5450 5400
-F 0 "#PWR0202" H 5450 5150 50  0001 C CNN
-F 1 "GND" H 5455 5227 50  0000 C CNN
-F 2 "" H 5450 5400 50  0001 C CNN
-F 3 "" H 5450 5400 50  0001 C CNN
-	1    5450 5400
+P 5200 4800
+F 0 "#PWR0202" H 5200 4550 50  0001 C CNN
+F 1 "GND" H 5205 4627 50  0000 C CNN
+F 2 "" H 5200 4800 50  0001 C CNN
+F 3 "" H 5200 4800 50  0001 C CNN
+	1    5200 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 5400 5950 5400
-Text GLabel 5950 5500 0    50   Input ~ 0
+	5200 4800 5700 4800
+Text GLabel 5700 4900 0    50   Input ~ 0
 USB_5V
 $Comp
 L power:GND #PWR0206
 U 1 1 5FA5BBA4
-P 5950 4900
-F 0 "#PWR0206" H 5950 4650 50  0001 C CNN
-F 1 "GND" H 5955 4727 50  0000 C CNN
-F 2 "" H 5950 4900 50  0001 C CNN
-F 3 "" H 5950 4900 50  0001 C CNN
-	1    5950 4900
+P 5700 4300
+F 0 "#PWR0206" H 5700 4050 50  0001 C CNN
+F 1 "GND" H 5705 4127 50  0000 C CNN
+F 2 "" H 5700 4300 50  0001 C CNN
+F 3 "" H 5700 4300 50  0001 C CNN
+	1    5700 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5FA60371
-P 6450 3700
+P 6200 3100
 AR Path="/5FA60371" Ref="#PWR?"  Part="1" 
 AR Path="/5FC3847D/5FA60371" Ref="#PWR0207"  Part="1" 
-F 0 "#PWR0207" H 6450 3550 50  0001 C CNN
-F 1 "+3.3V" H 6465 3873 50  0000 C CNN
-F 2 "" H 6450 3700 50  0001 C CNN
-F 3 "" H 6450 3700 50  0001 C CNN
-	1    6450 3700
+F 0 "#PWR0207" H 6200 2950 50  0001 C CNN
+F 1 "+3.3V" H 6215 3273 50  0000 C CNN
+F 2 "" H 6200 3100 50  0001 C CNN
+F 3 "" H 6200 3100 50  0001 C CNN
+	1    6200 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x13_Odd_Even J201
 U 1 1 5FA68523
-P 6150 2700
-F 0 "J201" H 6200 3517 50  0000 C CNN
-F 1 "Conn_02x13_Odd_Even" H 6200 3426 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical" H 6150 2700 50  0001 C CNN
-F 3 "~" H 6150 2700 50  0001 C CNN
-F 4 "C358701" H 6150 2700 50  0001 C CNN "LCSC"
-	1    6150 2700
+P 5900 2100
+F 0 "J201" H 5950 2917 50  0000 C CNN
+F 1 "Conn_02x13_Odd_Even" H 5950 2826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical" H 5900 2100 50  0001 C CNN
+F 3 "~" H 5900 2100 50  0001 C CNN
+F 4 "C358701" H 5900 2100 50  0001 C CNN "LCSC"
+	1    5900 2100
 	1    0    0    -1  
 $EndComp
-Connection ~ 5950 4700
+Connection ~ 5700 4100
 Wire Wire Line
-	5950 4700 5950 4600
-Connection ~ 5950 4600
+	5700 4100 5700 4000
+Connection ~ 5700 4000
 Wire Wire Line
-	5950 4600 5950 4500
-Connection ~ 5950 4500
+	5700 4000 5700 3900
+Connection ~ 5700 3900
 Wire Wire Line
-	5950 4500 5950 4400
-Connection ~ 5950 4400
+	5700 3900 5700 3800
+Connection ~ 5700 3800
 Wire Wire Line
-	5950 4400 5950 4300
-Connection ~ 5950 4300
+	5700 3800 5700 3700
+Connection ~ 5700 3700
 Wire Wire Line
-	5950 4300 5950 4200
-Connection ~ 5950 4200
+	5700 3700 5700 3600
+Connection ~ 5700 3600
 Wire Wire Line
-	5950 4200 5950 4100
-Connection ~ 5950 4100
+	5700 3600 5700 3500
+Connection ~ 5700 3500
 Wire Wire Line
-	6450 3700 6450 3900
-Connection ~ 6450 3900
+	6200 3100 6200 3300
+Connection ~ 6200 3300
 Wire Wire Line
-	5950 4100 5950 4000
+	5700 3500 5700 3400
 Wire Wire Line
-	5950 4000 5950 3900
-Connection ~ 5950 4000
+	5700 3400 5700 3300
+Connection ~ 5700 3400
 Wire Wire Line
-	6450 3900 6450 4000
-Connection ~ 6450 4000
+	6200 3300 6200 3400
+Connection ~ 6200 3400
 Wire Wire Line
-	6450 4000 6450 4100
-Connection ~ 6450 4100
+	6200 3400 6200 3500
+Connection ~ 6200 3500
 Wire Wire Line
-	6450 4100 6450 4200
-Connection ~ 6450 4200
+	6200 3500 6200 3600
+Connection ~ 6200 3600
 Wire Wire Line
-	6450 4200 6450 4300
-Connection ~ 6450 4300
+	6200 3600 6200 3700
+Connection ~ 6200 3700
 Wire Wire Line
-	6450 4300 6450 4400
-Connection ~ 6450 4400
+	6200 3700 6200 3800
+Connection ~ 6200 3800
 Wire Wire Line
-	6450 4400 6450 4500
-Connection ~ 6450 4500
+	6200 3800 6200 3900
+Connection ~ 6200 3900
 Wire Wire Line
-	6450 4500 6450 4600
-Connection ~ 6450 4600
+	6200 3900 6200 4000
+Connection ~ 6200 4000
 Wire Wire Line
-	6450 4700 6450 4800
+	6200 4100 6200 4200
 Wire Wire Line
-	6450 4600 6450 4700
-Connection ~ 6450 4700
+	6200 4000 6200 4100
+Connection ~ 6200 4100
 Wire Wire Line
-	5950 4800 5950 4700
+	5700 4200 5700 4100
 Wire Wire Line
-	5950 4900 5950 4800
-Connection ~ 5950 4800
+	5700 4300 5700 4200
+Connection ~ 5700 4200
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J202
 U 1 1 5FA6B8ED
-P 6150 4300
-F 0 "J202" H 6200 4917 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 6200 4826 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 6150 4300 50  0001 C CNN
-F 3 "~" H 6150 4300 50  0001 C CNN
-F 4 "C358699" H 6150 4300 50  0001 C CNN "LCSC"
-	1    6150 4300
+P 5900 3700
+F 0 "J202" H 5950 4317 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 5950 4226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 5900 3700 50  0001 C CNN
+F 3 "~" H 5900 3700 50  0001 C CNN
+F 4 "C358699" H 5900 3700 50  0001 C CNN "LCSC"
+	1    5900 3700
 	1    0    0    -1  
 $EndComp
+Text Label 9350 1450 0    50   ~ 0
+IO22_C
+Text Label 9350 1650 0    50   ~ 0
+TXD0_C
+Text Label 9350 1850 0    50   ~ 0
+RXD0_C
+Text Label 9350 2050 0    50   ~ 0
+IO21_C
+Text Label 9350 2250 0    50   ~ 0
+IO19_C
+Text Label 9350 2450 0    50   ~ 0
+IO18_C
+Text Label 9350 2650 0    50   ~ 0
+IO4_C
+Text Label 9350 2850 0    50   ~ 0
+IO26_C
+Text Label 9350 3050 0    50   ~ 0
+IO27_C
+Text Label 9050 1450 2    50   ~ 0
+IO22
+Text Label 9050 1650 2    50   ~ 0
+TXD0
+Text Label 9050 1850 2    50   ~ 0
+RXD0
+Text Label 9050 2050 2    50   ~ 0
+IO21
+Text Label 9050 2250 2    50   ~ 0
+IO19
+Text Label 9050 2450 2    50   ~ 0
+IO18
+Text Label 9050 2650 2    50   ~ 0
+IO4
+Text Label 9050 2850 2    50   ~ 0
+IO26
+Text Label 9050 3050 2    50   ~ 0
+IO27
+$Comp
+L Jumper:SolderJumper_2_Open JP201
+U 1 1 5FB7A6EE
+P 9200 1450
+F 0 "JP201" H 9200 1550 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 1564 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 1450 50  0001 C CNN
+F 3 "~" H 9200 1450 50  0001 C CNN
+	1    9200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP202
+U 1 1 5FB7C918
+P 9200 1650
+F 0 "JP202" H 9200 1750 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 1764 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 1650 50  0001 C CNN
+F 3 "~" H 9200 1650 50  0001 C CNN
+	1    9200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP203
+U 1 1 5FB7CDD7
+P 9200 1850
+F 0 "JP203" H 9200 1950 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 1964 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 1850 50  0001 C CNN
+F 3 "~" H 9200 1850 50  0001 C CNN
+	1    9200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP204
+U 1 1 5FB7D1DC
+P 9200 2050
+F 0 "JP204" H 9200 2150 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 2164 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 2050 50  0001 C CNN
+F 3 "~" H 9200 2050 50  0001 C CNN
+	1    9200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP205
+U 1 1 5FB7D48C
+P 9200 2250
+F 0 "JP205" H 9200 2350 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 2364 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 2250 50  0001 C CNN
+F 3 "~" H 9200 2250 50  0001 C CNN
+	1    9200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP206
+U 1 1 5FB7D7F6
+P 9200 2450
+F 0 "JP206" H 9200 2550 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 2564 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 2450 50  0001 C CNN
+F 3 "~" H 9200 2450 50  0001 C CNN
+	1    9200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP207
+U 1 1 5FB7DA87
+P 9200 2650
+F 0 "JP207" H 9200 2750 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 2764 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 2650 50  0001 C CNN
+F 3 "~" H 9200 2650 50  0001 C CNN
+	1    9200 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP208
+U 1 1 5FB7E3FF
+P 9200 2850
+F 0 "JP208" H 9200 2950 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 2964 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 2850 50  0001 C CNN
+F 3 "~" H 9200 2850 50  0001 C CNN
+	1    9200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP209
+U 1 1 5FB7EB87
+P 9200 3050
+F 0 "JP209" H 9200 3150 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 3164 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 3050 50  0001 C CNN
+F 3 "~" H 9200 3050 50  0001 C CNN
+	1    9200 3050
+	1    0    0    -1  
+$EndComp
+Text Notes 8700 950  0    50   ~ 0
+Solder jumpers allow for \nrerouting peripherals GPIOs\nto J201
 $EndSCHEMATC
