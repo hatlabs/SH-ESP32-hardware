@@ -362,7 +362,7 @@ F 4 "C21189" H 7600 4050 50  0001 C CNN "LCSC"
 	1    7600 4050
 	0    1    1    0   
 $EndComp
-Text Label 7350 3850 2    50   ~ 0
+Text Label 7350 4050 2    50   ~ 0
 IO26
 Wire Wire Line
 	7350 4050 7450 4050
@@ -370,7 +370,7 @@ Wire Wire Line
 	7750 3850 7850 3850
 Wire Wire Line
 	7850 4050 7750 4050
-Text Label 7350 4050 2    50   ~ 0
+Text Label 7350 3850 2    50   ~ 0
 IO27
 Wire Wire Line
 	7750 2300 7850 2300
