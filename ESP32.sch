@@ -479,10 +479,10 @@ L Device:R R212
 U 1 1 5F91EF9D
 P 1900 2600
 F 0 "R212" V 1693 2600 50  0000 C CNN
-F 1 "1k" V 1784 2600 50  0000 C CNN
+F 1 "10k" V 1784 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1830 2600 50  0001 C CNN
 F 3 "~" H 1900 2600 50  0001 C CNN
-F 4 "C11702" H 1900 2600 50  0001 C CNN "LCSC"
+F 4 "C25744" H 1900 2600 50  0001 C CNN "LCSC"
 	1    1900 2600
 	0    1    1    0   
 $EndComp
@@ -692,47 +692,58 @@ F 4 "C358699" H 5900 3700 50  0001 C CNN "LCSC"
 	1    5900 3700
 	1    0    0    -1  
 $EndComp
-Text Label 9350 1450 0    50   ~ 0
+Text Label 9350 2950 0    50   ~ 0
 IO22_C
-Text Label 9350 1650 0    50   ~ 0
+Text Label 9350 1450 0    50   ~ 0
 TXD0_C
-Text Label 9350 1850 0    50   ~ 0
+Text Label 9350 1650 0    50   ~ 0
 RXD0_C
-Text Label 9350 2050 0    50   ~ 0
+Text Label 9350 2700 0    50   ~ 0
 IO21_C
-Text Label 9350 2250 0    50   ~ 0
+Text Label 9350 2050 0    50   ~ 0
 IO19_C
-Text Label 9350 2450 0    50   ~ 0
+Text Label 9350 2250 0    50   ~ 0
 IO18_C
-Text Label 9350 2650 0    50   ~ 0
+Text Label 9350 3400 0    50   ~ 0
 IO4_C
-Text Label 9350 2850 0    50   ~ 0
+Text Label 9350 3850 0    50   ~ 0
 IO26_C
-Text Label 9350 3050 0    50   ~ 0
+Text Label 9350 4050 0    50   ~ 0
 IO27_C
-Text Label 9050 1450 2    50   ~ 0
+Text Label 9050 2950 2    50   ~ 0
 IO22
-Text Label 9050 1650 2    50   ~ 0
+Text Label 9050 1450 2    50   ~ 0
 TXD0
-Text Label 9050 1850 2    50   ~ 0
+Text Label 9050 1650 2    50   ~ 0
 RXD0
-Text Label 9050 2050 2    50   ~ 0
+Text Label 9050 2700 2    50   ~ 0
 IO21
-Text Label 9050 2250 2    50   ~ 0
+Text Label 9050 2050 2    50   ~ 0
 IO19
-Text Label 9050 2450 2    50   ~ 0
+Text Label 9050 2250 2    50   ~ 0
 IO18
-Text Label 9050 2650 2    50   ~ 0
+Text Label 9050 3400 2    50   ~ 0
 IO4
-Text Label 9050 2850 2    50   ~ 0
+Text Label 9050 3850 2    50   ~ 0
 IO26
-Text Label 9050 3050 2    50   ~ 0
+Text Label 9050 4050 2    50   ~ 0
 IO27
 $Comp
 L Jumper:SolderJumper_2_Open JP201
 U 1 1 5FB7A6EE
+P 9200 2950
+F 0 "JP201" H 9200 3050 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 3064 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 2950 50  0001 C CNN
+F 3 "~" H 9200 2950 50  0001 C CNN
+	1    9200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP202
+U 1 1 5FB7C918
 P 9200 1450
-F 0 "JP201" H 9200 1550 50  0000 C CNN
+F 0 "JP202" H 9200 1550 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 9200 1564 50  0001 C CNN
 F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 1450 50  0001 C CNN
 F 3 "~" H 9200 1450 50  0001 C CNN
@@ -740,10 +751,10 @@ F 3 "~" H 9200 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP202
-U 1 1 5FB7C918
+L Jumper:SolderJumper_2_Open JP203
+U 1 1 5FB7CDD7
 P 9200 1650
-F 0 "JP202" H 9200 1750 50  0000 C CNN
+F 0 "JP203" H 9200 1750 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 9200 1764 50  0001 C CNN
 F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 1650 50  0001 C CNN
 F 3 "~" H 9200 1650 50  0001 C CNN
@@ -751,21 +762,21 @@ F 3 "~" H 9200 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP203
-U 1 1 5FB7CDD7
-P 9200 1850
-F 0 "JP203" H 9200 1950 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 9200 1964 50  0001 C CNN
-F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 1850 50  0001 C CNN
-F 3 "~" H 9200 1850 50  0001 C CNN
-	1    9200 1850
+L Jumper:SolderJumper_2_Open JP204
+U 1 1 5FB7D1DC
+P 9200 2700
+F 0 "JP204" H 9200 2800 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 2814 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 2700 50  0001 C CNN
+F 3 "~" H 9200 2700 50  0001 C CNN
+	1    9200 2700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP204
-U 1 1 5FB7D1DC
+L Jumper:SolderJumper_2_Open JP205
+U 1 1 5FB7D48C
 P 9200 2050
-F 0 "JP204" H 9200 2150 50  0000 C CNN
+F 0 "JP205" H 9200 2150 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 9200 2164 50  0001 C CNN
 F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 2050 50  0001 C CNN
 F 3 "~" H 9200 2050 50  0001 C CNN
@@ -773,10 +784,10 @@ F 3 "~" H 9200 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP205
-U 1 1 5FB7D48C
+L Jumper:SolderJumper_2_Open JP206
+U 1 1 5FB7D7F6
 P 9200 2250
-F 0 "JP205" H 9200 2350 50  0000 C CNN
+F 0 "JP206" H 9200 2350 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 9200 2364 50  0001 C CNN
 F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 2250 50  0001 C CNN
 F 3 "~" H 9200 2250 50  0001 C CNN
@@ -784,47 +795,36 @@ F 3 "~" H 9200 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP206
-U 1 1 5FB7D7F6
-P 9200 2450
-F 0 "JP206" H 9200 2550 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 9200 2564 50  0001 C CNN
-F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 2450 50  0001 C CNN
-F 3 "~" H 9200 2450 50  0001 C CNN
-	1    9200 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_2_Open JP207
 U 1 1 5FB7DA87
-P 9200 2650
-F 0 "JP207" H 9200 2750 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 9200 2764 50  0001 C CNN
-F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 2650 50  0001 C CNN
-F 3 "~" H 9200 2650 50  0001 C CNN
-	1    9200 2650
+P 9200 3400
+F 0 "JP207" H 9200 3500 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 3514 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 3400 50  0001 C CNN
+F 3 "~" H 9200 3400 50  0001 C CNN
+	1    9200 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JP208
 U 1 1 5FB7E3FF
-P 9200 2850
-F 0 "JP208" H 9200 2950 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 9200 2964 50  0001 C CNN
-F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 2850 50  0001 C CNN
-F 3 "~" H 9200 2850 50  0001 C CNN
-	1    9200 2850
+P 9200 3850
+F 0 "JP208" H 9200 3950 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 3964 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 3850 50  0001 C CNN
+F 3 "~" H 9200 3850 50  0001 C CNN
+	1    9200 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JP209
 U 1 1 5FB7EB87
-P 9200 3050
-F 0 "JP209" H 9200 3150 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 9200 3164 50  0001 C CNN
-F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 3050 50  0001 C CNN
-F 3 "~" H 9200 3050 50  0001 C CNN
-	1    9200 3050
+P 9200 4050
+F 0 "JP209" H 9200 4150 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9200 4164 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 9200 4050 50  0001 C CNN
+F 3 "~" H 9200 4050 50  0001 C CNN
+	1    9200 4050
 	1    0    0    -1  
 $EndComp
 Text Notes 8700 950  0    50   ~ 0

@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP EL3H7
+D AC/DC Optocoupler, Vce 70V, CTR 100-250%, SOP4
+K NPN AC DC Optocoupler
+F http://www.sharpsme.com/download/pc3h4-epdf
+$ENDCMP
+#
+$CMP PC3H4A
+D AC/DC Optocoupler, Vce 70V, CTR 100-250%, SOP4
+K NPN AC DC Optocoupler
+F http://www.sharpsma.com/webfm_send/395
+$ENDCMP
+#
 $CMP S8050
 D 0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, SOT-23
 K S8050 NPN Low Voltage High Current Transistor

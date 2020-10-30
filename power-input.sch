@@ -301,7 +301,7 @@ F 3 "" H 4900 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 5850 5250 0    50   ~ 0
-FB voltage divider designed to have\na 3.3V voltage at Vbuck
+FB voltage divider designed to have\na 3.32V voltage at Vbuck
 Wire Wire Line
 	4900 4250 4900 4600
 Wire Wire Line
@@ -618,4 +618,6 @@ Wire Wire Line
 	3050 4350 2600 4350
 Text GLabel 2600 4350 0    50   Input ~ 0
 USB_5V
+Text Notes 4250 3750 0    50   ~ 0
+Converter IC voltage range 4.5-50V,\nhowever, Vin needs to be a bit higher\nto give some headroom for the PTC\nfuse.
 $EndSCHEMATC

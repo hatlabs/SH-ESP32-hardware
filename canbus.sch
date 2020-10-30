@@ -475,4 +475,6 @@ Wire Wire Line
 Connection ~ 3800 2300
 Wire Wire Line
 	3800 2300 4100 2300
+Text Notes 7250 1050 0    50   ~ 0
+Input voltage up to 40V
 $EndSCHEMATC

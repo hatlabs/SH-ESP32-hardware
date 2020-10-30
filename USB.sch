@@ -181,10 +181,10 @@ L Device:C C401
 U 1 1 5F8C94BC
 P 1600 4150
 F 0 "C401" H 1715 4196 50  0000 L CNN
-F 1 "100nF" H 1715 4105 50  0000 L CNN
+F 1 "10nF" H 1715 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 1638 4000 50  0001 C CNN
 F 3 "~" H 1600 4150 50  0001 C CNN
-F 4 "C1525" H 1600 4150 50  0001 C CNN "LCSC"
+F 4 "C15195" H 1600 4150 50  0001 C CNN "LCSC"
 	1    1600 4150
 	1    0    0    -1  
 $EndComp
@@ -401,7 +401,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 1750 5000 1750
 Text Notes 5300 2200 0    50   ~ 0
-FIXME: Remember to make virtual!
+C403 and C404 are virtual for now
 Wire Wire Line
 	1600 2200 1700 2200
 Connection ~ 1700 2200
