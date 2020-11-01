@@ -471,6 +471,7 @@ F 0 "U902" H 3400 2725 50  0000 C CNN
 F 1 "EL3H7(C)(TA)-G" H 3400 2634 50  0000 C CNN
 F 2 "Package_SO:SOP-4_4.4x2.6mm_P1.27mm" H 3200 2200 50  0001 L CIN
 F 3 "http://www.sharpsme.com/download/pc3h4-epdf" H 3425 2400 50  0001 L CNN
+F 4 "C92243" H 3400 2400 50  0001 C CNN "LCSC"
 	1    3400 2400
 	-1   0    0    -1  
 $EndComp
@@ -482,6 +483,7 @@ F 0 "U901" H 2900 4725 50  0000 C CNN
 F 1 "EL3H7(C)(TA)-G" H 2900 4634 50  0000 C CNN
 F 2 "Package_SO:SOP-4_4.4x2.6mm_P1.27mm" H 2700 4200 50  0001 L CIN
 F 3 "http://www.sharpsme.com/download/pc3h4-epdf" H 2925 4400 50  0001 L CNN
+F 4 "C92243" H 2900 4400 50  0001 C CNN "LCSC"
 	1    2900 4400
 	1    0    0    -1  
 $EndComp
