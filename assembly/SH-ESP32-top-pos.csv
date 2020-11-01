@@ -1,4 +1,4 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C201","100nF","C_0402_1005Metric",150.248000,-83.518000,180.000000,top
 "C202","22uF/6.3V","C_0603_1608Metric",169.418000,-64.135000,270.000000,top
 "C203","100nF","C_0402_1005Metric",168.100000,-64.636000,90.000000,top
