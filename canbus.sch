@@ -353,7 +353,7 @@ F 4 "C220144" H 3800 1450 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L sailor-hat:HT75xx-1-SOT23 U?
+L SH-ESP32:HT75xx-1-SOT23 U?
 U 1 1 5F94C95C
 P 7000 1550
 AR Path="/5C348474/5F94C95C" Ref="U?"  Part="1" 
