@@ -829,4 +829,55 @@ F 3 "~" H 9200 4050 50  0001 C CNN
 $EndComp
 Text Notes 8700 950  0    50   ~ 0
 Solder jumpers allow for \nrerouting peripherals GPIOs\nto J201
+$Comp
+L Connector_Generic:Conn_01x06 J204
+U 1 1 5FAECE9F
+P 7450 4700
+F 0 "J204" H 7530 4692 50  0000 L CNN
+F 1 "Conn_01x06" H 7530 4601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7450 4700 50  0001 C CNN
+F 3 "~" H 7450 4700 50  0001 C CNN
+	1    7450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5FAEFBAB
+P 7050 5050
+F 0 "#PWR0104" H 7050 4800 50  0001 C CNN
+F 1 "GND" H 7055 4877 50  0000 C CNN
+F 2 "" H 7050 5050 50  0001 C CNN
+F 3 "" H 7050 5050 50  0001 C CNN
+	1    7050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5000 7050 5000
+Wire Wire Line
+	7050 5000 7050 5050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FAF2B1F
+P 7050 4400
+AR Path="/5FAF2B1F" Ref="#PWR?"  Part="1" 
+AR Path="/5FC3847D/5FAF2B1F" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 7050 4250 50  0001 C CNN
+F 1 "+3.3V" H 7065 4573 50  0000 C CNN
+F 2 "" H 7050 4400 50  0001 C CNN
+F 3 "" H 7050 4400 50  0001 C CNN
+	1    7050 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4500 7050 4500
+Wire Wire Line
+	7050 4500 7050 4400
+Text Label 7250 4600 2    50   ~ 0
+IO12
+Text Label 7250 4700 2    50   ~ 0
+IO13
+Text Label 7250 4800 2    50   ~ 0
+IO14
+Text Label 7250 4900 2    50   ~ 0
+IO15
 $EndSCHEMATC
