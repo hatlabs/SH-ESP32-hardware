@@ -600,14 +600,14 @@ $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5FA60371
-P 6200 3100
+P 6200 3350
 AR Path="/5FA60371" Ref="#PWR?"  Part="1" 
 AR Path="/5FC3847D/5FA60371" Ref="#PWR0207"  Part="1" 
-F 0 "#PWR0207" H 6200 2950 50  0001 C CNN
-F 1 "+3.3V" H 6215 3273 50  0000 C CNN
-F 2 "" H 6200 3100 50  0001 C CNN
-F 3 "" H 6200 3100 50  0001 C CNN
-	1    6200 3100
+F 0 "#PWR0207" H 6200 3200 50  0001 C CNN
+F 1 "+3.3V" H 6215 3523 50  0000 C CNN
+F 2 "" H 6200 3350 50  0001 C CNN
+F 3 "" H 6200 3350 50  0001 C CNN
+	1    6200 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -622,12 +622,6 @@ F 4 "C358701" H 5900 2100 50  0001 C CNN "LCSC"
 	1    5900 2100
 	1    0    0    -1  
 $EndComp
-Connection ~ 5700 4100
-Wire Wire Line
-	5700 4100 5700 4000
-Connection ~ 5700 4000
-Wire Wire Line
-	5700 4000 5700 3900
 Connection ~ 5700 3900
 Wire Wire Line
 	5700 3900 5700 3800
@@ -637,26 +631,6 @@ Wire Wire Line
 Connection ~ 5700 3700
 Wire Wire Line
 	5700 3700 5700 3600
-Connection ~ 5700 3600
-Wire Wire Line
-	5700 3600 5700 3500
-Connection ~ 5700 3500
-Wire Wire Line
-	6200 3100 6200 3300
-Connection ~ 6200 3300
-Wire Wire Line
-	5700 3500 5700 3400
-Wire Wire Line
-	5700 3400 5700 3300
-Connection ~ 5700 3400
-Wire Wire Line
-	6200 3300 6200 3400
-Connection ~ 6200 3400
-Wire Wire Line
-	6200 3400 6200 3500
-Connection ~ 6200 3500
-Wire Wire Line
-	6200 3500 6200 3600
 Connection ~ 6200 3600
 Wire Wire Line
 	6200 3600 6200 3700
@@ -666,27 +640,13 @@ Wire Wire Line
 Connection ~ 6200 3800
 Wire Wire Line
 	6200 3800 6200 3900
-Connection ~ 6200 3900
-Wire Wire Line
-	6200 3900 6200 4000
-Connection ~ 6200 4000
-Wire Wire Line
-	6200 4100 6200 4200
-Wire Wire Line
-	6200 4000 6200 4100
-Connection ~ 6200 4100
-Wire Wire Line
-	5700 4200 5700 4100
-Wire Wire Line
-	5700 4300 5700 4200
-Connection ~ 5700 4200
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J202
+L Connector_Generic:Conn_02x04_Odd_Even J202
 U 1 1 5FA6B8ED
 P 5900 3700
-F 0 "J202" H 5950 4317 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 5950 4226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 5900 3700 50  0001 C CNN
+F 0 "J202" H 5750 4050 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 5750 3950 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5900 3700 50  0001 C CNN
 F 3 "~" H 5900 3700 50  0001 C CNN
 F 4 "C358699" H 5900 3700 50  0001 C CNN "LCSC"
 	1    5900 3700
@@ -880,4 +840,59 @@ Text Label 7250 4800 2    50   ~ 0
 IO14
 Text Label 7250 4900 2    50   ~ 0
 IO15
+Wire Wire Line
+	5700 3900 5700 4300
+Wire Wire Line
+	6200 3350 6200 3600
+$Comp
+L Connector_Generic:Conn_01x07 J207
+U 1 1 5FB2202E
+P 4350 6800
+F 0 "J207" H 4430 6842 50  0000 L CNN
+F 1 "Conn_01x07" H 4430 6751 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4350 6800 50  0001 C CNN
+F 3 "~" H 4350 6800 50  0001 C CNN
+	1    4350 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J206
+U 1 1 5FB25B29
+P 3550 6700
+F 0 "J206" H 3468 7217 50  0000 C CNN
+F 1 "IO" H 3468 7126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3550 6700 50  0001 C CNN
+F 3 "~" H 3550 6700 50  0001 C CNN
+	1    3550 6700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5FB2B88B
+P 3950 6200
+F 0 "#PWR0108" H 3950 5950 50  0001 C CNN
+F 1 "GND" H 3955 6027 50  0000 C CNN
+F 2 "" H 3950 6200 50  0001 C CNN
+F 3 "" H 3950 6200 50  0001 C CNN
+	1    3950 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 6400 3750 6200
+Wire Wire Line
+	3750 6200 3950 6200
+Wire Wire Line
+	3750 6500 4150 6500
+Wire Wire Line
+	3750 6600 4150 6600
+Wire Wire Line
+	3750 6700 4150 6700
+Wire Wire Line
+	3750 6800 4150 6800
+Wire Wire Line
+	3750 6900 4150 6900
+Wire Wire Line
+	3750 7000 4150 7000
+Wire Wire Line
+	3750 7100 4150 7100
 $EndSCHEMATC
