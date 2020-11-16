@@ -141,8 +141,6 @@ Wire Wire Line
 Connection ~ 5400 2100
 Wire Wire Line
 	5400 2100 5750 2100
-Wire Wire Line
-	3700 2100 3500 2100
 Text Notes 6050 1750 0    50   ~ 0
 Reverse polarity protection
 Connection ~ 5750 2100
@@ -512,41 +510,6 @@ F 3 "" H 7750 4550 50  0001 C CNN
 	1    7750 4550
 	1    0    0    -1  
 $EndComp
-Text Label 3500 2100 2    50   ~ 0
-Vin
-$Comp
-L Connector_Generic:Conn_01x02 J301
-U 1 1 5F8B6C12
-P 2100 3250
-F 0 "J301" H 2018 2925 50  0000 C CNN
-F 1 "Conn_01x02" H 2018 3016 50  0000 C CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical" H 2100 3250 50  0001 C CNN
-F 3 "~" H 2100 3250 50  0001 C CNN
-F 4 "C8396" H 2100 3250 50  0001 C CNN "LCSC"
-	1    2100 3250
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F8B7EDA
-P 2400 3350
-AR Path="/5F8B7EDA" Ref="#PWR?"  Part="1" 
-AR Path="/5C3476D8/5F8B7EDA" Ref="#PWR?"  Part="1" 
-AR Path="/5E460E30/5F8B7EDA" Ref="#PWR?"  Part="1" 
-AR Path="/5F6FAF6E/5F8B7EDA" Ref="#PWR0311"  Part="1" 
-F 0 "#PWR0311" H 2400 3100 50  0001 C CNN
-F 1 "GND" H 2405 3177 50  0000 C CNN
-F 2 "" H 2400 3350 50  0001 C CNN
-F 3 "" H 2400 3350 50  0001 C CNN
-	1    2400 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 3350 2400 3250
-Wire Wire Line
-	2400 3250 2300 3250
-Wire Wire Line
-	2400 3150 2300 3150
 $Comp
 L Device:D_TVS D?
 U 1 1 5F8DD969
@@ -565,8 +528,6 @@ F 4 "C143164" H 5400 2400 50  0001 C CNN "LCSC"
 $EndComp
 Text Notes 3350 1750 0    50   ~ 0
 FIXME: Verify that the fuse\nis sufficiently big
-Text Label 2400 3150 0    50   ~ 0
-Vin
 Wire Wire Line
 	5400 2550 5400 2800
 Connection ~ 7750 4250
@@ -606,14 +567,7 @@ Connection ~ 3800 4800
 Wire Wire Line
 	3800 4800 3850 4800
 Wire Wire Line
-	2600 4800 3550 4800
-Wire Wire Line
 	3350 4350 3550 4350
-Wire Wire Line
-	3550 4350 3550 4800
-Connection ~ 3550 4800
-Wire Wire Line
-	3550 4800 3800 4800
 Wire Wire Line
 	3050 4350 2600 4350
 Text GLabel 2600 4350 0    50   Input ~ 0
@@ -653,4 +607,105 @@ Text Label 2600 6000 2    50   ~ 0
 Vin_protected
 Wire Wire Line
 	2800 6000 2600 6000
+Connection ~ 3550 4800
+Wire Wire Line
+	3550 4800 3800 4800
+Wire Wire Line
+	2600 4800 3550 4800
+Wire Wire Line
+	3550 4350 3550 4800
+$Comp
+L Device:D_Schottky D?
+U 1 1 5FB29AFD
+P 2100 1400
+AR Path="/5C3476D8/5FB29AFD" Ref="D?"  Part="1" 
+AR Path="/5CA65CC5/5FB29AFD" Ref="D?"  Part="1" 
+AR Path="/5F6FAF6E/5FB29AFD" Ref="D305"  Part="1" 
+F 0 "D305" H 2000 1500 50  0000 L CNN
+F 1 "B5819WS" H 1800 1600 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323F" H 2100 1400 50  0001 C CNN
+F 3 "~" H 2100 1400 50  0001 C CNN
+F 4 "" V 2100 1400 50  0001 C CNN "Notes"
+F 5 "C123899" H 2100 1400 50  0001 C CNN "LCSC"
+	1    2100 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2200 1950 2200
+Wire Wire Line
+	2050 2300 2050 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5F8B7EDA
+P 2050 2300
+AR Path="/5F8B7EDA" Ref="#PWR?"  Part="1" 
+AR Path="/5C3476D8/5F8B7EDA" Ref="#PWR?"  Part="1" 
+AR Path="/5E460E30/5F8B7EDA" Ref="#PWR?"  Part="1" 
+AR Path="/5F6FAF6E/5F8B7EDA" Ref="#PWR0311"  Part="1" 
+F 0 "#PWR0311" H 2050 2050 50  0001 C CNN
+F 1 "GND" H 2055 2127 50  0000 C CNN
+F 2 "" H 2050 2300 50  0001 C CNN
+F 3 "" H 2050 2300 50  0001 C CNN
+	1    2050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J301
+U 1 1 5F8B6C12
+P 1750 2200
+F 0 "J301" H 1668 1875 50  0000 C CNN
+F 1 "Conn_01x02" H 1668 1966 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical" H 1750 2200 50  0001 C CNN
+F 3 "~" H 1750 2200 50  0001 C CNN
+F 4 "C8396" H 1750 2200 50  0001 C CNN "LCSC"
+	1    1750 2200
+	-1   0    0    1   
+$EndComp
+Text Label 3500 2100 2    50   ~ 0
+Vin
+Text Label 2050 2100 0    50   ~ 0
+Vin
+Wire Wire Line
+	1950 2100 2450 2100
+Wire Wire Line
+	2250 1400 2450 1400
+Wire Wire Line
+	2450 1400 2450 2100
+Connection ~ 2450 2100
+Wire Wire Line
+	2450 2100 3700 2100
+$Comp
+L Connector_Generic:Conn_01x02 J303
+U 1 1 5FB3E030
+P 1400 1400
+F 0 "J303" H 1318 1617 50  0000 C CNN
+F 1 "Conn_01x02" H 1318 1526 50  0000 C CNN
+F 2 "SH-ESP32:WireLink_1x02_P2.54mm" H 1400 1400 50  0001 C CNN
+F 3 "~" H 1400 1400 50  0001 C CNN
+	1    1400 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1400 1950 1400
+$Comp
+L power:GND #PWR?
+U 1 1 5FB432C8
+P 1750 1550
+AR Path="/5FB432C8" Ref="#PWR?"  Part="1" 
+AR Path="/5C3476D8/5FB432C8" Ref="#PWR?"  Part="1" 
+AR Path="/5E460E30/5FB432C8" Ref="#PWR?"  Part="1" 
+AR Path="/5F6FAF6E/5FB432C8" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 1750 1300 50  0001 C CNN
+F 1 "GND" H 1755 1377 50  0000 C CNN
+F 2 "" H 1750 1550 50  0001 C CNN
+F 3 "" H 1750 1550 50  0001 C CNN
+	1    1750 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1500 1750 1500
+Wire Wire Line
+	1750 1500 1750 1550
+Text Notes 1350 1050 0    50   ~ 0
+WIRE-LINK from VCAN+12v
 $EndSCHEMATC

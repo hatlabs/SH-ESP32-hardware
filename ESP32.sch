@@ -850,7 +850,7 @@ U 1 1 5FB2202E
 P 4350 6800
 F 0 "J207" H 4430 6842 50  0000 L CNN
 F 1 "Conn_01x07" H 4430 6751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4350 6800 50  0001 C CNN
+F 2 "SH-ESP32:PinHeader_1x07_P2.54mm_Vertical-RoundP1" H 4350 6800 50  0001 C CNN
 F 3 "~" H 4350 6800 50  0001 C CNN
 	1    4350 6800
 	1    0    0    -1  
