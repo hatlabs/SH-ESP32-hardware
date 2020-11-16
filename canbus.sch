@@ -369,7 +369,7 @@ F 4 "C277875" H 7000 1550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 2100 3050 2100
+	1850 2100 2200 2100
 $Comp
 L SH-ESP32:RCLAMP0524P-N U601
 U 1 1 5FBB6763
@@ -414,7 +414,7 @@ Connection ~ 4850 1450
 Wire Wire Line
 	4850 1450 5400 1450
 Wire Wire Line
-	1850 2200 3050 2200
+	1850 2200 2000 2200
 Text Notes 1000 4950 0    50   ~ 0
 Optional termination\nresistance for the bus
 Wire Wire Line
@@ -477,4 +477,33 @@ Wire Wire Line
 	3800 2300 4100 2300
 Text Notes 7250 1050 0    50   ~ 0
 Input voltage up to 40V
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5FB62718
+P 1650 1400
+AR Path="/5F6FAF6E/5FB62718" Ref="J?"  Part="1" 
+AR Path="/5F733BA4/5FB62718" Ref="J602"  Part="1" 
+F 0 "J602" H 1568 1617 50  0000 C CNN
+F 1 "Conn_01x02" H 1568 1526 50  0000 C CNN
+F 2 "SH-ESP32:WireLink_1x02_P2.54mm" H 1650 1400 50  0001 C CNN
+F 3 "~" H 1650 1400 50  0001 C CNN
+	1    1650 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1500 2000 1500
+Text Notes 1600 1050 0    50   ~ 0
+WIRE-LINK from VCAN+12v to Vin
+Wire Wire Line
+	1850 1400 2200 1400
+Wire Wire Line
+	2200 1400 2200 2100
+Connection ~ 2200 2100
+Wire Wire Line
+	2200 2100 3050 2100
+Wire Wire Line
+	2000 1500 2000 2200
+Connection ~ 2000 2200
+Wire Wire Line
+	2000 2200 3050 2200
 $EndSCHEMATC
