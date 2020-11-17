@@ -305,33 +305,10 @@ Wire Wire Line
 Wire Wire Line
 	2900 1650 3150 1650
 Wire Wire Line
-	2950 1750 3100 1750
-Wire Wire Line
-	3150 1650 3150 2150
-Wire Wire Line
-	3150 2150 3300 2150
+	3150 1650 3150 2050
 Connection ~ 3150 1650
 Wire Wire Line
-	3150 1650 4100 1650
-Wire Wire Line
-	3100 1750 3100 2250
-Wire Wire Line
-	3100 2250 3300 2250
-Connection ~ 3100 1750
-Wire Wire Line
-	3100 1750 4150 1750
-Wire Wire Line
-	4000 2150 4100 2150
-Wire Wire Line
-	4100 2150 4100 1650
-Connection ~ 4100 1650
-Wire Wire Line
-	4100 1650 4500 1650
-Wire Wire Line
-	4000 2250 4150 2250
-Wire Wire Line
-	4150 2250 4150 1750
-Connection ~ 4150 1750
+	3150 1650 4050 1650
 $Comp
 L Device:C C403
 U 1 1 5FB0D473
@@ -398,8 +375,6 @@ Wire Wire Line
 Connection ~ 5000 1750
 Wire Wire Line
 	5000 1750 5150 1750
-Wire Wire Line
-	4150 1750 5000 1750
 Text Notes 5300 2200 0    50   ~ 0
 C403 and C404 are virtual for now
 Wire Wire Line
@@ -425,6 +400,31 @@ Wire Wire Line
 Connection ~ 4200 1550
 Wire Wire Line
 	4200 1550 4750 1550
-NoConn ~ 4000 2050
-NoConn ~ 3300 2050
+Wire Wire Line
+	3150 2050 3300 2050
+Wire Wire Line
+	4000 2050 4050 2050
+Wire Wire Line
+	4050 2050 4050 1650
+Connection ~ 4050 1650
+Wire Wire Line
+	4050 1650 4500 1650
+Wire Wire Line
+	2950 1750 3100 1750
+Wire Wire Line
+	4000 2150 4100 2150
+Wire Wire Line
+	4100 2150 4100 1750
+Connection ~ 4100 1750
+Wire Wire Line
+	4100 1750 5000 1750
+Wire Wire Line
+	3300 2150 3100 2150
+Wire Wire Line
+	3100 2150 3100 1750
+Connection ~ 3100 1750
+Wire Wire Line
+	3100 1750 4100 1750
+NoConn ~ 3300 2250
+NoConn ~ 4000 2250
 $EndSCHEMATC
