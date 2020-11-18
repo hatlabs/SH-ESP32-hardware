@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 11
+Sheet 9 11
 Title "Sailor Hat for ESP32"
 Date ""
 Rev "0.1.0"
