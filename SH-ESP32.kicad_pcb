@@ -469,6 +469,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Diode_SMD:D_SOD-323F (layer F.Cu) (tedit 590A48EB) (tstamp 5FB55517)
