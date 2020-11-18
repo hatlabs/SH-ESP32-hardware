@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N3905
+D -0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf
+$ENDCMP
+#
 $CMP EL3H7
 D AC/DC Optocoupler, Vce 70V, CTR 100-250%, SOP4
 K NPN AC DC Optocoupler
@@ -10,6 +16,12 @@ $CMP HT75xx-1-SOT23
 D 100mA Low Dropout Voltage Regulator, Fixed Output, SOT89
 K 100mA LDO Regulator Fixed Positive
 F https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf
+$ENDCMP
+#
+$CMP MMBT5401
+D -0.6A Ic, -150V Vce, Small Signal PNP Transistor, SOT-23
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
 $ENDCMP
 #
 $CMP PC3H4A

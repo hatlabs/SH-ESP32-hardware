@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 7 11
 Title "Sailor Hat for ESP32"
 Date ""
 Rev "0.1.0"
@@ -15,18 +15,6 @@ Comment4 ""
 $EndDescr
 Wire Wire Line
 	1950 4350 2100 4350
-$Comp
-L Jumper:Jumper_2_Open JP601
-U 1 1 5C35395F
-P 2300 5000
-F 0 "JP601" H 2300 5143 50  0000 C CNN
-F 1 "Term" H 2300 5144 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2300 5000 50  0001 C CNN
-F 3 "~" H 2300 5000 50  0001 C CNN
-F 4 "C376075" H 2300 5000 50  0001 C CNN "LCSC"
-	1    2300 5000
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:R R601
 U 1 1 5C353BFC
@@ -305,22 +293,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 1450 6150 1450
 $Comp
-L Device:D D?
-U 1 1 5F94C971
-P 5800 1450
-AR Path="/5C348474/5F94C971" Ref="D?"  Part="1" 
-AR Path="/5E460E30/5F94C971" Ref="D?"  Part="1" 
-AR Path="/5F6FAF6E/5F94C971" Ref="D?"  Part="1" 
-AR Path="/5F733BA4/5F94C971" Ref="D602"  Part="1" 
-F 0 "D602" H 5800 1234 50  0000 C CNN
-F 1 "SM4007PL" H 5800 1325 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 5800 1450 50  0001 C CNN
-F 3 "~" H 5800 1450 50  0001 C CNN
-F 4 "C64898" H 5800 1450 50  0001 C CNN "LCSC"
-	1    5800 1450
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:D_TVS D?
 U 1 1 5F94C96A
 P 5400 1750
@@ -368,8 +340,6 @@ F 4 "C277875" H 7000 1550 50  0001 C CNN "LCSC"
 	1    7000 1550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1850 2100 2200 2100
 $Comp
 L SH-ESP32:RCLAMP0524P-N U601
 U 1 1 5FBB6763
@@ -413,8 +383,6 @@ CAN_GND
 Connection ~ 4850 1450
 Wire Wire Line
 	4850 1450 5400 1450
-Wire Wire Line
-	1850 2200 2000 2200
 Text Notes 1000 4950 0    50   ~ 0
 Optional termination\nresistance for the bus
 Wire Wire Line
@@ -480,30 +448,85 @@ Input voltage up to 40V
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5FB62718
-P 1650 1400
+P 8650 2500
 AR Path="/5F6FAF6E/5FB62718" Ref="J?"  Part="1" 
 AR Path="/5F733BA4/5FB62718" Ref="J602"  Part="1" 
-F 0 "J602" H 1568 1617 50  0000 C CNN
-F 1 "Conn_01x02" H 1568 1526 50  0000 C CNN
-F 2 "SH-ESP32:WireLink_1x02_P2.54mm" H 1650 1400 50  0001 C CNN
-F 3 "~" H 1650 1400 50  0001 C CNN
-	1    1650 1400
-	-1   0    0    -1  
+F 0 "J602" H 8568 2717 50  0000 C CNN
+F 1 "Conn_01x02" H 8568 2626 50  0000 C CNN
+F 2 "SH-ESP32:WireLink_1x02_P2.54mm" H 8650 2500 50  0001 C CNN
+F 3 "~" H 8650 2500 50  0001 C CNN
+	1    8650 2500
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 1500 2000 1500
-Text Notes 1600 1050 0    50   ~ 0
-WIRE-LINK from VCAN+12v to Vin
+	8450 2600 8300 2600
+Text Notes 7650 2850 0    50   ~ 0
+WIRE-LINK from CAN12V_Prot to Vin_Prot
 Wire Wire Line
-	1850 1400 2200 1400
+	8450 2500 8100 2500
 Wire Wire Line
-	2200 1400 2200 2100
-Connection ~ 2200 2100
+	1850 2100 3050 2100
 Wire Wire Line
-	2200 2100 3050 2100
+	1850 2200 3050 2200
+Text Label 8100 2500 2    50   ~ 0
+CAN12V_prot
+Text Label 8300 2600 2    50   ~ 0
+CAN_GND
+$Comp
+L Device:D_Schottky D?
+U 1 1 5FB60F25
+P 5800 1450
+AR Path="/5C3476D8/5FB60F25" Ref="D?"  Part="1" 
+AR Path="/5CA65CC5/5FB60F25" Ref="D?"  Part="1" 
+AR Path="/5F6FAF6E/5FB60F25" Ref="D?"  Part="1" 
+AR Path="/5F733BA4/5FB60F25" Ref="D602"  Part="1" 
+F 0 "D602" H 5650 1550 50  0000 L CNN
+F 1 "B5819WS" H 5500 1650 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323F" H 5800 1450 50  0001 C CNN
+F 3 "~" H 5800 1450 50  0001 C CNN
+F 4 "" V 5800 1450 50  0001 C CNN "Notes"
+F 5 "C123899" H 5800 1450 50  0001 C CNN "LCSC"
+	1    5800 1450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP601
+U 1 1 5FB71E26
+P 2300 5000
+F 0 "JP601" H 2300 5113 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2300 5114 50  0001 C CNN
+F 2 "SH-ESP32:SolderJumper-2_P1.3mm_Open_TrianglePad_Narrow" H 2300 5000 50  0001 C CNN
+F 3 "~" H 2300 5000 50  0001 C CNN
+	1    2300 5000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2000 1500 2000 2200
-Connection ~ 2000 2200
+	2150 5000 2100 5000
 Wire Wire Line
-	2000 2200 3050 2200
+	2450 5000 2500 5000
+$Comp
+L Device:C C?
+U 1 1 5FB9BEFB
+P 9400 4600
+AR Path="/5D6F1C7C/5FB9BEFB" Ref="C?"  Part="1" 
+AR Path="/5C348474/5FB9BEFB" Ref="C?"  Part="1" 
+AR Path="/5F733BA4/5FB9BEFB" Ref="C707"  Part="1" 
+F 0 "C707" V 9500 4700 50  0000 L CNN
+F 1 "100nF" V 9500 4300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9438 4450 50  0001 C CNN
+F 3 "~" H 9400 4600 50  0001 C CNN
+F 4 "C1525" H 9400 4600 50  0001 C CNN "LCSC"
+	1    9400 4600
+	0    1    -1   0   
+$EndComp
+Text Label 9250 5300 3    50   ~ 0
+CAN_GND
+Text Label 9550 4400 1    50   ~ 0
+CAN_5V
+Wire Wire Line
+	9550 4400 9550 4600
+Wire Wire Line
+	9250 4600 9250 5300
+Text Notes 9000 3950 0    50   ~ 0
+CAN plane decoupling
 $EndSCHEMATC
