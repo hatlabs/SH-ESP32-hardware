@@ -24,3 +24,9 @@ The main design features include:
 Rendering of an early development version:
 
 ![Pre-rev 0.1.0 board](/images/pcb_pre_rev_0.1.0.jpg)
+
+Rendering of Rev 0.2.0 after a number of changes.
+![Rev 0.2.0 board](/images/pcb_rev_0.2.0.jpg)
+
+Back of Rev 0.2.0 board
+![Rev 0.2.0 board back](/images/pcb_rev_0.2.0-back.jpg)
