@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 11
 Title "Sailor Hat for ESP32"
 Date ""
 Rev "0.1.0"
@@ -47,75 +47,6 @@ F 3 "" H 5400 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:Si2371EDS Q?
-U 1 1 5E467ADC
-P 6550 2200
-AR Path="/5E467ADC" Ref="Q?"  Part="1" 
-AR Path="/5E460E30/5E467ADC" Ref="Q?"  Part="1" 
-AR Path="/5F6FAF6E/5E467ADC" Ref="Q301"  Part="1" 
-F 0 "Q301" V 6892 2200 50  0000 C CNN
-F 1 "WST03P06" V 6801 2200 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6750 2125 50  0001 L CIN
-F 3 "" H 6550 2200 50  0001 L CNN
-F 4 "C105166" H 6550 2200 50  0001 C CNN "LCSC"
-	1    6550 2200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Zener D?
-U 1 1 5E467AE2
-P 6800 2250
-AR Path="/5E467AE2" Ref="D?"  Part="1" 
-AR Path="/5E460E30/5E467AE2" Ref="D?"  Part="1" 
-AR Path="/5F6FAF6E/5E467AE2" Ref="D303"  Part="1" 
-F 0 "D303" V 6754 2329 50  0000 L CNN
-F 1 "MM3Z8V2" V 6845 2329 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 6800 2250 50  0001 C CNN
-F 3 "" H 6800 2250 50  0001 C CNN
-F 4 "C118606" H 6800 2250 50  0001 C CNN "LCSC"
-	1    6800 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E467AE8
-P 6550 2650
-AR Path="/5E467AE8" Ref="R?"  Part="1" 
-AR Path="/5E460E30/5E467AE8" Ref="R?"  Part="1" 
-AR Path="/5F6FAF6E/5E467AE8" Ref="R301"  Part="1" 
-F 0 "R301" H 6620 2696 50  0000 L CNN
-F 1 "100k" H 6620 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6480 2650 50  0001 C CNN
-F 3 "~" H 6550 2650 50  0001 C CNN
-F 4 "C25741" H 6550 2650 50  0001 C CNN "LCSC"
-	1    6550 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6550 2500 6550 2450
-Wire Wire Line
-	6550 2450 6800 2450
-Wire Wire Line
-	6800 2450 6800 2400
-Connection ~ 6550 2450
-Wire Wire Line
-	6550 2450 6550 2400
-$Comp
-L power:GND #PWR?
-U 1 1 5E467AF3
-P 6550 2800
-AR Path="/5E467AF3" Ref="#PWR?"  Part="1" 
-AR Path="/5C3476D8/5E467AF3" Ref="#PWR?"  Part="1" 
-AR Path="/5E460E30/5E467AF3" Ref="#PWR?"  Part="1" 
-AR Path="/5F6FAF6E/5E467AF3" Ref="#PWR0306"  Part="1" 
-F 0 "#PWR0306" H 6550 2550 50  0001 C CNN
-F 1 "GND" H 6555 2627 50  0000 C CNN
-F 2 "" H 6550 2800 50  0001 C CNN
-F 3 "" H 6550 2800 50  0001 C CNN
-	1    6550 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5E467AF9
 P 5750 2100
@@ -130,24 +61,14 @@ F 3 "~" H 5750 2100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 2100 6800 2100
-Connection ~ 6800 2100
-Wire Wire Line
-	6800 2100 7300 2100
-Wire Wire Line
 	4000 2100 4300 2100
 Wire Wire Line
 	5400 2250 5400 2100
 Connection ~ 5400 2100
 Wire Wire Line
 	5400 2100 5750 2100
-Text Notes 6050 1750 0    50   ~ 0
-Reverse polarity protection
-Connection ~ 5750 2100
-Wire Wire Line
-	5750 2100 6350 2100
-Text Label 6550 2450 2    50   ~ 0
-RP_G
+Text Notes 6200 2650 0    50   ~ 0
+Reverse polarity and\ncurrent protection
 $Comp
 L power:GND #PWR?
 U 1 1 5CA62D53
@@ -353,7 +274,7 @@ F 3 "" H 8350 4250 50  0001 C CNN
 $EndComp
 Text Label 7300 2100 0    50   ~ 0
 Vin_protected
-Text Label 2600 4800 2    50   ~ 0
+Text Label 1900 4800 2    50   ~ 0
 Vin_protected
 Connection ~ 6800 4250
 Wire Wire Line
@@ -526,8 +447,6 @@ F 4 "C143164" H 5400 2400 50  0001 C CNN "LCSC"
 	1    5400 2400
 	0    1    1    0   
 $EndComp
-Text Notes 3350 1750 0    50   ~ 0
-FIXME: Verify that the fuse\nis sufficiently big
 Wire Wire Line
 	5400 2550 5400 2800
 Connection ~ 7750 4250
@@ -547,30 +466,10 @@ $EndComp
 Connection ~ 8000 4250
 Wire Wire Line
 	8000 4250 8350 4250
-$Comp
-L Device:D_Schottky D?
-U 1 1 5FAEC660
-P 3200 4350
-AR Path="/5C3476D8/5FAEC660" Ref="D?"  Part="1" 
-AR Path="/5CA65CC5/5FAEC660" Ref="D?"  Part="1" 
-AR Path="/5F6FAF6E/5FAEC660" Ref="D304"  Part="1" 
-F 0 "D304" H 3100 4450 50  0000 L CNN
-F 1 "B5817WS" H 2900 4550 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 3200 4350 50  0001 C CNN
-F 3 "~" H 3200 4350 50  0001 C CNN
-F 4 "" V 3200 4350 50  0001 C CNN "Notes"
-F 5 "C123899" H 3200 4350 50  0001 C CNN "LCSC"
-	1    3200 4350
-	-1   0    0    -1  
-$EndComp
 Connection ~ 3800 4800
 Wire Wire Line
 	3800 4800 3850 4800
-Wire Wire Line
-	3350 4350 3550 4350
-Wire Wire Line
-	3050 4350 2600 4350
-Text GLabel 2600 4350 0    50   Input ~ 0
+Text GLabel 1900 3500 0    50   Input ~ 0
 USB_5V
 Text Notes 4250 3750 0    50   ~ 0
 Converter IC voltage range 4.5-50V,\nhowever, Vin needs to be a bit higher\nto give some headroom for the PTC\nfuse.
@@ -611,26 +510,6 @@ Connection ~ 3550 4800
 Wire Wire Line
 	3550 4800 3800 4800
 Wire Wire Line
-	2600 4800 3550 4800
-Wire Wire Line
-	3550 4350 3550 4800
-$Comp
-L Device:D_Schottky D?
-U 1 1 5FB29AFD
-P 2100 1400
-AR Path="/5C3476D8/5FB29AFD" Ref="D?"  Part="1" 
-AR Path="/5CA65CC5/5FB29AFD" Ref="D?"  Part="1" 
-AR Path="/5F6FAF6E/5FB29AFD" Ref="D305"  Part="1" 
-F 0 "D305" H 2000 1500 50  0000 L CNN
-F 1 "B5819WS" H 1800 1600 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323F" H 2100 1400 50  0001 C CNN
-F 3 "~" H 2100 1400 50  0001 C CNN
-F 4 "" V 2100 1400 50  0001 C CNN "Notes"
-F 5 "C123899" H 2100 1400 50  0001 C CNN "LCSC"
-	1    2100 1400
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
 	2050 2200 1950 2200
 Wire Wire Line
 	2050 2300 2050 2200
@@ -665,15 +544,6 @@ Text Label 3500 2100 2    50   ~ 0
 Vin
 Text Label 2050 2100 0    50   ~ 0
 Vin
-Wire Wire Line
-	1950 2100 2450 2100
-Wire Wire Line
-	2250 1400 2450 1400
-Wire Wire Line
-	2450 1400 2450 2100
-Connection ~ 2450 2100
-Wire Wire Line
-	2450 2100 3700 2100
 $Comp
 L Connector_Generic:Conn_01x02 J303
 U 1 1 5FB3E030
@@ -685,8 +555,6 @@ F 3 "~" H 1400 1400 50  0001 C CNN
 	1    1400 1400
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 1400 1950 1400
 $Comp
 L power:GND #PWR?
 U 1 1 5FB432C8
@@ -707,5 +575,53 @@ Wire Wire Line
 Wire Wire Line
 	1750 1500 1750 1550
 Text Notes 1350 1050 0    50   ~ 0
-WIRE-LINK from VCAN+12v
+CAN12V_Prot
+Wire Wire Line
+	3550 3500 3550 4800
+$Sheet
+S 2350 3300 750  450 
+U 5FBC3428
+F0 "Ideal diode 1" 50
+F1 "ideal_diode.sch" 50
+F2 "Input" I L 2350 3500 50 
+F3 "Output" B R 3100 3500 50 
+$EndSheet
+Wire Wire Line
+	3550 3500 3100 3500
+Wire Wire Line
+	2350 3500 1900 3500
+Connection ~ 5750 2100
+Wire Wire Line
+	1900 4800 3550 4800
+Text Notes 2150 3050 0    50   ~ 0
+Prevent feeding Vin to USB
+$Comp
+L Device:D_Schottky D?
+U 1 1 5FB64BC2
+P 6100 2100
+AR Path="/5C3476D8/5FB64BC2" Ref="D?"  Part="1" 
+AR Path="/5CA65CC5/5FB64BC2" Ref="D?"  Part="1" 
+AR Path="/5F6FAF6E/5FB64BC2" Ref="D303"  Part="1" 
+F 0 "D303" H 5950 1850 50  0000 L CNN
+F 1 "B5819W" H 5850 1950 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6100 2100 50  0001 C CNN
+F 3 "~" H 6100 2100 50  0001 C CNN
+F 4 "" V 6100 2100 50  0001 C CNN "Notes"
+F 5 "C8598" H 6100 2100 50  0001 C CNN "LCSC"
+	1    6100 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5750 2100 5950 2100
+Wire Wire Line
+	6250 2100 6500 2100
+Wire Wire Line
+	1950 2100 3700 2100
+Wire Wire Line
+	6500 1400 6500 2100
+Connection ~ 6500 2100
+Wire Wire Line
+	6500 2100 7300 2100
+Wire Wire Line
+	1600 1400 6500 1400
 $EndSCHEMATC
