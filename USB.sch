@@ -14,7 +14,7 @@ Comment3 "Sailor Hat for ESP32 is licensed under CC BY-SA 4.0."
 Comment4 ""
 $EndDescr
 $Comp
-L SH-ESP32-rescue:USB_B_Micro-Connector J?
+L SH-ESP32:USB_B_Micro-Connector J?
 U 1 1 5F8A0329
 P 1000 1750
 AR Path="/5F8A0329" Ref="J?"  Part="1" 
