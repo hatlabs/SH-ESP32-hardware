@@ -108,6 +108,7 @@ F 0 "Q1102" H 2541 2196 50  0000 L CNN
 F 1 "BC857BS" H 2541 2105 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2550 2250 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf" H 2350 2150 50  0001 C CNN
+F 4 "C8654" H 2350 2150 50  0001 C CNN "LCSC"
 	1    2350 2150
 	-1   0    0    -1  
 $EndComp
@@ -121,6 +122,7 @@ F 0 "Q1102" H 3190 2196 50  0000 L CNN
 F 1 "BC857BS" H 3190 2105 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3200 2250 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf" H 3000 2150 50  0001 C CNN
+F 4 "C8654" H 3000 2150 50  0001 C CNN "LCSC"
 	2    3000 2150
 	1    0    0    -1  
 $EndComp

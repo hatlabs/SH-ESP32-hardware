@@ -1,5 +1,3 @@
 (sym_lib_table
   (lib (name SH-ESP32)(type Legacy)(uri ${KIPRJMOD}/SH-ESP32.lib)(options "")(descr ""))
-  (lib (name SH-ESP32-cache)(type Legacy)(uri ${KIPRJMOD}/SH-ESP32-cache.lib)(options "")(descr ""))
-  (lib (name SH-ESP32-rescue)(type Legacy)(uri ${KIPRJMOD}/SH-ESP32-rescue.lib)(options "")(descr ""))
 )
