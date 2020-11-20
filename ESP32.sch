@@ -256,9 +256,9 @@ F 4 "C21189" H 7600 1650 50  0001 C CNN "LCSC"
 	1    7600 1650
 	0    -1   1    0   
 $EndComp
-Text Label 7350 1450 2    50   ~ 0
-TXD0
 Text Label 7350 1650 2    50   ~ 0
+TXD0
+Text Label 7350 1450 2    50   ~ 0
 RXD0
 Wire Wire Line
 	7450 1450 7350 1450
@@ -895,4 +895,14 @@ Wire Wire Line
 	3750 7000 4150 7000
 Wire Wire Line
 	3750 7100 4150 7100
+Text Notes 7250 1250 0    50   ~ 0
+NOTE:  TX/RX Crossover\nRXD0 -> USB_TXD  \nTXD0 -> USB_RXD
+Wire Notes Line
+	7050 1750 8350 1750
+Wire Notes Line
+	8350 1750 8350 1000
+Wire Notes Line
+	8350 1000 7050 1000
+Wire Notes Line
+	7050 1000 7050 1750
 $EndSCHEMATC
