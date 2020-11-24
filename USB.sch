@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 11
+Sheet 4 11
 Title "Sailor Hat for ESP32"
 Date ""
 Rev "0.1.0"
@@ -210,9 +210,9 @@ TXD
 Text HLabel 2450 4700 2    50   Input ~ 0
 RXD
 Text HLabel 5700 3550 2    50   Input ~ 0
-RESET
+RESET_AUTO
 Text HLabel 5700 5150 2    50   Input ~ 0
-BOOT
+BOOT_AUTO
 Wire Wire Line
 	900  2200 900  2150
 Wire Wire Line
