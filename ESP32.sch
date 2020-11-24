@@ -409,10 +409,10 @@ P 2500 6900
 AR Path="/5F9211FB" Ref="C?"  Part="1" 
 AR Path="/5FC3847D/5F9211FB" Ref="C203"  Part="1" 
 F 0 "C203" H 2615 6946 50  0000 L CNN
-F 1 "100nF" H 2615 6855 50  0000 L CNN
+F 1 "1uf" H 2615 6855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2538 6750 50  0001 C CNN
 F 3 "~" H 2500 6900 50  0001 C CNN
-F 4 "C1525" H 2500 6900 50  0001 C CNN "LCSC"
+F 4 "C52923" H 2500 6900 50  0001 C CNN "LCSC"
 	1    2500 6900
 	1    0    0    -1  
 $EndComp
@@ -499,16 +499,13 @@ Wire Wire Line
 Connection ~ 9650 5225
 Wire Wire Line
 	9650 5225 9650 5325
-Connection ~ 9650 5325
-Wire Wire Line
-	9650 5325 9650 5425
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J202
+L Connector_Generic:Conn_02x03_Odd_Even J202
 U 1 1 5FA6B8ED
 P 9350 5225
 F 0 "J202" H 9200 5575 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 9200 5475 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 9350 5225 50  0001 C CNN
+F 1 "Power" H 9200 5475 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9350 5225 50  0001 C CNN
 F 3 "~" H 9350 5225 50  0001 C CNN
 F 4 "C358699" H 9350 5225 50  0001 C CNN "LCSC"
 	1    9350 5225
