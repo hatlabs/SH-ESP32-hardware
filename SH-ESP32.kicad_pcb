@@ -479,6 +479,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Package_TO_SOT_SMD:SOT-523 (layer F.Cu) (tedit 5E27725A) (tstamp 5FC5A581)
@@ -514,6 +519,11 @@
     (pad 1 smd rect (at -0.645 -0.5 180) (size 0.51 0.4) (layers F.Cu F.Paste F.Mask)
       (net 94 /BOOT_KEY))
     (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-523.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
