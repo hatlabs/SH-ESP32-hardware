@@ -484,9 +484,6 @@ F 3 "" H 9650 4875 50  0001 C CNN
 	1    9650 4875
 	1    0    0    -1  
 $EndComp
-Connection ~ 9150 5425
-Wire Wire Line
-	9150 5425 9150 5325
 Connection ~ 9150 5325
 Wire Wire Line
 	9150 5325 9150 5225
@@ -649,8 +646,6 @@ $EndComp
 Text Notes 9200 1000 0    50   ~ 0
 Solder jumpers allow for \nrerouting peripherals GPIOs\nto J201
 Wire Wire Line
-	9150 5425 9150 5825
-Wire Wire Line
 	9650 4875 9650 5125
 $Comp
 L Connector_Generic:Conn_01x07 J207
@@ -666,13 +661,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x08 J206
 U 1 1 5FB25B29
-P 5150 6700
-F 0 "J206" H 5068 7217 50  0000 C CNN
-F 1 "IO" H 5068 7126 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5150 6700 50  0001 C CNN
-F 3 "~" H 5150 6700 50  0001 C CNN
-	1    5150 6700
-	-1   0    0    -1  
+P 5150 6800
+F 0 "J206" H 5068 7317 50  0000 C CNN
+F 1 "IO" H 5068 7226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5150 6800 50  0001 C CNN
+F 3 "~" H 5150 6800 50  0001 C CNN
+	1    5150 6800
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5250 3500 4600 3500
@@ -1157,4 +1152,6 @@ Text Notes 4550 2000 0    50   ~ 0
 RMII_RXD1
 Text Notes 4550 2100 0    50   ~ 0
 RMI_CRS_DV
+Wire Wire Line
+	9150 5325 9150 5825
 $EndSCHEMATC
