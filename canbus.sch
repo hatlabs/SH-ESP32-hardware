@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 11
 Title "Sailor Hat for ESP32"
-Date ""
-Rev "0.1.0"
+Date "2020-11-25"
+Rev "0.2.0"
 Comp "Hat Laboratories"
 Comment1 "https://creativecommons.org/licenses/by-sa/4.0"
 Comment2 "To view a copy of this license, visit "
