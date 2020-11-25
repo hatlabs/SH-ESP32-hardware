@@ -434,31 +434,20 @@ Wire Wire Line
 Wire Wire Line
 	2500 6700 2500 6750
 $Comp
-L Connector_Generic:Conn_01x02 J203
+L Connector_Generic:Conn_01x01 J203
 U 1 1 5FA4C35A
-P 8000 5200
-F 0 "J203" H 8080 5192 50  0000 L CNN
-F 1 "Conn_01x02" H 8080 5101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8000 5200 50  0001 C CNN
-F 3 "~" H 8000 5200 50  0001 C CNN
-F 4 "C376075" H 8000 5200 50  0001 C CNN "LCSC"
-	1    8000 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0202
-U 1 1 5FA4CC5B
-P 7300 5200
-F 0 "#PWR0202" H 7300 4950 50  0001 C CNN
-F 1 "GND" H 7305 5027 50  0000 C CNN
-F 2 "" H 7300 5200 50  0001 C CNN
-F 3 "" H 7300 5200 50  0001 C CNN
-	1    7300 5200
+P 7250 5500
+F 0 "J203" H 7330 5492 50  0000 L CNN
+F 1 "Conn_01x01" H 7330 5401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7250 5500 50  0001 C CNN
+F 3 "~" H 7250 5500 50  0001 C CNN
+F 4 "" H 7250 5500 50  0001 C CNN "LCSC"
+	1    7250 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 5200 7800 5200
-Text GLabel 7800 5300 0    50   Input ~ 0
+	6950 5500 7050 5500
+Text GLabel 6950 5500 0    50   Input ~ 0
 USB_5V
 $Comp
 L power:GND #PWR0206
@@ -1154,4 +1143,6 @@ Text Notes 4550 2100 0    50   ~ 0
 RMI_CRS_DV
 Wire Wire Line
 	9150 5325 9150 5825
+Text Notes 6450 5300 0    50   ~ 0
+For safety reasons, a USB 5V two-pin header\nwas downgraded to a single pin test point.
 $EndSCHEMATC
