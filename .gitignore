@@ -13,7 +13,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-SH-ESP32-cache.lib
+*cache.lib
 
 # Netlist files (exported from Eeschema)
 *.net

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Ethernet)(type Legacy)(uri ${KIPRJMOD}/Ethernet.lib)(options "")(descr ""))
+  (lib (name SH-ESP32)(type Legacy)(uri /Users/mark/projects/SH-ESP32-hardware/SH-ESP32.lib)(options "")(descr ""))
+)
