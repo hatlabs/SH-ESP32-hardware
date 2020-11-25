@@ -531,14 +531,14 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J301
 U 1 1 5F8B6C12
-P 1750 2200
-F 0 "J301" H 1668 1875 50  0000 C CNN
-F 1 "Conn_01x02" H 1668 1966 50  0000 C CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical" H 1750 2200 50  0001 C CNN
-F 3 "~" H 1750 2200 50  0001 C CNN
-F 4 "C8396" H 1750 2200 50  0001 C CNN "LCSC"
-	1    1750 2200
-	-1   0    0    1   
+P 1750 2100
+F 0 "J301" H 1750 2300 50  0000 C CNN
+F 1 "Conn_01x02" H 1750 2200 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical" H 1750 2100 50  0001 C CNN
+F 3 "~" H 1750 2100 50  0001 C CNN
+F 4 "C8396" H 1750 2100 50  0001 C CNN "LCSC"
+	1    1750 2100
+	-1   0    0    -1  
 $EndComp
 Text Label 3500 2100 2    50   ~ 0
 Vin
