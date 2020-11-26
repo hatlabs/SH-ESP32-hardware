@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "Sailor Hat for ESP32"
+Title "TopHat Blank Template for SH-ESP32"
 Date ""
 Rev "0.1.0"
 Comp "Hat Laboratories"
