@@ -23,8 +23,5 @@ SH-ESP32-cache.lib
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
 *.DS_Store
 
