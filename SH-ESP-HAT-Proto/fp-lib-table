@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name SH-ESP32)(type KiCad)(uri /Users/mark/projects/SH-ESP32-hardware/SH-ESP32.pretty)(options "")(descr ""))
+  (lib (name ESP32-HAT)(type KiCad)(uri ${KIPRJMOD}/ESP32-HAT.pretty)(options "")(descr ""))
+)
