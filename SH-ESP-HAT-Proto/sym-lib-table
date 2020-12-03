@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SH-ESP32-HAT-Proto)(type Legacy)(uri ${KIPRJMOD}/SH-ESP32-HAT-Proto.lib)(options "")(descr ""))
+)
