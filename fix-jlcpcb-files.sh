@@ -3,18 +3,17 @@
 set -euo pipefail
 shopt -s inherit_errexit
 
-DESTDIR=assembly
-BOMFILE=SH-ESP32.csv
-DESTBOMFILE=SH-ESP32-bom.csv
-CPLFILE=SH-ESP32-top-pos.csv
+PROJ="SH-ESP32"
+DESTDIR="assembly"
+BOMFILE="${PROJ}_bom_jlc.csv"
+CPLFILE="${PROJ}_cpl_jlc.csv"
 
-# move the BOM file in place
+# fix the BOM and CPL files
+jlc-kicad-tools -n $PROJ -d cpl_rotations_db.csv .
+
+# move the BOM and CPL files
 mkdir -p $DESTDIR
-mv $BOMFILE $DESTDIR/$DESTBOMFILE
+mv $BOMFILE $CPLFILE $DESTDIR
 
-# fix the CPL file headings
-sed -i '' '1s/.*/Designator,Val,Package,Mid X,Mid Y,Rotation,Layer/' $DESTDIR/$CPLFILE
-
-# zip the assembly directory
-zip -FSr assembly.zip assembly/
-
+# zip the DESTDIR directory
+zip -FSr $DESTDIR.zip $DESTDIR/
