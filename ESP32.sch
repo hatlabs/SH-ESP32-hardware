@@ -21,7 +21,7 @@ AR Path="/5FC47E0F" Ref="U?"  Part="1"
 AR Path="/5FC3847D/5FC47E0F" Ref="U201"  Part="1" 
 F 0 "U201" H 2600 4400 50  0000 L CNN
 F 1 "ESP32-WROOM-32E" H 3000 4300 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 2550 1400 50  0001 C CNN
+F 2 "SH-ESP32:ESP32-WROOM-32-HandSolder" H 2550 1400 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 2250 2950 50  0001 C CNN
 F 4 "C701341" H 2550 2900 50  0001 C CNN "LCSC"
 	1    2550 2900
