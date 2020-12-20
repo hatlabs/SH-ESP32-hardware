@@ -390,7 +390,7 @@ F 3 "" H 1900 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 5500 2800 5500
+	1900 5500 2600 5500
 Text Label 2600 5600 2    50   ~ 0
 Vin_protected
 Wire Wire Line
@@ -743,45 +743,6 @@ RMII_RXD1
 Text Notes 4450 1250 0    50   ~ 0
 RMI_CRS_DV
 $Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FC6336F
-P 8600 1800
-AR Path="/5FBE301B/5FC0C355/5FC6336F" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FC6336F" Ref="P307"  Part="1" 
-F 0 "P307" H 8500 1800 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 8708 1890 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 8600 1800 50  0001 C CNN
-F 3 "~" H 8600 1800 50  0001 C CNN
-	1    8600 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5FC63375
-P 8800 1550
-AR Path="/5FBE301B/5FC0C355/5FC63375" Ref="#PWR?"  Part="1" 
-AR Path="/5FBE301B/5FC63375" Ref="#PWR0130"  Part="1" 
-F 0 "#PWR0130" H 8800 1400 50  0001 C CNN
-F 1 "+3.3V" H 8815 1723 50  0000 C CNN
-F 2 "" H 8800 1550 50  0001 C CNN
-F 3 "" H 8800 1550 50  0001 C CNN
-	1    8800 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FC63395
-P 9450 4100
-AR Path="/5FBE301B/5FC0C355/5FC63395" Ref="#PWR?"  Part="1" 
-AR Path="/5FBE301B/5FC63395" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR0131" H 9450 3850 50  0001 C CNN
-F 1 "GND" H 9455 3927 50  0000 C CNN
-F 2 "" H 9450 4100 50  0001 C CNN
-F 3 "" H 9450 4100 50  0001 C CNN
-	1    9450 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5FC7CA70
 P 4650 4400
@@ -819,381 +780,6 @@ Wire Wire Line
 	4300 5200 4450 5200
 Wire Wire Line
 	4300 5300 4450 5300
-Wire Wire Line
-	9450 4100 9450 2900
-Wire Wire Line
-	8800 1550 8800 1800
-Connection ~ 8800 1800
-Wire Wire Line
-	8800 1800 8800 1900
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCABB9F
-P 8600 1900
-AR Path="/5FBE301B/5FC0C355/5FCABB9F" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCABB9F" Ref="P308"  Part="1" 
-F 0 "P308" H 8500 1900 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 8708 1990 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 8600 1900 50  0001 C CNN
-F 3 "~" H 8600 1900 50  0001 C CNN
-	1    8600 1900
-	1    0    0    -1  
-$EndComp
-Connection ~ 8800 1900
-Wire Wire Line
-	8800 1900 8800 2000
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCABE03
-P 8600 2000
-AR Path="/5FBE301B/5FC0C355/5FCABE03" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCABE03" Ref="P309"  Part="1" 
-F 0 "P309" H 8500 2000 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 8708 2090 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 8600 2000 50  0001 C CNN
-F 3 "~" H 8600 2000 50  0001 C CNN
-	1    8600 2000
-	1    0    0    -1  
-$EndComp
-Connection ~ 8800 2000
-Wire Wire Line
-	8800 2000 8800 2100
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAC0D0
-P 8600 2100
-AR Path="/5FBE301B/5FC0C355/5FCAC0D0" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAC0D0" Ref="P310"  Part="1" 
-F 0 "P310" H 8500 2100 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 8708 2190 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 8600 2100 50  0001 C CNN
-F 3 "~" H 8600 2100 50  0001 C CNN
-	1    8600 2100
-	1    0    0    -1  
-$EndComp
-Connection ~ 8800 2100
-Wire Wire Line
-	8800 2100 8800 2200
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAC3C7
-P 8600 2200
-AR Path="/5FBE301B/5FC0C355/5FCAC3C7" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAC3C7" Ref="P311"  Part="1" 
-F 0 "P311" H 8500 2200 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 8708 2290 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 8600 2200 50  0001 C CNN
-F 3 "~" H 8600 2200 50  0001 C CNN
-	1    8600 2200
-	1    0    0    -1  
-$EndComp
-Connection ~ 8800 2200
-Wire Wire Line
-	8800 2200 8800 2300
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAC727
-P 8600 2300
-AR Path="/5FBE301B/5FC0C355/5FCAC727" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAC727" Ref="P312"  Part="1" 
-F 0 "P312" H 8500 2300 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 8708 2390 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 8600 2300 50  0001 C CNN
-F 3 "~" H 8600 2300 50  0001 C CNN
-	1    8600 2300
-	1    0    0    -1  
-$EndComp
-Connection ~ 8800 2300
-Wire Wire Line
-	8800 2300 8800 2400
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCACA09
-P 8600 2400
-AR Path="/5FBE301B/5FC0C355/5FCACA09" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCACA09" Ref="P313"  Part="1" 
-F 0 "P313" H 8500 2400 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 8708 2490 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 8600 2400 50  0001 C CNN
-F 3 "~" H 8600 2400 50  0001 C CNN
-	1    8600 2400
-	1    0    0    -1  
-$EndComp
-Connection ~ 8800 2400
-Wire Wire Line
-	8800 2400 8800 2500
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCACD15
-P 8600 2500
-AR Path="/5FBE301B/5FC0C355/5FCACD15" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCACD15" Ref="P314"  Part="1" 
-F 0 "P314" H 8500 2500 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 8708 2590 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 8600 2500 50  0001 C CNN
-F 3 "~" H 8600 2500 50  0001 C CNN
-	1    8600 2500
-	1    0    0    -1  
-$EndComp
-Connection ~ 8800 2500
-Wire Wire Line
-	8800 2500 8800 2600
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAD08A
-P 8600 2600
-AR Path="/5FBE301B/5FC0C355/5FCAD08A" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAD08A" Ref="P315"  Part="1" 
-F 0 "P315" H 8500 2600 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 8708 2690 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 8600 2600 50  0001 C CNN
-F 3 "~" H 8600 2600 50  0001 C CNN
-	1    8600 2600
-	1    0    0    -1  
-$EndComp
-Connection ~ 8800 2600
-Wire Wire Line
-	8800 2600 8800 2700
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAD381
-P 8600 2700
-AR Path="/5FBE301B/5FC0C355/5FCAD381" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAD381" Ref="P316"  Part="1" 
-F 0 "P316" H 8500 2700 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 8708 2790 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 8600 2700 50  0001 C CNN
-F 3 "~" H 8600 2700 50  0001 C CNN
-	1    8600 2700
-	1    0    0    -1  
-$EndComp
-Connection ~ 8800 2700
-Wire Wire Line
-	8800 2700 8800 2800
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAD735
-P 8600 2800
-AR Path="/5FBE301B/5FC0C355/5FCAD735" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAD735" Ref="P317"  Part="1" 
-F 0 "P317" H 8500 2800 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 8708 2890 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 8600 2800 50  0001 C CNN
-F 3 "~" H 8600 2800 50  0001 C CNN
-	1    8600 2800
-	1    0    0    -1  
-$EndComp
-Connection ~ 8800 2800
-Wire Wire Line
-	8800 2800 8800 2900
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCADA2C
-P 8600 2900
-AR Path="/5FBE301B/5FC0C355/5FCADA2C" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCADA2C" Ref="P318"  Part="1" 
-F 0 "P318" H 8500 2900 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 8708 2990 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 8600 2900 50  0001 C CNN
-F 3 "~" H 8600 2900 50  0001 C CNN
-	1    8600 2900
-	1    0    0    -1  
-$EndComp
-Connection ~ 8800 2900
-Wire Wire Line
-	8800 2900 8800 4050
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCADD23
-P 9250 1800
-AR Path="/5FBE301B/5FC0C355/5FCADD23" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCADD23" Ref="P319"  Part="1" 
-F 0 "P319" H 9150 1800 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9358 1890 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 9250 1800 50  0001 C CNN
-F 3 "~" H 9250 1800 50  0001 C CNN
-	1    9250 1800
-	1    0    0    -1  
-$EndComp
-Connection ~ 9450 1800
-Wire Wire Line
-	9450 1800 9450 1700
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAE116
-P 9250 1900
-AR Path="/5FBE301B/5FC0C355/5FCAE116" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAE116" Ref="P320"  Part="1" 
-F 0 "P320" H 9150 1900 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9358 1990 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 9250 1900 50  0001 C CNN
-F 3 "~" H 9250 1900 50  0001 C CNN
-	1    9250 1900
-	1    0    0    -1  
-$EndComp
-Connection ~ 9450 1900
-Wire Wire Line
-	9450 1900 9450 1800
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAE3E3
-P 9250 2000
-AR Path="/5FBE301B/5FC0C355/5FCAE3E3" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAE3E3" Ref="P321"  Part="1" 
-F 0 "P321" H 9150 2000 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9358 2090 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 9250 2000 50  0001 C CNN
-F 3 "~" H 9250 2000 50  0001 C CNN
-	1    9250 2000
-	1    0    0    -1  
-$EndComp
-Connection ~ 9450 2000
-Wire Wire Line
-	9450 2000 9450 1900
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAE69B
-P 9250 2200
-AR Path="/5FBE301B/5FC0C355/5FCAE69B" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAE69B" Ref="P323"  Part="1" 
-F 0 "P323" H 9150 2200 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9358 2290 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 9250 2200 50  0001 C CNN
-F 3 "~" H 9250 2200 50  0001 C CNN
-	1    9250 2200
-	1    0    0    -1  
-$EndComp
-Connection ~ 9450 2100
-Wire Wire Line
-	9450 2100 9450 2000
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAEA64
-P 9250 2100
-AR Path="/5FBE301B/5FC0C355/5FCAEA64" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAEA64" Ref="P322"  Part="1" 
-F 0 "P322" H 9150 2100 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9358 2190 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 9250 2100 50  0001 C CNN
-F 3 "~" H 9250 2100 50  0001 C CNN
-	1    9250 2100
-	1    0    0    -1  
-$EndComp
-Connection ~ 9450 2200
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAF5F3
-P 9250 2300
-AR Path="/5FBE301B/5FC0C355/5FCAF5F3" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAF5F3" Ref="P324"  Part="1" 
-F 0 "P324" H 9150 2300 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9358 2390 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 9250 2300 50  0001 C CNN
-F 3 "~" H 9250 2300 50  0001 C CNN
-	1    9250 2300
-	1    0    0    -1  
-$EndComp
-Connection ~ 9450 2300
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAF881
-P 9250 2400
-AR Path="/5FBE301B/5FC0C355/5FCAF881" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAF881" Ref="P325"  Part="1" 
-F 0 "P325" H 9150 2400 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9358 2490 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 9250 2400 50  0001 C CNN
-F 3 "~" H 9250 2400 50  0001 C CNN
-	1    9250 2400
-	1    0    0    -1  
-$EndComp
-Connection ~ 9450 2400
-Wire Wire Line
-	9450 2400 9450 2300
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAFB4E
-P 9250 2500
-AR Path="/5FBE301B/5FC0C355/5FCAFB4E" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAFB4E" Ref="P326"  Part="1" 
-F 0 "P326" H 9150 2500 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9358 2590 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 9250 2500 50  0001 C CNN
-F 3 "~" H 9250 2500 50  0001 C CNN
-	1    9250 2500
-	1    0    0    -1  
-$EndComp
-Connection ~ 9450 2500
-Wire Wire Line
-	9450 2500 9450 2400
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCAFEC3
-P 9250 2600
-AR Path="/5FBE301B/5FC0C355/5FCAFEC3" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCAFEC3" Ref="P327"  Part="1" 
-F 0 "P327" H 9150 2600 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9358 2690 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 9250 2600 50  0001 C CNN
-F 3 "~" H 9250 2600 50  0001 C CNN
-	1    9250 2600
-	1    0    0    -1  
-$EndComp
-Connection ~ 9450 2600
-Wire Wire Line
-	9450 2600 9450 2500
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCB01F9
-P 9250 2700
-AR Path="/5FBE301B/5FC0C355/5FCB01F9" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCB01F9" Ref="P328"  Part="1" 
-F 0 "P328" H 9150 2700 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9358 2790 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 9250 2700 50  0001 C CNN
-F 3 "~" H 9250 2700 50  0001 C CNN
-	1    9250 2700
-	1    0    0    -1  
-$EndComp
-Connection ~ 9450 2700
-Wire Wire Line
-	9450 2700 9450 2600
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCB0559
-P 9250 2800
-AR Path="/5FBE301B/5FC0C355/5FCB0559" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCB0559" Ref="P329"  Part="1" 
-F 0 "P329" H 9150 2800 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9358 2890 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 9250 2800 50  0001 C CNN
-F 3 "~" H 9250 2800 50  0001 C CNN
-	1    9250 2800
-	1    0    0    -1  
-$EndComp
-Connection ~ 9450 2800
-Wire Wire Line
-	9450 2800 9450 2700
-$Comp
-L Connector:Conn_01x01_Male P?
-U 1 1 5FCB083B
-P 9250 2900
-AR Path="/5FBE301B/5FC0C355/5FCB083B" Ref="P?"  Part="1" 
-AR Path="/5FBE301B/5FCB083B" Ref="P330"  Part="1" 
-F 0 "P330" H 9150 2900 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9358 2990 50  0001 C CNN
-F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 9250 2900 50  0001 C CNN
-F 3 "~" H 9250 2900 50  0001 C CNN
-	1    9250 2900
-	1    0    0    -1  
-$EndComp
-Connection ~ 9450 2900
-Wire Wire Line
-	9450 2900 9450 2800
-Wire Wire Line
-	9450 2100 9450 2200
-Wire Wire Line
-	9450 2200 9450 2300
 $Comp
 L Connector:Conn_01x01_Male P?
 U 1 1 5FD64062
@@ -1271,5 +857,264 @@ F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 4100 5300 50  0001 C CNN
 F 3 "~" H 4100 5300 50  0001 C CNN
 	1    4100 5300
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE2EBE
+P 2350 5900
+AR Path="/5FBE301B/5FC0C355/5FDE2EBE" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE2EBE" Ref="P331"  Part="1" 
+F 0 "P331" H 2250 5900 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 2458 5990 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 2350 5900 50  0001 C CNN
+F 3 "~" H 2350 5900 50  0001 C CNN
+	1    2350 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5600 2600 5900
+Wire Wire Line
+	2600 5900 2550 5900
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE5A98
+P 2400 5400
+AR Path="/5FBE301B/5FC0C355/5FDE5A98" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE5A98" Ref="P332"  Part="1" 
+F 0 "P332" H 2300 5400 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 2508 5490 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 2400 5400 50  0001 C CNN
+F 3 "~" H 2400 5400 50  0001 C CNN
+	1    2400 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5400 2600 5500
+Connection ~ 2600 5500
+Wire Wire Line
+	2600 5500 2800 5500
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5FDEB0D4
+P 4650 6050
+AR Path="/5FBE301B/5FC0C355/5FDEB0D4" Ref="J?"  Part="1" 
+AR Path="/5FBE301B/5FDEB0D4" Ref="J303"  Part="1" 
+F 0 "J303" H 4730 6042 50  0000 L CNN
+F 1 "I2C" H 4730 5951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4650 6050 50  0001 C CNN
+F 3 "~" H 4650 6050 50  0001 C CNN
+	1    4650 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5FE022BF
+P 4000 6050
+AR Path="/5FBE301B/5FC0C355/5FE022BF" Ref="J?"  Part="1" 
+AR Path="/5FBE301B/5FE022BF" Ref="J305"  Part="1" 
+F 0 "J305" H 4080 6042 50  0000 L CNN
+F 1 "I2C" H 4080 5951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4000 6050 50  0001 C CNN
+F 3 "~" H 4000 6050 50  0001 C CNN
+	1    4000 6050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5950 4450 5950
+Wire Wire Line
+	4450 6050 4200 6050
+Wire Wire Line
+	4200 6150 4450 6150
+Wire Wire Line
+	4450 6250 4200 6250
+Text Label 4250 5950 0    50   ~ 0
+GND
+Text Label 4250 6050 0    50   ~ 0
+3V3
+Text Label 4250 6150 0    50   ~ 0
+SCL
+Text Label 4250 6250 0    50   ~ 0
+SDA
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE3D57
+P 5900 4150
+AR Path="/5FBE301B/5FC0C355/5FDE3D57" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE3D57" Ref="P307"  Part="1" 
+F 0 "P307" H 5800 4150 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6008 4240 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 5900 4150 50  0001 C CNN
+F 3 "~" H 5900 4150 50  0001 C CNN
+	1    5900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE40E2
+P 5900 4250
+AR Path="/5FBE301B/5FC0C355/5FDE40E2" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE40E2" Ref="P308"  Part="1" 
+F 0 "P308" H 5800 4250 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6008 4340 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 5900 4250 50  0001 C CNN
+F 3 "~" H 5900 4250 50  0001 C CNN
+	1    5900 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE452A
+P 5900 4350
+AR Path="/5FBE301B/5FC0C355/5FDE452A" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE452A" Ref="P309"  Part="1" 
+F 0 "P309" H 5800 4350 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6008 4440 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 5900 4350 50  0001 C CNN
+F 3 "~" H 5900 4350 50  0001 C CNN
+	1    5900 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE48B5
+P 5900 4450
+AR Path="/5FBE301B/5FC0C355/5FDE48B5" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE48B5" Ref="P310"  Part="1" 
+F 0 "P310" H 5800 4450 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6008 4540 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 5900 4450 50  0001 C CNN
+F 3 "~" H 5900 4450 50  0001 C CNN
+	1    5900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE4B59
+P 5900 4550
+AR Path="/5FBE301B/5FC0C355/5FDE4B59" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE4B59" Ref="P311"  Part="1" 
+F 0 "P311" H 5800 4550 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6008 4640 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 5900 4550 50  0001 C CNN
+F 3 "~" H 5900 4550 50  0001 C CNN
+	1    5900 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE4E66
+P 5900 4650
+AR Path="/5FBE301B/5FC0C355/5FDE4E66" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE4E66" Ref="P312"  Part="1" 
+F 0 "P312" H 5800 4650 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6008 4740 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 5900 4650 50  0001 C CNN
+F 3 "~" H 5900 4650 50  0001 C CNN
+	1    5900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE5299
+P 5900 4750
+AR Path="/5FBE301B/5FC0C355/5FDE5299" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE5299" Ref="P313"  Part="1" 
+F 0 "P313" H 5800 4750 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6008 4840 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 5900 4750 50  0001 C CNN
+F 3 "~" H 5900 4750 50  0001 C CNN
+	1    5900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE7591
+P 6300 4150
+AR Path="/5FBE301B/5FC0C355/5FDE7591" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE7591" Ref="P314"  Part="1" 
+F 0 "P314" H 6200 4150 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6408 4240 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 6300 4150 50  0001 C CNN
+F 3 "~" H 6300 4150 50  0001 C CNN
+	1    6300 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE7597
+P 6300 4250
+AR Path="/5FBE301B/5FC0C355/5FDE7597" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE7597" Ref="P315"  Part="1" 
+F 0 "P315" H 6200 4250 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6408 4340 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 6300 4250 50  0001 C CNN
+F 3 "~" H 6300 4250 50  0001 C CNN
+	1    6300 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE759D
+P 6300 4350
+AR Path="/5FBE301B/5FC0C355/5FDE759D" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE759D" Ref="P316"  Part="1" 
+F 0 "P316" H 6200 4350 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6408 4440 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 6300 4350 50  0001 C CNN
+F 3 "~" H 6300 4350 50  0001 C CNN
+	1    6300 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE75A3
+P 6300 4450
+AR Path="/5FBE301B/5FC0C355/5FDE75A3" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE75A3" Ref="P317"  Part="1" 
+F 0 "P317" H 6200 4450 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6408 4540 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 6300 4450 50  0001 C CNN
+F 3 "~" H 6300 4450 50  0001 C CNN
+	1    6300 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE75A9
+P 6300 4550
+AR Path="/5FBE301B/5FC0C355/5FDE75A9" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE75A9" Ref="P318"  Part="1" 
+F 0 "P318" H 6200 4550 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6408 4640 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 6300 4550 50  0001 C CNN
+F 3 "~" H 6300 4550 50  0001 C CNN
+	1    6300 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE75AF
+P 6300 4650
+AR Path="/5FBE301B/5FC0C355/5FDE75AF" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE75AF" Ref="P319"  Part="1" 
+F 0 "P319" H 6200 4650 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6408 4740 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 6300 4650 50  0001 C CNN
+F 3 "~" H 6300 4650 50  0001 C CNN
+	1    6300 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male P?
+U 1 1 5FDE75B5
+P 6300 4750
+AR Path="/5FBE301B/5FC0C355/5FDE75B5" Ref="P?"  Part="1" 
+AR Path="/5FBE301B/5FDE75B5" Ref="P320"  Part="1" 
+F 0 "P320" H 6200 4750 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 6408 4840 50  0001 C CNN
+F 2 "ESP32-HAT:ProtoPad-Drill1mm" H 6300 4750 50  0001 C CNN
+F 3 "~" H 6300 4750 50  0001 C CNN
+	1    6300 4750
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
