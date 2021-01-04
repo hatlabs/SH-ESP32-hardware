@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 11 10
 Title "Sailor Hat for ESP32"
 Date "2020-11-25"
 Rev "0.2.0"
@@ -736,8 +736,8 @@ P 1850 5500
 F 0 "D1101" V 1804 5587 50  0000 L CNN
 F 1 "BAT54A" V 1895 5587 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-523" H 1925 5625 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 1730 5500 50  0001 C CNN
-F 4 "C134407" V 1850 5500 50  0001 C CNN "LCSC"
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-BAT54A_C83936.pdf" H 1730 5500 50  0001 C CNN
+F 4 "C83936" V 1850 5500 50  0001 C CNN "LCSC"
 	1    1850 5500
 	0    -1   1    0   
 $EndComp
@@ -758,8 +758,8 @@ P 1850 6750
 F 0 "D1102" V 1896 6837 50  0000 L CNN
 F 1 "BAT54A" V 1805 6837 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-523" H 1925 6875 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 1730 6750 50  0001 C CNN
-F 4 "C134407" V 1850 6750 50  0001 C CNN "LCSC"
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-BAT54A_C83936.pdf" H 1730 6750 50  0001 C CNN
+F 4 "C83936" V 1850 6750 50  0001 C CNN "LCSC"
 	1    1850 6750
 	0    -1   -1   0   
 $EndComp
@@ -788,19 +788,6 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 2230 5300 50  0001 C CNN
 F 3 "~" H 2300 5300 50  0001 C CNN
 F 4 "C25744" H 2300 5300 50  0001 C CNN "LCSC"
 	1    2300 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5FBDFE88
-P 2300 5100
-AR Path="/5FBDFE88" Ref="#PWR?"  Part="1" 
-AR Path="/5FC3847D/5FBDFE88" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 2300 4950 50  0001 C CNN
-F 1 "+3.3V" H 2315 5273 50  0000 C CNN
-F 2 "" H 2300 5100 50  0001 C CNN
-F 3 "" H 2300 5100 50  0001 C CNN
-	1    2300 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1098,7 +1085,6 @@ Wire Wire Line
 	4900 2800 4900 2600
 Wire Wire Line
 	4900 2600 5250 2600
-Connection ~ 2300 5100
 Wire Notes Line
 	4000 2325 6750 2325
 Wire Notes Line

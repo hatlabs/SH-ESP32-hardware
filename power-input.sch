@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 11
+Sheet 2 10
 Title "Sailor Hat for ESP32"
 Date "2020-11-25"
 Rev "0.2.0"
@@ -22,10 +22,10 @@ AR Path="/5C3476D8/5E467AC2" Ref="F?"  Part="1"
 AR Path="/5E460E30/5E467AC2" Ref="F?"  Part="1" 
 AR Path="/5F6FAF6E/5E467AC2" Ref="F301"  Part="1" 
 F 0 "F301" V 3653 2100 50  0000 C CNN
-F 1 "FSMD012-1206-R" V 3744 2100 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" V 3780 2100 50  0001 C CNN
+F 1 "mSMD050-60V" V 3744 2100 50  0000 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric" V 3780 2100 50  0001 C CNN
 F 3 "~" H 3850 2100 50  0001 C CNN
-F 4 "C220144" H 3850 2100 50  0001 C CNN "LCSC"
+F 4 "C70113" H 3850 2100 50  0001 C CNN "LCSC"
 	1    3850 2100
 	0    1    1    0   
 $EndComp
@@ -469,7 +469,7 @@ Wire Wire Line
 Connection ~ 3800 4800
 Wire Wire Line
 	3800 4800 3850 4800
-Text GLabel 1900 3500 0    50   Input ~ 0
+Text GLabel 1900 4100 0    50   Input ~ 0
 USB_5V
 Text Notes 4250 3750 0    50   ~ 0
 Converter IC voltage range 4.5-50V,\nhowever, Vin needs to be a bit higher\nto give some headroom for the PTC\nfuse.
@@ -577,23 +577,11 @@ Wire Wire Line
 Text Notes 1350 1050 0    50   ~ 0
 CAN12V_Prot
 Wire Wire Line
-	3550 3500 3550 4800
-$Sheet
-S 2350 3300 750  450 
-U 5FBC3428
-F0 "Ideal diode 1" 50
-F1 "ideal_diode.sch" 50
-F2 "Input" I L 2350 3500 50 
-F3 "Output" B R 3100 3500 50 
-$EndSheet
-Wire Wire Line
-	3550 3500 3100 3500
-Wire Wire Line
-	2350 3500 1900 3500
+	3550 4100 3550 4800
 Connection ~ 5750 2100
 Wire Wire Line
 	1900 4800 3550 4800
-Text Notes 2150 3050 0    50   ~ 0
+Text Notes 2150 3650 0    50   ~ 0
 Prevent feeding Vin to USB
 $Comp
 L Device:D_Schottky D?
@@ -626,4 +614,24 @@ Wire Wire Line
 	1600 1400 6500 1400
 Text Notes 6300 3850 0    50   ~ 0
 MWSA0518S-100MT would be enough\nas well.
+$Comp
+L Device:D_Schottky D?
+U 1 1 5FF3661F
+P 2800 4100
+AR Path="/5C3476D8/5FF3661F" Ref="D?"  Part="1" 
+AR Path="/5CA65CC5/5FF3661F" Ref="D?"  Part="1" 
+AR Path="/5F6FAF6E/5FF3661F" Ref="D201"  Part="1" 
+F 0 "D201" H 2650 3850 50  0000 L CNN
+F 1 "B5819W" H 2550 3950 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 2800 4100 50  0001 C CNN
+F 3 "~" H 2800 4100 50  0001 C CNN
+F 4 "" V 2800 4100 50  0001 C CNN "Notes"
+F 5 "C8598" H 2800 4100 50  0001 C CNN "LCSC"
+	1    2800 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 4100 2650 4100
+Wire Wire Line
+	2950 4100 3550 4100
 $EndSCHEMATC
