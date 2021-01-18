@@ -154,9 +154,9 @@ Text Label 3050 2200 0    50   ~ 0
 CAN_GND
 Text Label 3050 2100 0    50   ~ 0
 CAN_12V
-Text Label 4100 2400 0    50   ~ 0
+Text Label 3050 2400 0    50   ~ 0
 CAN_L
-Text Label 4100 2300 0    50   ~ 0
+Text Label 3050 2300 0    50   ~ 0
 CAN_H
 Text Label 4900 4500 3    50   ~ 0
 CAN_GND
@@ -341,26 +341,6 @@ F 4 "C277875" H 7000 1550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SH-ESP32:RCLAMP0524P-N U601
-U 1 1 5FBB6763
-P 3300 2950
-F 0 "U601" H 3300 3375 50  0000 C CNN
-F 1 "RCLAMP0524P-N" H 3300 3284 50  0000 C CNN
-F 2 "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm" H 3300 2850 50  0001 C CNN
-F 3 "" H 3300 2850 50  0001 C CNN
-F 4 "C316044" H 3300 2950 50  0001 C CNN "LCSC"
-	1    3300 2950
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2950 2950
-NoConn ~ 2950 3050
-NoConn ~ 3650 2950
-NoConn ~ 3650 3050
-Text Label 3250 3400 3    50   ~ 0
-CAN_GND
-Text Label 3350 3400 3    50   ~ 0
-CAN_GND
-$Comp
 L Device:C C?
 U 1 1 5FBC67EE
 P 4850 1750
@@ -411,38 +391,6 @@ F 4 "C8410" H 1650 2200 50  0001 C CNN "LCSC"
 	1    1650 2200
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1850 2300 2800 2300
-Wire Wire Line
-	1850 2400 2900 2400
-Wire Wire Line
-	2950 2750 2900 2750
-Wire Wire Line
-	2900 2750 2900 2400
-Connection ~ 2900 2400
-Wire Wire Line
-	2900 2400 3700 2400
-Wire Wire Line
-	3650 2750 3700 2750
-Wire Wire Line
-	3700 2750 3700 2400
-Connection ~ 3700 2400
-Wire Wire Line
-	3700 2400 4100 2400
-Wire Wire Line
-	2950 2850 2800 2850
-Wire Wire Line
-	2800 2850 2800 2300
-Connection ~ 2800 2300
-Wire Wire Line
-	2800 2300 3800 2300
-Wire Wire Line
-	3650 2850 3800 2850
-Wire Wire Line
-	3800 2850 3800 2300
-Connection ~ 3800 2300
-Wire Wire Line
-	3800 2300 4100 2300
 Text Notes 7250 1050 0    50   ~ 0
 Input voltage up to 40V
 $Comp
@@ -528,4 +476,8 @@ Wire Wire Line
 Connection ~ 2100 4500
 Wire Wire Line
 	2100 4500 2200 4500
+Wire Wire Line
+	1850 2300 3050 2300
+Wire Wire Line
+	1850 2400 3050 2400
 $EndSCHEMATC
