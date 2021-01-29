@@ -7,10 +7,10 @@ Sheet 9 10
 Title "Sailor Hat with ESP32"
 Date "2021-01-28"
 Rev "0.3.0"
-Comp "Hat Laboratories"
+Comp "Hat Labs Ltd"
 Comment1 "https://creativecommons.org/licenses/by-sa/4.0"
 Comment2 "To view a copy of this license, visit "
-Comment3 "Sailor Hat for ESP32 is licensed under CC BY-SA 4.0."
+Comment3 "SH-ESP32 is licensed under CC BY-SA 4.0."
 Comment4 ""
 $EndDescr
 Text Notes 1600 1600 0    50   ~ 0
