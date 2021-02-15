@@ -150,9 +150,9 @@ F 4 "C1017" V 4450 1450 50  0001 C CNN "LCSC"
 $EndComp
 Text Notes 1400 2050 2    50   ~ 0
 NMEA 2000
-Text Label 3050 2200 0    50   ~ 0
-CAN_GND
 Text Label 3050 2100 0    50   ~ 0
+CAN_GND
+Text Label 3050 2200 0    50   ~ 0
 CAN_12V
 Text Label 3050 2400 0    50   ~ 0
 CAN_L
@@ -413,9 +413,9 @@ WIRE-LINK from CAN12V_Prot to Vin_Prot
 Wire Wire Line
 	8450 2500 8100 2500
 Wire Wire Line
-	1850 2100 3050 2100
-Wire Wire Line
 	1850 2200 3050 2200
+Wire Wire Line
+	1850 2100 3050 2100
 Text Label 8100 2500 2    50   ~ 0
 CAN12V_prot
 Text Label 8300 2600 2    50   ~ 0
