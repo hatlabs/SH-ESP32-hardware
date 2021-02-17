@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 10
 Title "Sailor Hat with ESP32"
-Date "2021-01-28"
-Rev "0.3.0"
+Date "2021-02-15"
+Rev "0.3.1"
 Comp "Hat Labs Ltd"
 Comment1 "https://creativecommons.org/licenses/by-sa/4.0"
 Comment2 "To view a copy of this license, visit "
@@ -107,12 +107,12 @@ AR Path="/5C3476D8/5CA62D7A" Ref="L?"  Part="1"
 AR Path="/5CA65CC5/5CA62D7A" Ref="L?"  Part="1" 
 AR Path="/5F6FAF6E/5CA62D7A" Ref="L301"  Part="1" 
 F 0 "L301" V 8740 4250 50  0000 C CNN
-F 1 "CBC3225T100KR" V 8649 4250 50  0000 C CNN
-F 2 "Inductor_SMD:L_1210_3225Metric" H 8550 4250 50  0001 C CNN
+F 1 "MWSA0503S-100MT" V 8649 4250 50  0000 C CNN
+F 2 "Inductor_SMD:L_Sunlord_MWSA0518_5.4x5.2mm" H 8550 4250 50  0001 C CNN
 F 3 "~" H 8550 4250 50  0001 C CNN
 F 4 "" V 8550 4250 50  0001 C CNN "URL"
 F 5 "" V 8550 4250 50  0001 C CNN "Part"
-F 6 "C90321" H 8550 4250 50  0001 C CNN "LCSC"
+F 6 "C408412" H 8550 4250 50  0001 C CNN "LCSC"
 	1    8550 4250
 	0    -1   -1   0   
 $EndComp
@@ -503,40 +503,21 @@ Wire Wire Line
 Connection ~ 3550 4800
 Wire Wire Line
 	3550 4800 3800 4800
-Wire Wire Line
-	2050 2200 1950 2200
-Wire Wire Line
-	2050 2300 2050 2200
-$Comp
-L power:GND #PWR?
-U 1 1 5F8B7EDA
-P 2050 2300
-AR Path="/5F8B7EDA" Ref="#PWR?"  Part="1" 
-AR Path="/5C3476D8/5F8B7EDA" Ref="#PWR?"  Part="1" 
-AR Path="/5E460E30/5F8B7EDA" Ref="#PWR?"  Part="1" 
-AR Path="/5F6FAF6E/5F8B7EDA" Ref="#PWR0311"  Part="1" 
-F 0 "#PWR0311" H 2050 2050 50  0001 C CNN
-F 1 "GND" H 2055 2127 50  0000 C CNN
-F 2 "" H 2050 2300 50  0001 C CNN
-F 3 "" H 2050 2300 50  0001 C CNN
-	1    2050 2300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J301
 U 1 1 5F8B6C12
-P 1750 2100
-F 0 "J301" H 1750 2300 50  0000 C CNN
-F 1 "Conn_01x02" H 1750 2200 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1750 2100 50  0001 C CNN
-F 3 "~" H 1750 2100 50  0001 C CNN
-F 4 "C8396" H 1750 2100 50  0001 C CNN "LCSC"
-	1    1750 2100
+P 1750 2000
+F 0 "J301" H 1750 2200 50  0000 C CNN
+F 1 "Conn_01x02" H 1750 2100 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1750 2000 50  0001 C CNN
+F 3 "~" H 1750 2000 50  0001 C CNN
+F 4 "C8396" H 1750 2000 50  0001 C CNN "LCSC"
+	1    1750 2000
 	-1   0    0    -1  
 $EndComp
 Text Label 3500 2100 2    50   ~ 0
 Vin
-Text Label 2050 2100 0    50   ~ 0
+Text Label 2300 2100 0    50   ~ 0
 Vin
 $Comp
 L Connector_Generic:Conn_01x02 J303
@@ -595,8 +576,6 @@ Wire Wire Line
 	5750 2100 5950 2100
 Wire Wire Line
 	6250 2100 6500 2100
-Wire Wire Line
-	1950 2100 3700 2100
 Wire Wire Line
 	6500 1400 6500 2100
 Connection ~ 6500 2100
@@ -796,4 +775,25 @@ Wire Wire Line
 	5250 4800 5600 4800
 Text Label 6250 4800 0    50   ~ 0
 IN
+Wire Wire Line
+	1950 2100 3700 2100
+$Comp
+L power:GND #PWR?
+U 1 1 5F8B7EDA
+P 2050 2300
+AR Path="/5F8B7EDA" Ref="#PWR?"  Part="1" 
+AR Path="/5C3476D8/5F8B7EDA" Ref="#PWR?"  Part="1" 
+AR Path="/5E460E30/5F8B7EDA" Ref="#PWR?"  Part="1" 
+AR Path="/5F6FAF6E/5F8B7EDA" Ref="#PWR0311"  Part="1" 
+F 0 "#PWR0311" H 2050 2050 50  0001 C CNN
+F 1 "GND" H 2055 2127 50  0000 C CNN
+F 2 "" H 2050 2300 50  0001 C CNN
+F 3 "" H 2050 2300 50  0001 C CNN
+	1    2050 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2300 2050 2000
+Wire Wire Line
+	2050 2000 1950 2000
 $EndSCHEMATC
