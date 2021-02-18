@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 7 10
 Title "Sailor Hat with ESP32"
-Date "2021-02-15"
+Date "2021-02-18"
 Rev "0.3.1"
 Comp "Hat Labs Ltd"
 Comment1 "https://creativecommons.org/licenses/by-sa/4.0"
