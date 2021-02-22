@@ -697,39 +697,4 @@ $EndComp
 Wire Wire Line
 	4700 3250 4700 3050
 Connection ~ 4400 3250
-$Comp
-L Mechanical:MountingHole H901
-U 1 1 60160A7D
-P 1900 3900
-F 0 "H901" H 2000 3946 50  0000 L CNN
-F 1 "Tooling hole" H 2000 3855 50  0000 L CNN
-F 2 "SH-ESP32:JlcpcbToolingHole" H 1900 3900 50  0001 C CNN
-F 3 "~" H 1900 3900 50  0001 C CNN
-	1    1900 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H902
-U 1 1 601616D4
-P 1900 4200
-F 0 "H902" H 2000 4246 50  0000 L CNN
-F 1 "Tooling hole" H 2000 4155 50  0000 L CNN
-F 2 "SH-ESP32:JlcpcbToolingHole" H 1900 4200 50  0001 C CNN
-F 3 "~" H 1900 4200 50  0001 C CNN
-	1    1900 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H903
-U 1 1 6016213C
-P 1900 4500
-F 0 "H903" H 2000 4546 50  0000 L CNN
-F 1 "Tooling hole" H 2000 4455 50  0000 L CNN
-F 2 "SH-ESP32:JlcpcbToolingHole" H 1900 4500 50  0001 C CNN
-F 3 "~" H 1900 4500 50  0001 C CNN
-	1    1900 4500
-	1    0    0    -1  
-$EndComp
-Text Notes 1600 3600 0    50   ~ 0
-JLCPCB 1.152 mm tooling holes
 $EndSCHEMATC
