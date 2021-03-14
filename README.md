@@ -20,8 +20,6 @@ Some of these applications require a small amount of additional components. Simp
 
 Since the board has native WiFi and NMEA 2000 compatible CAN bus connectivity, it can be used to create boards with either Signal K or native NMEA 2000 connectivity (or both!).
 
-The board will be available for order once the design, testing, and compliance validation have been completed and logistics sorted out.
-
 ## Features
 
 The main design features include:
@@ -40,10 +38,18 @@ The main design features include:
 - Through-plated perf board area for custom additions
 - Board designed to fit standard low-cost waterproof 100x68x50 mm enclosures
 
-Rendering of a rev 0.2.0 prototype board:
+Rendering of a rev 0.3.1 board:
 
 Front side.
-![Rev 0.2.0 board](images/pcb_rev_0.2.0.jpg)
+![Rev 0.3.1 board](images/pcb_rev_0.3.1.jpg)
 
 Back side.
-![Rev 0.2.0 board back](images/pcb_rev_0.2.0-back.jpg)
+![Rev 0.3.1 board back](images/pcb_rev_0.3.1-back.jpg)
+
+## Getting SH-ESP32
+
+SH-ESP32 is available for purchase at the [Hat Labs web store](https://hatlabs.fi/).
+
+## Documentation
+
+SH-ESP32 documentation is available at the [project GitHub Pages](https://hatlabs.github.io/sh-esp32/).
