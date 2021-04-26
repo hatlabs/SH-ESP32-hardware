@@ -1954,7 +1954,6 @@
     (descr "USB Micro-B receptacle, through-hole, vertical, http://katalog.we-online.de/em/datasheet/614105150721.pdf")
     (tags "usb micro receptacle vertical")
     (path /5F89C30A/5F8A0329)
-    (attr virtual)
     (fp_text reference J401 (at 1.3 -2.48 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
