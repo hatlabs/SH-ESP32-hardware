@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 10
 Title "Sailor Hat with ESP32"
-Date "2021-02-18"
-Rev "0.3.1"
+Date "2021-04-26"
+Rev "1.0.0"
 Comp "Hat Labs Ltd"
 Comment1 "https://creativecommons.org/licenses/by-sa/4.0"
 Comment2 "To view a copy of this license, visit "
@@ -694,12 +694,13 @@ AR Path="/5C3476D8/60159EC7" Ref="L?"  Part="1"
 AR Path="/5CA65CC5/60159EC7" Ref="L?"  Part="1" 
 AR Path="/5F6FAF6E/60159EC7" Ref="L302"  Part="1" 
 F 0 "L302" V 4990 4800 50  0000 C CNN
-F 1 "CBC3225T100KR" V 4899 4800 50  0000 C CNN
+F 1 "LQH32PZ100MNCL" V 4899 4800 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 4800 4800 50  0001 C CNN
 F 3 "~" H 4800 4800 50  0001 C CNN
 F 4 "" V 4800 4800 50  0001 C CNN "URL"
 F 5 "" V 4800 4800 50  0001 C CNN "Part"
-F 6 "C90321" H 4800 4800 50  0001 C CNN "LCSC"
+F 6 "C464437" H 4800 4800 50  0001 C CNN "LCSC"
+F 7 "Alternative: CBC3225T100KR" V 4800 4800 50  0001 C CNN "Notes"
 	1    4800 4800
 	0    -1   -1   0   
 $EndComp
