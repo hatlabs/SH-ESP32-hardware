@@ -648,29 +648,18 @@ F 3 "~" H 5950 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J206
+L Connector_Generic:Conn_01x07 J206
 U 1 1 5FB25B29
-P 5150 6800
-F 0 "J206" H 5068 7317 50  0000 C CNN
-F 1 "IO" H 5068 7226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5150 6800 50  0001 C CNN
-F 3 "~" H 5150 6800 50  0001 C CNN
-	1    5150 6800
+P 5150 6700
+F 0 "J206" H 5068 7217 50  0000 C CNN
+F 1 "IO" H 5068 7126 50  0000 C CNN
+F 2 "SH-ESP32:PinHeader_1x07_P2.54mm_Vertical-RoundP1" H 5150 6700 50  0001 C CNN
+F 3 "~" H 5150 6700 50  0001 C CNN
+	1    5150 6700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5250 3500 4600 3500
-$Comp
-L power:GND #PWR0108
-U 1 1 5FB2B88B
-P 5500 7150
-F 0 "#PWR0108" H 5500 6900 50  0001 C CNN
-F 1 "GND" H 5505 6977 50  0000 C CNN
-F 2 "" H 5500 7150 50  0001 C CNN
-F 3 "" H 5500 7150 50  0001 C CNN
-	1    5500 7150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5350 6400 5750 6400
 Wire Wire Line
@@ -784,10 +773,6 @@ Text Label 2550 5500 0    50   ~ 0
 IO0
 Wire Wire Line
 	2300 5450 2300 5500
-Wire Wire Line
-	5350 7100 5500 7100
-Wire Wire Line
-	5500 7100 5500 7150
 Text HLabel 1450 5200 0    50   Input ~ 0
 BOOT_KEY
 Text HLabel 1450 5800 0    50   Input ~ 0

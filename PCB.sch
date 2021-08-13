@@ -594,8 +594,6 @@ Wire Wire Line
 Connection ~ 4400 2450
 Wire Wire Line
 	4400 2450 4400 2650
-Wire Wire Line
-	4400 2850 4400 3050
 Connection ~ 4700 1850
 Wire Wire Line
 	4700 1850 4700 1650
@@ -632,27 +630,6 @@ F 3 "" H 4400 3550 50  0001 C CNN
 	1    4400 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 5FC3D603
-P 4550 2850
-AR Path="/5D6F1C7C/5FC3D603" Ref="C?"  Part="1" 
-AR Path="/5C348474/5FC3D603" Ref="C?"  Part="1" 
-AR Path="/5F733BA4/5FC3D603" Ref="C?"  Part="1" 
-AR Path="/5FC0C355/5FC3D603" Ref="C1026"  Part="1" 
-F 0 "C1026" V 4450 2950 50  0000 L CNN
-F 1 "100nF" V 4450 2550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4588 2700 50  0001 C CNN
-F 3 "~" H 4550 2850 50  0001 C CNN
-F 4 "C1525" H 4550 2850 50  0001 C CNN "LCSC"
-	1    4550 2850
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	4400 2650 4400 2850
-Wire Wire Line
-	4700 2850 4700 2650
-Connection ~ 4400 2850
 Connection ~ 4400 2650
 Connection ~ 4700 2650
 $Comp
@@ -671,9 +648,6 @@ F 4 "C1525" H 4550 3050 50  0001 C CNN "LCSC"
 	1    4550 3050
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	4700 3050 4700 2850
-Connection ~ 4700 2850
 Wire Wire Line
 	4400 3250 4400 3550
 Wire Wire Line
@@ -697,4 +671,8 @@ $EndComp
 Wire Wire Line
 	4700 3250 4700 3050
 Connection ~ 4400 3250
+Wire Wire Line
+	4400 2650 4400 3050
+Wire Wire Line
+	4700 2650 4700 3050
 $EndSCHEMATC
