@@ -183,8 +183,6 @@ Wire Wire Line
 	3800 4600 3800 4800
 Text Label 7700 4800 2    50   ~ 0
 SW
-Text Label 8000 5000 0    50   ~ 0
-FB
 $Comp
 L power:GND #PWR?
 U 1 1 5CA8A650
@@ -200,8 +198,6 @@ F 3 "" H 7050 5450 50  0001 C CNN
 	1    7050 5450
 	1    0    0    -1  
 $EndComp
-Text Notes 7950 5350 0    50   ~ 0
-FB voltage divider designed to have\na 3.31V voltage at Vout.\nVfb = 1.23V
 Wire Wire Line
 	7950 4800 7550 4800
 Wire Wire Line
@@ -294,65 +290,7 @@ Wire Wire Line
 	4800 2100 5400 2100
 Text Label 9250 4250 0    50   ~ 0
 Vout
-Wire Wire Line
-	9500 4250 9850 4250
 Connection ~ 9500 4250
-Connection ~ 9500 5000
-Wire Wire Line
-	9500 5000 9500 5200
-Wire Wire Line
-	9500 4700 9500 5000
-Wire Wire Line
-	7550 5000 9500 5000
-$Comp
-L Device:R R?
-U 1 1 5CA62D90
-P 9500 4550
-AR Path="/5C3476D8/5CA62D90" Ref="R?"  Part="1" 
-AR Path="/5CA65CC5/5CA62D90" Ref="R?"  Part="1" 
-AR Path="/5F6FAF6E/5CA62D90" Ref="R302"  Part="1" 
-F 0 "R302" H 9650 4600 50  0000 C CNN
-F 1 "27k" H 9650 4500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9430 4550 50  0001 C CNN
-F 3 "~" H 9500 4550 50  0001 C CNN
-F 4 "" H 9500 4550 50  0001 C CNN "LCSC"
-	1    9500 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 4250 9500 4400
-Wire Wire Line
-	9500 5600 9500 5500
-$Comp
-L power:GND #PWR?
-U 1 1 5CA62DC4
-P 9500 5600
-AR Path="/5CA62DC4" Ref="#PWR?"  Part="1" 
-AR Path="/5C3476D8/5CA62DC4" Ref="#PWR?"  Part="1" 
-AR Path="/5CA65CC5/5CA62DC4" Ref="#PWR?"  Part="1" 
-AR Path="/5F6FAF6E/5CA62DC4" Ref="#PWR0308"  Part="1" 
-F 0 "#PWR0308" H 9500 5350 50  0001 C CNN
-F 1 "GND" H 9505 5427 50  0000 C CNN
-F 2 "" H 9500 5600 50  0001 C CNN
-F 3 "" H 9500 5600 50  0001 C CNN
-	1    9500 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5CA62D89
-P 9500 5350
-AR Path="/5C3476D8/5CA62D89" Ref="R?"  Part="1" 
-AR Path="/5CA65CC5/5CA62D89" Ref="R?"  Part="1" 
-AR Path="/5F6FAF6E/5CA62D89" Ref="R303"  Part="1" 
-F 0 "R303" H 9570 5396 50  0000 L CNN
-F 1 "16k" H 9570 5305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9430 5350 50  0001 C CNN
-F 3 "~" H 9500 5350 50  0001 C CNN
-F 4 "" H 9500 5350 50  0001 C CNN "LCSC"
-	1    9500 5350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5F8DD969
@@ -677,9 +615,10 @@ L SH-ESP32:XL1509-ADJE1 U202
 U 1 1 61153696
 P 7200 5000
 F 0 "U202" H 7200 5440 50  0000 C CNN
-F 1 "XL1509-ADJE1" H 7200 5349 50  0000 C CNN
+F 1 "XL1509-3.3" H 7200 5349 50  0000 C CNN
 F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 7050 5000 50  0001 C CNN
 F 3 "" H 7050 5000 50  0001 C CNN
+F 4 "C2681226" H 7200 5000 50  0001 C CNN "LCSC"
 	1    7200 5000
 	1    0    0    -1  
 $EndComp
@@ -714,27 +653,6 @@ Wire Wire Line
 	6750 5450 6750 5000
 Wire Wire Line
 	6750 5000 6850 5000
-$Comp
-L Device:C C201
-U 1 1 611632AF
-P 9850 4750
-F 0 "C201" H 9965 4796 50  0000 L CNN
-F 1 "20nF" H 9965 4705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9888 4600 50  0001 C CNN
-F 3 "~" H 9850 4750 50  0001 C CNN
-F 4 "" H 9850 4750 50  0001 C CNN "LCSC"
-	1    9850 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 5000 9850 5000
-Wire Wire Line
-	9850 5000 9850 4900
-Wire Wire Line
-	9850 4600 9850 4250
-Connection ~ 9850 4250
-Wire Wire Line
-	9850 4250 10300 4250
 Connection ~ 10300 4250
 Wire Wire Line
 	10300 4250 10550 4250
@@ -748,7 +666,14 @@ F 0 "J204" H 1318 1175 50  0000 C CNN
 F 1 "Conn_01x02" H 1318 1266 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1400 1500 50  0001 C CNN
 F 3 "~" H 1400 1500 50  0001 C CNN
+F 4 "C492401" H 1400 1500 50  0001 C CNN "LCSC"
 	1    1400 1500
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	9500 4250 10300 4250
+Wire Wire Line
+	9500 5000 7550 5000
+Wire Wire Line
+	9500 4250 9500 5000
 $EndSCHEMATC

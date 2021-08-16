@@ -118,7 +118,7 @@ CAN_RX
 Text HLabel 8300 4300 2    50   Input ~ 0
 CAN_TX
 Text Label 4800 3500 2    50   ~ 0
-CAN_5V
+CAN_3V3
 $Comp
 L Device:Ferrite_Bead FB?
 U 1 1 5F94C9B0
@@ -158,7 +158,7 @@ Wire Wire Line
 Text Label 3350 1450 2    50   ~ 0
 CAN_12V
 Text Label 7950 1450 0    50   ~ 0
-CAN_5V
+CAN_3V3
 Text Label 7000 2200 3    50   ~ 0
 CAN_GND
 Text Label 5400 2050 3    50   ~ 0
@@ -197,10 +197,10 @@ AR Path="/5E460E30/5F94C99B" Ref="C?"  Part="1"
 AR Path="/5F6FAF6E/5F94C99B" Ref="C?"  Part="1" 
 AR Path="/5F733BA4/5F94C99B" Ref="C605"  Part="1" 
 F 0 "C605" H 7765 1846 50  0000 L CNN
-F 1 "2.2uF/16V" H 7765 1755 50  0000 L CNN
+F 1 "10uF/10V" H 7765 1755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7688 1650 50  0001 C CNN
 F 3 "~" H 7650 1800 50  0001 C CNN
-F 4 "C23630" H 7650 1800 50  0001 C CNN "LCSC"
+F 4 "C19702" H 7650 1800 50  0001 C CNN "LCSC"
 	1    7650 1800
 	1    0    0    -1  
 $EndComp
@@ -214,10 +214,10 @@ AR Path="/5E460E30/5F94C994" Ref="C?"  Part="1"
 AR Path="/5F6FAF6E/5F94C994" Ref="C?"  Part="1" 
 AR Path="/5F733BA4/5F94C994" Ref="C603"  Part="1" 
 F 0 "C603" H 6515 1846 50  0000 L CNN
-F 1 "2.2uF/50V" H 6515 1755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6438 1650 50  0001 C CNN
+F 1 "10uF/50V" H 6515 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6438 1650 50  0001 C CNN
 F 3 "~" H 6400 1800 50  0001 C CNN
-F 4 "C49217" H 6400 1800 50  0001 C CNN "LCSC"
+F 4 "C13585" H 6400 1800 50  0001 C CNN "LCSC"
 	1    6400 1800
 	1    0    0    -1  
 $EndComp
@@ -316,10 +316,10 @@ AR Path="/5E460E30/5F94C95C" Ref="U?"  Part="1"
 AR Path="/5F6FAF6E/5F94C95C" Ref="U?"  Part="1" 
 AR Path="/5F733BA4/5F94C95C" Ref="U603"  Part="1" 
 F 0 "U603" H 7000 1917 50  0000 C CNN
-F 1 "H7550-H#" H 7000 1826 50  0000 C CNN
+F 1 "PJ75AL33SA" H 7000 1826 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7000 1875 50  0001 C CIN
 F 3 "" H 7000 1650 50  0001 C CNN
-F 4 "C277875" H 7000 1550 50  0001 C CNN "LCSC"
+F 4 "C411736" H 7000 1550 50  0001 C CNN "LCSC"
 	1    7000 1550
 	1    0    0    -1  
 $EndComp
@@ -375,7 +375,7 @@ F 4 " C8410" H 1650 2200 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 Text Notes 7250 1050 0    50   ~ 0
-Input voltage up to 40V
+Input voltage up to 35V.\nOutput current at least 100mA.
 Wire Wire Line
 	8450 2600 8300 2600
 Text Notes 7650 2850 0    50   ~ 0
@@ -458,6 +458,7 @@ F 0 "U502" H 7050 4867 50  0000 C CNN
 F 1 "ADuM1201AR" H 7050 4776 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7050 4000 50  0001 C CIN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf" H 7050 4300 50  0001 C CNN
+F 4 "C9669" H 7050 4400 50  0001 C CNN "LCSC"
 	1    7050 4400
 	1    0    0    -1  
 $EndComp
@@ -484,7 +485,7 @@ Wire Wire Line
 	6300 3650 6300 3550
 Connection ~ 6300 3550
 Text Label 6050 3550 2    50   ~ 0
-CAN_5V
+CAN_3V3
 Text Label 6300 4050 2    50   ~ 0
 CAN_GND
 Wire Wire Line
@@ -514,17 +515,6 @@ Wire Wire Line
 	5800 4550 5700 4550
 Wire Wire Line
 	5800 4600 5800 4550
-$Comp
-L Interface_CAN_LIN:SN65HVD231 U501
-U 1 1 6118CEF3
-P 5300 4350
-F 0 "U501" H 5200 4750 50  0000 C CNN
-F 1 "SN65HVD231" H 5000 4650 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 3850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 5200 4750 50  0001 C CNN
-	1    5300 4350
-	-1   0    0    -1  
-$EndComp
 Text Label 6500 4700 2    50   ~ 0
 CAN_GND
 Wire Wire Line
@@ -542,6 +532,7 @@ F 0 "J501" H 8568 2275 50  0000 C CNN
 F 1 "Conn_01x02" H 8568 2366 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8650 2600 50  0001 C CNN
 F 3 "~" H 8650 2600 50  0001 C CNN
+F 4 "C492401" H 8650 2600 50  0001 C CNN "LCSC"
 	1    8650 2600
 	1    0    0    1   
 $EndComp
@@ -549,10 +540,38 @@ Wire Wire Line
 	5300 4900 5300 4750
 Text Label 5300 4900 3    50   ~ 0
 CAN_GND
-Text Label 5800 4600 3    50   ~ 0
-CAN_GND
 Text Label 6350 4250 0    50   ~ 0
 D
 Text Label 6150 4450 0    50   ~ 0
 R
+$Comp
+L Interface_CAN_LIN:SN65HVD231 U501
+U 1 1 6118CEF3
+P 5300 4350
+F 0 "U501" H 5200 4750 50  0000 C CNN
+F 1 "SN65HVD231" H 5000 4650 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 5200 4750 50  0001 C CNN
+F 4 " C129257" H 5300 4350 50  0001 C CNN "LCSC"
+	1    5300 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R503
+U 1 1 611C6255
+P 5800 4700
+F 0 "R503" H 5859 4746 50  0000 L CNN
+F 1 "10k" H 5859 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5800 4700 50  0001 C CNN
+F 3 "~" H 5800 4700 50  0001 C CNN
+F 4 "C25744" H 5800 4700 50  0001 C CNN "LCSC"
+	1    5800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4900 5800 4800
+Text Notes 5700 5350 0    50   ~ 0
+Rs provides slope control\nto limit EMI.
+Text Label 5800 4900 0    50   ~ 0
+CAN_GND
 $EndSCHEMATC
