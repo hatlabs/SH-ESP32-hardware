@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 10
 Title "Sailor Hat with ESP32"
-Date "2021-04-26"
-Rev "1.0.0"
+Date "2021-08-17"
+Rev "2.0.0"
 Comp "Hat Labs Ltd"
 Comment1 "https://creativecommons.org/licenses/by-sa/4.0"
 Comment2 "To view a copy of this license, visit "
@@ -706,10 +706,10 @@ L Device:C_Small C201
 U 1 1 611BAE95
 P 9050 4650
 F 0 "C201" H 9142 4696 50  0000 L CNN
-F 1 "20nF" H 9142 4605 50  0000 L CNN
+F 1 "22nF" H 9142 4605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9050 4650 50  0001 C CNN
 F 3 "~" H 9050 4650 50  0001 C CNN
-F 4 "C16772" H 9050 4650 50  0001 C CNN "LCSC"
+F 4 "C1532" H 9050 4650 50  0001 C CNN "LCSC"
 	1    9050 4650
 	1    0    0    -1  
 $EndComp

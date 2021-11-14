@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 10
 Title "Sailor Hat with ESP32"
-Date "2021-04-26"
-Rev "1.0.0"
+Date "2021-08-17"
+Rev "2.0.0"
 Comp "Hat Labs Ltd"
 Comment1 "https://creativecommons.org/licenses/by-sa/4.0"
 Comment2 "To view a copy of this license, visit "
@@ -59,7 +59,7 @@ F 0 "J801" H 1680 2492 50  0000 L CNN
 F 1 "Conn_01x03" H 1680 2401 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1600 2450 50  0001 C CNN
 F 3 "~" H 1600 2450 50  0001 C CNN
-F 4 "C358685" H 1600 2450 50  0001 C CNN "LCSC"
+F 4 "C49257" H 1600 2450 50  0001 C CNN "LCSC"
 	1    1600 2450
 	-1   0    0    1   
 $EndComp
