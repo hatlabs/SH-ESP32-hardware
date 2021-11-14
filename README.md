@@ -38,13 +38,13 @@ The main design features include:
 - Through-plated perf board area for custom additions
 - Board designed to fit standard low-cost waterproof 100x68x50 mm enclosures
 
-Rendering of a rev 0.3.1 board:
+Rendering of a revision 2.0.0 board:
 
 Front side.
-![Rev 0.3.1 board](images/pcb_rev_0.3.1.jpg)
+![Rev. 2.0.0 board](images/pcb_rev_2.0.0.jpg)
 
 Back side.
-![Rev 0.3.1 board back](images/pcb_rev_0.3.1-back.jpg)
+![Rev. 2.0.0 board bottom side](images/pcb_rev_2.0.0-back.jpg)
 
 ## Getting SH-ESP32
 
