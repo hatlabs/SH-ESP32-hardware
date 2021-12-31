@@ -291,23 +291,29 @@
         )
       )
     )
-    (symbol "Device:Ferrite_Bead" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "Device:FerriteBead" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (id 0) (at -3.81 0.635 90)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Device_Ferrite_Bead" (id 1) (at 3.81 0 90)
+      (property "Value" "FerriteBead" (id 1) (at 3.81 0 90)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (id 2) (at -1.778 0 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 4) (at 0 0 0)
+      (property "ki_keywords" "L ferrite bead inductor filter" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Ferrite_Bead_0_1"
+      (property "ki_description" "Ferrite bead" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "FerriteBead_0_1"
         (polyline
           (pts
             (xy 0 -1.27)
@@ -336,7 +342,7 @@
           (fill (type none))
         )
       )
-      (symbol "Ferrite_Bead_1_1"
+      (symbol "FerriteBead_1_1"
         (pin passive line (at 0 3.81 270) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -720,6 +726,7 @@
       )
     )
   )
+
 
   (junction (at 261.62 107.95) (diameter 0) (color 0 0 0 0)
     (uuid 1b7e982a-2932-4f80-8152-ce96144c266c)
@@ -1467,7 +1474,7 @@
     (pin "2" (uuid 81e48992-9160-4e9b-8eb4-a1202727fbc4))
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead") (at 113.03 53.34 270) (unit 1)
+  (symbol (lib_id "Device:FerriteBead") (at 113.03 53.34 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fba176f)
     (property "Reference" "FB301" (id 0) (at 113.03 46.3804 90))

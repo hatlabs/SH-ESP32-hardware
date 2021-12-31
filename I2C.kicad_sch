@@ -127,23 +127,29 @@
         )
       )
     )
-    (symbol "Device:Ferrite_Bead" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "Device:FerriteBead" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (id 0) (at -3.81 0.635 90)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Device_Ferrite_Bead" (id 1) (at 3.81 0 90)
+      (property "Value" "FerriteBead" (id 1) (at 3.81 0 90)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (id 2) (at -1.778 0 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 4) (at 0 0 0)
+      (property "ki_keywords" "L ferrite bead inductor filter" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Ferrite_Bead_0_1"
+      (property "ki_description" "Ferrite bead" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "FerriteBead_0_1"
         (polyline
           (pts
             (xy 0 -1.27)
@@ -172,7 +178,7 @@
           (fill (type none))
         )
       )
-      (symbol "Ferrite_Bead_1_1"
+      (symbol "FerriteBead_1_1"
         (pin passive line (at 0 3.81 270) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1000,7 +1006,7 @@
     (pin "1" (uuid 1af93a30-e96e-4701-9b61-9eb855ec2dee))
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead") (at 142.24 68.58 90) (mirror x) (unit 1)
+  (symbol (lib_id "Device:FerriteBead") (at 142.24 68.58 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005faa435b)
     (property "Reference" "FB701" (id 0) (at 142.24 61.6204 90))
@@ -1018,7 +1024,7 @@
     (pin "2" (uuid 138d9654-b202-4d9e-9009-a9a75ee7024f))
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead") (at 142.24 109.22 90) (mirror x) (unit 1)
+  (symbol (lib_id "Device:FerriteBead") (at 142.24 109.22 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005faa482a)
     (property "Reference" "FB703" (id 0) (at 142.24 102.2604 90))
@@ -1036,7 +1042,7 @@
     (pin "2" (uuid 56678a1d-a811-4336-9aa4-a2afb3dfddc1))
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead") (at 142.24 88.9 90) (mirror x) (unit 1)
+  (symbol (lib_id "Device:FerriteBead") (at 142.24 88.9 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005faa5525)
     (property "Reference" "FB702" (id 0) (at 142.24 81.9404 90))
