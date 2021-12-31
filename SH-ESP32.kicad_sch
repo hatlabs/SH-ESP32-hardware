@@ -1073,7 +1073,7 @@
       (reference "L301") (unit 1) (value "SMMS0650-470M") (footprint "SH-ESP32:SMMS0650-1R0M")
     )
     (path "/00000000-0000-0000-0000-00005f6faf6e/00000000-0000-0000-0000-000060159ec7"
-      (reference "L302") (unit 1) (value "NLCV32T-100K-PFR") (footprint "Inductor_SMD:L_1210_3225Metric")
+      (reference "L302") (unit 1) (value "CBC3225T100KR") (footprint "Inductor_SMD:L_1210_3225Metric")
     )
     (path "/00000000-0000-0000-0000-00005f89c30a/00000000-0000-0000-0000-00005f8bcea2"
       (reference "Q401") (unit 1) (value "S8050") (footprint "Package_TO_SOT_SMD:SOT-23")
