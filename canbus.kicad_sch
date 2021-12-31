@@ -6,8 +6,8 @@
 
   (title_block
     (title "Sailor Hat with ESP32")
-    (date "2021-08-17")
-    (rev "2.0.0")
+    (date "2021-12-31")
+    (rev "2.0.1")
     (company "Hat Labs Ltd")
     (comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
     (comment 2 "To view a copy of this license, visit ")
@@ -1274,7 +1274,7 @@
     (uuid f8d2d783-4a19-4a62-8a54-ce372c92383d)
   )
 
-  (text "5V power feed for the bus side of the CAN bus tranceiver"
+  (text "3.3V power feed for the bus side of the CAN bus tranceiver"
     (at 120.65 20.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 13f97320-83d6-4461-b67a-c35bdaa69c24)
@@ -1292,13 +1292,17 @@
     (uuid 5471749e-052f-4641-9b41-bfa42d39185a)
   )
   (text "Input voltage up to 35V.\nOutput current at least 100mA."
-    (at 184.15 26.67 0)
+    (at 195.58 30.48 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5e0cb0b2-1007-4c90-8834-5d4945a1d4c3)
   )
   (text "Optional termination\nresistance for the bus" (at 25.4 125.73 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a56526e0-5bce-4da3-bb02-fb25f448a887)
+  )
+  (text "Alternatives:\n- H7533-H#" (at 179.07 26.67 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ab1908aa-b14d-48bc-9f59-703cbcaab7cf)
   )
 
   (label "CAN_GND" (at 123.19 52.07 270)
@@ -1459,7 +1463,7 @@
     (pin "1" (uuid e9aeee9b-b797-463b-85c7-6c1364e6161d))
   )
 
-  (symbol (lib_id "Device:C") (at 203.2 96.52 0) (mirror y)
+  (symbol (lib_id "Device:C") (at 203.2 96.52 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f553562)
     (property "Reference" "C604" (id 0) (at 210.82 95.25 0)
@@ -1497,7 +1501,7 @@
     (pin "1" (uuid 904dde77-38b3-4fe6-b154-0be0b26690aa))
   )
 
-  (symbol (lib_id "Device:C") (at 128.27 95.25 0) (mirror y)
+  (symbol (lib_id "Device:C") (at 128.27 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f55e792)
     (property "Reference" "C602" (id 0) (at 125.349 94.0816 0)
@@ -1535,18 +1539,18 @@
     (pin "1" (uuid b2086365-1df0-4e00-b92e-55761e75989f))
   )
 
-  (symbol (lib_id "SH-ESP32:HT75xx-1-SOT23") (at 177.8 39.37 0)
+  (symbol (lib_id "SH-ESP32:HT75xx-1-SOT23") (at 177.8 39.37 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f94c95c)
     (property "Reference" "U603" (id 0) (at 177.8 30.0482 0))
-    (property "Value" "PJ75AL33SA" (id 1) (at 177.8 32.3596 0))
+    (property "Value" "MST5633BTE" (id 1) (at 177.8 32.3596 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 177.8 31.115 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "" (id 3) (at 177.8 36.83 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2005041732_MST-MST5633BTE_C525415.pdf" (id 3) (at 177.8 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C411736" (id 4) (at 177.8 39.37 0)
+    (property "LCSC" "C525415" (id 4) (at 177.8 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 75845f94-0a1c-434b-b442-ed1626d027b4))
@@ -1554,7 +1558,7 @@
     (pin "3" (uuid ff95ea05-c901-44f0-b22d-26fb0cc376f4))
   )
 
-  (symbol (lib_id "Device:Polyfuse") (at 96.52 36.83 270)
+  (symbol (lib_id "Device:Polyfuse") (at 96.52 36.83 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f94c963)
     (property "Reference" "F601" (id 0) (at 96.52 31.115 90))
@@ -1572,7 +1576,7 @@
     (pin "2" (uuid d59a8c9a-6251-4e08-82e0-bee4502fa872))
   )
 
-  (symbol (lib_id "Device:D_TVS") (at 137.16 44.45 270)
+  (symbol (lib_id "Device:D_TVS") (at 137.16 44.45 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f94c96a)
     (property "Reference" "D601" (id 0) (at 139.1666 43.2816 90)
@@ -1594,7 +1598,7 @@
     (pin "2" (uuid 558e7804-a2de-4c20-8431-beb78e5c32a4))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 156.21 36.83 180)
+  (symbol (lib_id "power:PWR_FLAG") (at 156.21 36.83 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f94c980)
     (property "Reference" "#FLG0601" (id 0) (at 156.21 38.735 0)
@@ -1610,7 +1614,7 @@
     (pin "1" (uuid 9c93020b-5b73-4315-b4c7-8391871c7bc1))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 177.8 48.26 270)
+  (symbol (lib_id "power:PWR_FLAG") (at 177.8 48.26 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f94c988)
     (property "Reference" "#FLG0602" (id 0) (at 179.705 48.26 0)
@@ -1628,7 +1632,7 @@
     (pin "1" (uuid bc2130e9-7b1d-4bff-a54c-886f05910260))
   )
 
-  (symbol (lib_id "Device:C") (at 162.56 45.72 0)
+  (symbol (lib_id "Device:C") (at 162.56 45.72 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f94c994)
     (property "Reference" "C603" (id 0) (at 165.481 44.5516 0)
@@ -1650,7 +1654,7 @@
     (pin "2" (uuid f9577937-ea66-4d9f-848b-eb70e2f4ae1a))
   )
 
-  (symbol (lib_id "Device:C") (at 194.31 45.72 0)
+  (symbol (lib_id "Device:C") (at 194.31 45.72 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f94c99b)
     (property "Reference" "C605" (id 0) (at 197.231 44.5516 0)
@@ -1672,7 +1676,7 @@
     (pin "2" (uuid 06cae86e-ecb0-44a2-99c0-0f76000b90f0))
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead") (at 113.03 36.83 90) (mirror x)
+  (symbol (lib_id "Device:Ferrite_Bead") (at 113.03 36.83 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f94c9b0)
     (property "Reference" "FB601" (id 0) (at 113.03 29.8704 90))
@@ -1710,7 +1714,7 @@
     (pin "4" (uuid b227cbde-9bd1-4962-b4f0-7d930b860690))
   )
 
-  (symbol (lib_id "Device:D_Schottky") (at 147.32 36.83 0) (mirror y)
+  (symbol (lib_id "Device:D_Schottky") (at 147.32 36.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb60f25)
     (property "Reference" "D602" (id 0) (at 151.13 34.29 0)
@@ -1752,7 +1756,7 @@
     (pin "2" (uuid 2626c83f-9103-4336-bf91-cd1ff9cfbc20))
   )
 
-  (symbol (lib_id "Device:C") (at 123.19 44.45 0)
+  (symbol (lib_id "Device:C") (at 123.19 44.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fbc67ee)
     (property "Reference" "C601" (id 0) (at 126.111 43.2816 0)
@@ -1826,7 +1830,7 @@
     (pin "8" (uuid 09951791-e667-4eff-a0ef-5ad643ca3e6d))
   )
 
-  (symbol (lib_id "Device:C") (at 160.02 96.52 0) (mirror y)
+  (symbol (lib_id "Device:C") (at 160.02 96.52 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006116f256)
     (property "Reference" "C504" (id 0) (at 157.099 95.3516 0)
@@ -1852,14 +1856,14 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006118cef3)
     (property "Reference" "U501" (id 0) (at 137.16 100.33 0))
-    (property "Value" "SN65HVD231" (id 1) (at 142.24 102.87 0))
+    (property "Value" "SN65HVD230DR" (id 1) (at 142.24 102.87 0))
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 134.62 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" (id 3) (at 137.16 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" " C129257" (id 4) (at 134.62 110.49 0)
+    (property "LCSC" "C12084" (id 4) (at 134.62 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 57ec2982-7e01-4a62-a01f-13caa041f939))
@@ -1894,7 +1898,7 @@
     (pin "2" (uuid 41f647fc-2eaf-4840-912e-88469e2a00fa))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 219.71 66.04 0) (mirror x)
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 219.71 66.04 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000611f3ee8)
     (property "Reference" "J501" (id 0) (at 217.6272 57.785 0))

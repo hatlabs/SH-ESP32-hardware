@@ -6,8 +6,8 @@
 
   (title_block
     (title "Sailor Hat with ESP32")
-    (date "2021-08-17")
-    (rev "2.0.0")
+    (date "2021-12-31")
+    (rev "2.0.1")
     (company "Hat Labs Ltd")
     (comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
     (comment 2 "To view a copy of this license, visit ")
@@ -460,7 +460,7 @@
     (uuid d9c964c7-f961-4657-a80a-957a41feae2a)
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 53.34 77.47 0)
+  (symbol (lib_id "Switch:SW_Push") (at 53.34 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc5f7ef)
     (property "Reference" "SW501" (id 0) (at 53.34 70.231 0))
@@ -478,7 +478,7 @@
     (pin "2" (uuid 8b2a6aa3-f1de-4647-af52-a0a051aaae76))
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 53.34 99.06 0)
+  (symbol (lib_id "Switch:SW_Push") (at 53.34 99.06 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc5f7f5)
     (property "Reference" "SW502" (id 0) (at 53.34 91.821 0))
@@ -496,7 +496,7 @@
     (pin "2" (uuid aabe2b69-58e7-46a6-864e-9df762042e58))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 53.34 85.09 270)
+  (symbol (lib_id "Device:C_Small") (at 53.34 85.09 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc5f7ff)
     (property "Reference" "C501" (id 0) (at 53.34 79.2734 90))
@@ -514,7 +514,7 @@
     (pin "2" (uuid 3d1e9363-c8f2-48ea-a7a7-e788e690dd6b))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 53.34 106.68 270)
+  (symbol (lib_id "Device:C_Small") (at 53.34 106.68 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc5f805)
     (property "Reference" "C502" (id 0) (at 53.34 100.8634 90))
@@ -532,7 +532,7 @@
     (pin "2" (uuid c5e01dee-b78a-44f3-a4ec-5f7652bd23e8))
   )
 
-  (symbol (lib_id "power:GND") (at 44.45 87.63 0)
+  (symbol (lib_id "power:GND") (at 44.45 87.63 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc5f815)
     (property "Reference" "#PWR0502" (id 0) (at 44.45 93.98 0)
@@ -548,7 +548,7 @@
     (pin "1" (uuid 1bae3604-ca64-4639-bd2c-3688916e33c9))
   )
 
-  (symbol (lib_id "power:GND") (at 44.45 109.22 0)
+  (symbol (lib_id "power:GND") (at 44.45 109.22 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc5f81b)
     (property "Reference" "#PWR0503" (id 0) (at 44.45 115.57 0)
@@ -564,7 +564,7 @@
     (pin "1" (uuid 9186288f-b058-4229-a832-36455fc3877f))
   )
 
-  (symbol (lib_id "Device:LED") (at 59.69 46.99 90)
+  (symbol (lib_id "Device:LED") (at 59.69 46.99 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc5f82b)
     (property "Reference" "D502" (id 0) (at 62.6872 45.9994 90)
@@ -586,7 +586,7 @@
     (pin "2" (uuid 8c3acb6f-db84-42bf-bfb8-c2470a3a75bf))
   )
 
-  (symbol (lib_id "Device:R") (at 59.69 36.83 0)
+  (symbol (lib_id "Device:R") (at 59.69 36.83 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc5f831)
     (property "Reference" "R502" (id 0) (at 61.468 35.6616 0)
@@ -608,7 +608,7 @@
     (pin "2" (uuid 9b8f78a2-b3b1-4988-a2fa-cb0275a6b09c))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 59.69 30.48 0)
+  (symbol (lib_id "power:+3.3V") (at 59.69 30.48 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc5f837)
     (property "Reference" "#PWR0504" (id 0) (at 59.69 34.29 0)
@@ -624,7 +624,7 @@
     (pin "1" (uuid 489b2bcf-1c26-46a9-b277-bbc3defdcd37))
   )
 
-  (symbol (lib_id "power:GND") (at 59.69 53.34 0)
+  (symbol (lib_id "power:GND") (at 59.69 53.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc5f83f)
     (property "Reference" "#PWR0505" (id 0) (at 59.69 59.69 0)
@@ -640,7 +640,7 @@
     (pin "1" (uuid 4710b9ae-0cc8-415d-9667-2d2243344088))
   )
 
-  (symbol (lib_id "Device:LED") (at 44.45 46.99 90)
+  (symbol (lib_id "Device:LED") (at 44.45 46.99 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc5f846)
     (property "Reference" "D501" (id 0) (at 47.4472 45.9994 90)
@@ -662,7 +662,7 @@
     (pin "2" (uuid bf61223a-fef7-4730-b9f0-eef9aa0a3563))
   )
 
-  (symbol (lib_id "Device:R") (at 44.45 36.83 0)
+  (symbol (lib_id "Device:R") (at 44.45 36.83 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc5f84c)
     (property "Reference" "R501" (id 0) (at 46.228 35.6616 0)
@@ -684,7 +684,7 @@
     (pin "2" (uuid 18543e2b-7c5f-4f8e-918a-d78945d4a178))
   )
 
-  (symbol (lib_id "power:GND") (at 44.45 53.34 0)
+  (symbol (lib_id "power:GND") (at 44.45 53.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc5f854)
     (property "Reference" "#PWR0501" (id 0) (at 44.45 59.69 0)
