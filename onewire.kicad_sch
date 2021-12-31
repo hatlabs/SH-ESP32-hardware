@@ -6,8 +6,8 @@
 
   (title_block
     (title "Sailor Hat with ESP32")
-    (date "2021-08-17")
-    (rev "2.0.0")
+    (date "2021-12-31")
+    (rev "2.0.1")
     (company "Hat Labs Ltd")
     (comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
     (comment 2 "To view a copy of this license, visit ")
@@ -119,23 +119,29 @@
         )
       )
     )
-    (symbol "Device:Ferrite_Bead" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "Device:FerriteBead" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (id 0) (at -3.81 0.635 90)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Device_Ferrite_Bead" (id 1) (at 3.81 0 90)
+      (property "Value" "FerriteBead" (id 1) (at 3.81 0 90)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (id 2) (at -1.778 0 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 4) (at 0 0 0)
+      (property "ki_keywords" "L ferrite bead inductor filter" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Ferrite_Bead_0_1"
+      (property "ki_description" "Ferrite bead" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "FerriteBead_0_1"
         (polyline
           (pts
             (xy 0 -1.27)
@@ -164,7 +170,7 @@
           (fill (type none))
         )
       )
-      (symbol "Ferrite_Bead_1_1"
+      (symbol "FerriteBead_1_1"
         (pin passive line (at 0 3.81 270) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -536,7 +542,7 @@
     (uuid d0b79a40-6ebf-4d74-b693-0fa738576b8c)
   )
 
-  (symbol (lib_id "power:+3.3V") (at 104.14 40.64 0)
+  (symbol (lib_id "power:+3.3V") (at 104.14 40.64 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005faf30cb)
     (property "Reference" "#PWR0805" (id 0) (at 104.14 44.45 0)
@@ -552,7 +558,7 @@
     (pin "1" (uuid 0993bb66-894d-4b7f-97db-4f0b153754c0))
   )
 
-  (symbol (lib_id "Device:R") (at 111.76 40.64 270)
+  (symbol (lib_id "Device:R") (at 111.76 40.64 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005faf30d4)
     (property "Reference" "R801" (id 0) (at 111.76 35.56 90))
@@ -570,7 +576,7 @@
     (pin "2" (uuid 26ef0692-2056-4a4e-8590-896ffe51d282))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 40.64 62.23 180)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 40.64 62.23 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005faf30e8)
     (property "Reference" "J801" (id 0) (at 38.608 63.2968 0)
@@ -593,7 +599,7 @@
     (pin "3" (uuid dd5baffc-5451-4a68-b6fd-51656390a26f))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 127 99.06 270) (mirror x)
+  (symbol (lib_id "power:+3.3V") (at 127 99.06 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005faf4e1c)
     (property "Reference" "#PWR0809" (id 0) (at 123.19 99.06 0)
@@ -611,7 +617,7 @@
     (pin "1" (uuid 60e4dd98-210b-4c6d-a05b-6ec0e2242ab9))
   )
 
-  (symbol (lib_id "Device:C") (at 113.03 102.87 0) (mirror y)
+  (symbol (lib_id "Device:C") (at 113.03 102.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005faf4e24)
     (property "Reference" "C803" (id 0) (at 110.109 101.7016 0)
@@ -633,7 +639,7 @@
     (pin "2" (uuid 82dc2418-cfa6-4b4c-a998-c235954fb968))
   )
 
-  (symbol (lib_id "power:GND") (at 113.03 106.68 0)
+  (symbol (lib_id "power:GND") (at 113.03 106.68 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005faf4e2c)
     (property "Reference" "#PWR0808" (id 0) (at 113.03 113.03 0)
@@ -649,7 +655,7 @@
     (pin "1" (uuid d076ef9d-1113-4af9-9200-9d9a0b5518b7))
   )
 
-  (symbol (lib_id "Device:C") (at 123.19 102.87 0)
+  (symbol (lib_id "Device:C") (at 123.19 102.87 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005faf4e32)
     (property "Reference" "C801" (id 0) (at 126.111 101.7016 0)
@@ -671,7 +677,7 @@
     (pin "2" (uuid 2482906b-bb8f-404c-95ea-1daf6890b5f7))
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead") (at 118.11 99.06 90) (mirror x)
+  (symbol (lib_id "Device:FerriteBead") (at 118.11 99.06 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005faf4e4b)
     (property "Reference" "FB801" (id 0) (at 118.11 92.1004 90))
@@ -729,7 +735,7 @@
     (pin "2" (uuid 63549222-bbf8-4425-9bb1-ba72d0cf0655))
   )
 
-  (symbol (lib_id "power:GND") (at 116.84 68.58 0)
+  (symbol (lib_id "power:GND") (at 116.84 68.58 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fb096fd)
     (property "Reference" "#PWR0807" (id 0) (at 116.84 74.93 0)
@@ -745,7 +751,7 @@
     (pin "1" (uuid 7661cc5c-f2d4-4343-bddd-fdcf2e8b42a1))
   )
 
-  (symbol (lib_id "power:GND") (at 48.26 66.04 0) (mirror y)
+  (symbol (lib_id "power:GND") (at 48.26 66.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fbeeaf8)
     (property "Reference" "#PWR0802" (id 0) (at 48.26 72.39 0)
@@ -787,7 +793,7 @@
     (pin "9" (uuid e882ca18-ed6d-4d47-a6b6-ebb5606869fe))
   )
 
-  (symbol (lib_id "power:GND") (at 123.19 106.68 0)
+  (symbol (lib_id "power:GND") (at 123.19 106.68 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fbfc117)
     (property "Reference" "#PWR0806" (id 0) (at 123.19 113.03 0)
@@ -803,7 +809,7 @@
     (pin "1" (uuid 5c26d80c-a27b-40dd-8f64-0309c60fdc60))
   )
 
-  (symbol (lib_id "power:GND") (at 60.96 119.38 0) (mirror y)
+  (symbol (lib_id "power:GND") (at 60.96 119.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fbfcd6c)
     (property "Reference" "#PWR0803" (id 0) (at 60.96 125.73 0)
@@ -819,7 +825,7 @@
     (pin "1" (uuid 89c2d0f0-16a3-410b-b95f-5b1027131dd5))
   )
 
-  (symbol (lib_id "power:GND") (at 63.5 119.38 0) (mirror y)
+  (symbol (lib_id "power:GND") (at 63.5 119.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fbfd278)
     (property "Reference" "#PWR0804" (id 0) (at 63.5 125.73 0)

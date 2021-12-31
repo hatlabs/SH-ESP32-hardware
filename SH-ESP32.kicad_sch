@@ -6,8 +6,8 @@
 
   (title_block
     (title "Sailor Hat with ESP32")
-    (date "2021-08-17")
-    (rev "2.0.0")
+    (date "2021-12-31")
+    (rev "2.0.1")
     (company "Hat Labs Ltd")
     (comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
     (comment 2 "To view a copy of this license, visit ")
@@ -1073,7 +1073,7 @@
       (reference "L301") (unit 1) (value "SMMS0650-470M") (footprint "SH-ESP32:SMMS0650-1R0M")
     )
     (path "/00000000-0000-0000-0000-00005f6faf6e/00000000-0000-0000-0000-000060159ec7"
-      (reference "L302") (unit 1) (value "NLCV32T-100K-PFR") (footprint "Inductor_SMD:L_1210_3225Metric")
+      (reference "L302") (unit 1) (value "CBC3225T100KR") (footprint "Inductor_SMD:L_1210_3225Metric")
     )
     (path "/00000000-0000-0000-0000-00005f89c30a/00000000-0000-0000-0000-00005f8bcea2"
       (reference "Q401") (unit 1) (value "S8050") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -1196,13 +1196,13 @@
       (reference "U402") (unit 1) (value "RCLAMP0524P-N") (footprint "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f733ba4/00000000-0000-0000-0000-00006118cef3"
-      (reference "U501") (unit 1) (value "SN65HVD231") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U501") (unit 1) (value "SN65HVD230DR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005f733ba4/00000000-0000-0000-0000-00006115afff"
       (reference "U502") (unit 1) (value "ADuM1201AR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005f733ba4/00000000-0000-0000-0000-00005f94c95c"
-      (reference "U603") (unit 1) (value "PJ75AL33SA") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "U603") (unit 1) (value "MST5633BTE") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005f9be197/00000000-0000-0000-0000-00005fbdeb92"
       (reference "U701") (unit 1) (value "RCLAMP0524P-N") (footprint "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm")
