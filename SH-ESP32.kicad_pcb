@@ -7857,15 +7857,15 @@
     (property "Sheetname" "I2C")
     (path "/00000000-0000-0000-0000-00005f9be197/00000000-0000-0000-0000-00005f95eaac")
     (attr through_hole)
-    (fp_text reference "J702" (at 0 -2.77 90) (layer "F.SilkS")
+    (fp_text reference "J702" (at 0 -2.77 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8174b4de-74b1-48db-ab8e-c8432251095b)
     )
-    (fp_text value "Conn_01x04" (at 0 10.39 90) (layer "F.Fab")
+    (fp_text value "Conn_01x04" (at 0 10.39 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 704d6d51-bb34-4cbf-83d8-841e208048d8)
     )
-    (fp_text user "${REFERENCE}" (at 0 3.81) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 3.81) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c8eb964-bdf4-44de-90e9-e2ab82dd5313)
     )
