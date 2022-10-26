@@ -938,7 +938,7 @@
       (reference "D301") (unit 1) (value "SMBJ33CA") (footprint "Diode_SMD:D_SMB")
     )
     (path "/00000000-0000-0000-0000-00005f6faf6e/00000000-0000-0000-0000-00005ca62d98"
-      (reference "D302") (unit 1) (value "SS24FL") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D302") (unit 1) (value "DSK24 K24") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/00000000-0000-0000-0000-00005f6faf6e/00000000-0000-0000-0000-00005fb64bc2"
       (reference "D303") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
