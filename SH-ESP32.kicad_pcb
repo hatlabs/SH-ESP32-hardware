@@ -3873,7 +3873,7 @@
     (at 98 88.075 90)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
-    (property "LCSC" "C489144")
+    (property "LCSC" "C64890")
     (property "Notes" "")
     (property "Sheetfile" "File: power-input.kicad_sch")
     (property "Sheetname" "Power input")
@@ -3884,7 +3884,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fef37e8b-0ff0-4da2-8a57-acaf19551d1a)
     )
-    (fp_text value "SS24FL" (at 0 2.1 90) (layer "F.Fab") hide
+    (fp_text value "DSK24 K24" (at 0 2.1 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d21cc5e4-177a-4e1d-a8d5-060ed33e5b8e)
     )
@@ -8330,7 +8330,7 @@
     (at 97.975 92.725 -90)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
-    (property "LCSC" "C342620")
+    (property "LCSC" "C778721")
     (property "Notes" "35V")
     (property "Sheetfile" "File: power-input.kicad_sch")
     (property "Sheetname" "Power input")
