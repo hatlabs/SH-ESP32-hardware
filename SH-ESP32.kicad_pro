@@ -48,7 +48,13 @@
           "min_clearance": 0.3
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -80,8 +86,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -458,14 +464,6 @@
       "ESP32"
     ],
     [
-      "00000000-0000-0000-0000-00005fc0c355",
-      "PCB"
-    ],
-    [
-      "00000000-0000-0000-0000-00005f89c30a",
-      "USB"
-    ],
-    [
       "00000000-0000-0000-0000-00005f9be197",
       "I2C"
     ],
@@ -478,8 +476,16 @@
       "Optocouplers"
     ],
     [
+      "00000000-0000-0000-0000-00005fc0c355",
+      "PCB"
+    ],
+    [
       "00000000-0000-0000-0000-00005f6faf6e",
       "Power input"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f89c30a",
+      "USB"
     ],
     [
       "00000000-0000-0000-0000-00005fc50b89",
