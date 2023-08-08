@@ -1,0 +1,58 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c653789f-4570-4d06-9809-5168f4bd61de)
+
+  (paper "A4")
+
+  (title_block
+    (title "Proto Top Hat for SH-ESP32")
+    (date "2023-08-08")
+    (rev "2.0.0")
+    (company "Hat Labs Ltd")
+    (comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
+    (comment 2 "To view a copy of this license, visit ")
+    (comment 3 "This work is licensed under CC BY-SA 4.0.")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 21.59 25.4) (size 27.94 45.72) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005fbe301b)
+    (property "Sheetname" "IOHeader" (at 21.59 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "IOHeader.kicad_sch" (at 21.59 71.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SH-ESP32-HAT-Proto"
+        (path "/c653789f-4570-4d06-9809-5168f4bd61de" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 24.13 130.81) (size 33.02 19.05) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005fc3c9bd)
+    (property "Sheetname" "PCB" (at 24.13 130.0984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PCB.kicad_sch" (at 24.13 150.4446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SH-ESP32-HAT-Proto"
+        (path "/c653789f-4570-4d06-9809-5168f4bd61de" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
