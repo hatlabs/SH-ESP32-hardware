@@ -584,7 +584,7 @@
     (property "LCSC" "C49257" (at 40.64 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB_CORRECTION" "" (at 40.64 62.23 0)
+    (property "JLCPCB_CORRECTION" "0;2.54;90" (at 40.64 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c67afb3d-b793-49e5-93be-c0bdccbf0669))
