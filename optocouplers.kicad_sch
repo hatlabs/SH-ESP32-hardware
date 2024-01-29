@@ -1007,7 +1007,7 @@
     (property "Datasheet" "~" (at 242.57 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C358686" (at 242.57 71.12 0)
+    (property "LCSC" "C2691448" (at 242.57 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "JLCPCB_CORRECTION" "0;3.81;90" (at 242.57 71.12 0)
