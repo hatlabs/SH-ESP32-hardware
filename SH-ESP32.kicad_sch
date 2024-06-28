@@ -1,515 +1,1294 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid dff502f1-2fe5-4c09-a767-aabc78c2e052)
-
-  (paper "A4")
-
-  (title_block
-    (title "Sailor Hat with ESP32")
-    (date "2023-08-10")
-    (rev "2.0.3")
-    (company "Hat Labs Ltd")
-    (comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
-    (comment 2 "To view a copy of this license, visit ")
-    (comment 3 "SH-ESP32 is licensed under CC BY-SA 4.0.")
-  )
-
-  (lib_symbols
-  )
-
-
-  (wire (pts (xy 59.69 107.95) (xy 57.15 107.95))
-    (stroke (width 0) (type default))
-    (uuid 06ea5c99-d4c4-44d1-86a6-063c7176d7ae)
-  )
-  (wire (pts (xy 119.38 69.85) (xy 121.92 69.85))
-    (stroke (width 0) (type default))
-    (uuid 0e8a3c32-dda8-4b60-8399-1d73609dbcfd)
-  )
-  (wire (pts (xy 236.22 86.36) (xy 233.68 86.36))
-    (stroke (width 0) (type default))
-    (uuid 10929663-8b51-4406-a349-e50a73d78f34)
-  )
-  (wire (pts (xy 156.21 60.96) (xy 158.75 60.96))
-    (stroke (width 0) (type default))
-    (uuid 1a033f79-2b12-4d75-b0f7-50479ec35c96)
-  )
-  (wire (pts (xy 59.69 100.33) (xy 57.15 100.33))
-    (stroke (width 0) (type default))
-    (uuid 348698d9-efd1-4e75-9998-38e712eccf2f)
-  )
-  (wire (pts (xy 233.68 114.3) (xy 236.22 114.3))
-    (stroke (width 0) (type default))
-    (uuid 3b617d89-2e0f-4485-a1f4-43f279f59cd2)
-  )
-  (wire (pts (xy 121.92 54.61) (xy 119.38 54.61))
-    (stroke (width 0) (type default))
-    (uuid 468db6fe-ebe5-4465-b340-b3f6f993953b)
-  )
-  (wire (pts (xy 236.22 58.42) (xy 233.68 58.42))
-    (stroke (width 0) (type default))
-    (uuid 4aaa1671-cc20-443e-a01f-8207b05b4f53)
-  )
-  (wire (pts (xy 158.75 80.01) (xy 156.21 80.01))
-    (stroke (width 0) (type default))
-    (uuid 514a41a2-a62e-46f2-afc4-409c0352e731)
-  )
-  (wire (pts (xy 119.38 78.74) (xy 121.92 78.74))
-    (stroke (width 0) (type default))
-    (uuid 5a6f4dff-8a5b-4d16-b9fc-a5a2a030e191)
-  )
-  (wire (pts (xy 59.69 59.69) (xy 57.15 59.69))
-    (stroke (width 0) (type default))
-    (uuid 61780bb7-d3e7-475b-a106-2b9a9869365e)
-  )
-  (wire (pts (xy 119.38 83.82) (xy 121.92 83.82))
-    (stroke (width 0) (type default))
-    (uuid 6683b938-064e-49fd-a4ee-19bc10e94cd5)
-  )
-  (wire (pts (xy 119.38 50.8) (xy 121.92 50.8))
-    (stroke (width 0) (type default))
-    (uuid 67eb57d9-504f-4616-9dac-7c0c3fac821d)
-  )
-  (wire (pts (xy 156.21 64.77) (xy 158.75 64.77))
-    (stroke (width 0) (type default))
-    (uuid 683b88a6-0139-4c70-a688-3ec59533261e)
-  )
-  (wire (pts (xy 59.69 72.39) (xy 57.15 72.39))
-    (stroke (width 0) (type default))
-    (uuid 721ae374-0abc-463c-874b-568f793edc13)
-  )
-  (wire (pts (xy 236.22 62.23) (xy 233.68 62.23))
-    (stroke (width 0) (type default))
-    (uuid 76194bcc-3034-4314-a895-4ed0d4ce9c42)
-  )
-  (wire (pts (xy 233.68 118.11) (xy 236.22 118.11))
-    (stroke (width 0) (type default))
-    (uuid 7d071d2e-59af-434c-bbc1-d3de5e4e3d01)
-  )
-  (wire (pts (xy 236.22 33.02) (xy 233.68 33.02))
-    (stroke (width 0) (type default))
-    (uuid 8181bb91-58d4-45b0-ac7d-ea3d99e7998a)
-  )
-  (wire (pts (xy 156.21 50.8) (xy 158.75 50.8))
-    (stroke (width 0) (type default))
-    (uuid 81e717cc-bcd7-46e3-bdfc-bdf219eca19e)
-  )
-  (wire (pts (xy 59.69 104.14) (xy 57.15 104.14))
-    (stroke (width 0) (type default))
-    (uuid 87a79166-ab2d-4a4e-9e72-0ced69ed1710)
-  )
-  (wire (pts (xy 57.15 63.5) (xy 59.69 63.5))
-    (stroke (width 0) (type default))
-    (uuid 9fe06fe0-96cd-4849-b41b-0b71034a4c54)
-  )
-  (wire (pts (xy 119.38 74.93) (xy 121.92 74.93))
-    (stroke (width 0) (type default))
-    (uuid a3c88289-2222-41aa-9810-13fce6afcffc)
-  )
-  (wire (pts (xy 236.22 29.21) (xy 233.68 29.21))
-    (stroke (width 0) (type default))
-    (uuid adf2be76-dcc7-4dcc-947a-fbbb9e330180)
-  )
-  (wire (pts (xy 59.69 76.2) (xy 57.15 76.2))
-    (stroke (width 0) (type default))
-    (uuid da2f4e85-18b5-4167-90a3-706823e1ef63)
-  )
-  (wire (pts (xy 156.21 54.61) (xy 158.75 54.61))
-    (stroke (width 0) (type default))
-    (uuid e4a4bcb6-4dbb-4360-b0f6-c6bf219550e9)
-  )
-  (wire (pts (xy 119.38 66.04) (xy 121.92 66.04))
-    (stroke (width 0) (type default))
-    (uuid eaacef92-1636-4370-8f2a-8202f92edb57)
-  )
-  (wire (pts (xy 158.75 83.82) (xy 156.21 83.82))
-    (stroke (width 0) (type default))
-    (uuid f7e41679-06e0-4f28-a181-e170764d002a)
-  )
-  (wire (pts (xy 156.21 72.39) (xy 158.75 72.39))
-    (stroke (width 0) (type default))
-    (uuid fb39cab1-c53e-4c8f-8335-c1dbeeeb79a9)
-  )
-
-  (label "CAN_RX" (at 233.68 29.21 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 02294e53-b711-4100-93a4-0d4f878cefc7)
-  )
-  (label "RESET_KEY" (at 59.69 100.33 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0d9bd421-f578-42e5-a943-f7a9f28d22e0)
-  )
-  (label "USB_RXD" (at 119.38 54.61 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 1ef6083f-3ee9-44a9-8f06-4a7cbc5c82b0)
-  )
-  (label "RESET_AUTO" (at 59.69 72.39 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 23826232-67f3-4af4-8ca5-050eb6295e7e)
-  )
-  (label "RESET_AUTO" (at 119.38 74.93 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 26058f52-d45f-4428-9704-c34add83f8f0)
-  )
-  (label "SCL" (at 233.68 62.23 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 2959642b-0efd-4e0b-9906-0bb1534e765f)
-  )
-  (label "LED" (at 59.69 107.95 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4538e17b-0829-4ec8-b384-5f499d7f0685)
-  )
-  (label "CAN_TX" (at 158.75 54.61 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 64855620-1630-4a27-adf2-36019387b318)
-  )
-  (label "BOOT_KEY" (at 59.69 104.14 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 66d57726-bbbb-4cd5-b278-b0fe60b31726)
-  )
-  (label "SCL" (at 158.75 64.77 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6c1a037c-2111-4547-a2cc-0410ffc3f26e)
-  )
-  (label "RESET_KEY" (at 119.38 66.04 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 788aa8fa-cbbe-401d-b6d2-5b91e1e99a32)
-  )
-  (label "CAN_RX" (at 158.75 50.8 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 7cb02633-318d-4e28-af88-612ab58488dc)
-  )
-  (label "OPTO_IN1" (at 233.68 114.3 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 82314035-8192-4fd6-857f-6d4d121863d8)
-  )
-  (label "OPTO_OUT1" (at 158.75 83.82 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8384df33-34d9-4e5c-9b2c-04b14a26ba0b)
-  )
-  (label "SDA" (at 233.68 58.42 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 84a508ab-f022-41bc-b09d-df562d10a71f)
-  )
-  (label "BOOT_KEY" (at 119.38 69.85 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 875733c9-19b4-4cef-94f9-96e24a545685)
-  )
-  (label "DQ" (at 233.68 86.36 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 8dcc4d72-8235-48b4-8f1d-e8c25abae48f)
-  )
-  (label "DQ" (at 158.75 72.39 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 91a6fff7-fe6a-4062-b3d1-93d0d31e40ac)
-  )
-  (label "CAN_TX" (at 233.68 33.02 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 925fa3bd-ac5d-4407-ad17-0df3d3ba9918)
-  )
-  (label "SDA" (at 158.75 60.96 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a189b8fc-10c3-4218-a4f4-cd20cb22123c)
-  )
-  (label "USB_TXD" (at 119.38 50.8 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid a47a847c-3aea-4b4e-83f7-146cc5f93b3c)
-  )
-  (label "USB_RXD" (at 59.69 63.5 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid bfcf5e01-0e37-41c7-a79a-8d3d8e6531d5)
-  )
-  (label "BOOT_AUTO" (at 59.69 76.2 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d39f7393-e4a2-489a-ac43-6b2e64aba8dd)
-  )
-  (label "OPTO_IN1" (at 158.75 80.01 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d83d9296-c553-4803-a8f3-c19bec677666)
-  )
-  (label "LED" (at 119.38 83.82 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid d9738d13-b95c-4747-81d3-2e88c652dd74)
-  )
-  (label "BOOT_AUTO" (at 119.38 78.74 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid dfaf573d-fce6-4fd7-b909-e8358d6ba0fe)
-  )
-  (label "USB_TXD" (at 59.69 59.69 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e793a6f3-3474-4096-a87b-17f973c36d3d)
-  )
-  (label "OPTO_OUT1" (at 233.68 118.11 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid e942021f-81b9-4931-a119-911d80520b2a)
-  )
-
-  (sheet (at 24.13 24.13) (size 33.02 20.32) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005f6faf6e)
-    (property "Sheetname" "Power input" (at 24.13 23.4184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power-input.kicad_sch" (at 24.13 45.0346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "SH-ESP32"
-        (path "/dff502f1-2fe5-4c09-a767-aabc78c2e052" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 236.22 24.13) (size 31.75 21.59) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005f733ba4)
-    (property "Sheetname" "CAN bus" (at 236.22 23.4184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "canbus.kicad_sch" (at 236.22 46.3046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "CAN_RX" input (at 236.22 29.21 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 50ab88b1-1133-4135-8029-f8d5c9a68ad2)
-    )
-    (pin "CAN_TX" input (at 236.22 33.02 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid adf7308c-4daa-4dc0-aa43-cd8f342c0acd)
-    )
-    (instances
-      (project "SH-ESP32"
-        (path "/dff502f1-2fe5-4c09-a767-aabc78c2e052" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 24.13 54.61) (size 33.02 31.75) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005f89c30a)
-    (property "Sheetname" "USB" (at 24.13 53.8984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "USB.kicad_sch" (at 24.13 86.9446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "TXD" input (at 57.15 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 9a1ed435-1c5c-4491-bfbb-218ef78ce0f0)
-    )
-    (pin "RXD" input (at 57.15 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 162c9947-354e-42e4-8cf3-b34290a8f293)
-    )
-    (pin "BOOT_AUTO" input (at 57.15 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid fa5f775a-dba6-456a-ac1f-4d5df82ec104)
-    )
-    (pin "RESET_AUTO" input (at 57.15 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 048db74e-4011-45f0-8837-33febf955bfa)
-    )
-    (instances
-      (project "SH-ESP32"
-        (path "/dff502f1-2fe5-4c09-a767-aabc78c2e052" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 236.22 54.61) (size 31.75 19.05) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005f9be197)
-    (property "Sheetname" "I2C" (at 236.22 53.8984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "I2C.kicad_sch" (at 236.22 74.2446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "SDA" input (at 236.22 58.42 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 5fffc2eb-3da3-48ef-81cb-7357033941ee)
-    )
-    (pin "SCL" input (at 236.22 62.23 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 73a40e82-ce30-4a3c-9394-979c2e256f22)
-    )
-    (instances
-      (project "SH-ESP32"
-        (path "/dff502f1-2fe5-4c09-a767-aabc78c2e052" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 236.22 82.55) (size 31.75 19.05) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005faef03b)
-    (property "Sheetname" "Onewire" (at 236.22 81.8384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "onewire.kicad_sch" (at 236.22 102.1846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "DQ" input (at 236.22 86.36 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 93024b80-7613-4c9b-bff2-0314afcbe951)
-    )
-    (instances
-      (project "SH-ESP32"
-        (path "/dff502f1-2fe5-4c09-a767-aabc78c2e052" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 236.22 110.49) (size 31.75 19.05) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005fb2ae13)
-    (property "Sheetname" "Optocouplers" (at 236.22 109.7784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "optocouplers.kicad_sch" (at 236.22 130.1246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "IN1" input (at 236.22 114.3 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 426ef594-4852-4867-8226-ba6c45bab340)
-    )
-    (pin "OUT1" input (at 236.22 118.11 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b3ca5436-6560-4a8d-9bfb-a61890f67b10)
-    )
-    (instances
-      (project "SH-ESP32"
-        (path "/dff502f1-2fe5-4c09-a767-aabc78c2e052" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 24.13 130.81) (size 33.02 19.05) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005fc0c355)
-    (property "Sheetname" "PCB" (at 24.13 130.0984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "PCB.kicad_sch" (at 24.13 150.4446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "SH-ESP32"
-        (path "/dff502f1-2fe5-4c09-a767-aabc78c2e052" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 121.92 45.72) (size 34.29 63.5) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005fc3847d)
-    (property "Sheetname" "ESP32" (at 121.92 45.0084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "ESP32.kicad_sch" (at 121.92 109.8046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "USB_TXD" input (at 121.92 50.8 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b60610ce-d3e6-40af-b212-d3b385e1a293)
-    )
-    (pin "USB_RXD" input (at 121.92 54.61 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 597b9d49-7779-4f12-9282-0ffccc5e9e36)
-    )
-    (pin "CAN_RX" input (at 156.21 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e203136f-79aa-4f0b-8f75-57b900addf65)
-    )
-    (pin "CAN_TX" input (at 156.21 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 17855ce3-2cdc-459b-9778-fcbf53e262b3)
-    )
-    (pin "SDA" input (at 156.21 60.96 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid f364e3d8-8687-4a3a-93e1-1046fb536099)
-    )
-    (pin "SCL" input (at 156.21 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid d3bfe369-15d1-4537-a1c1-2e03bc1bf0ea)
-    )
-    (pin "DQ" input (at 156.21 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid ad2412c3-8162-4d81-9f2e-5e8fe85985a4)
-    )
-    (pin "OPTO_IN1" input (at 156.21 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 8190350e-dd27-4184-84e8-c431ef9466f6)
-    )
-    (pin "OPTO_OUT1" input (at 156.21 83.82 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid cf6df6b5-62ee-4b96-a5a3-7c0458334908)
-    )
-    (pin "LED" input (at 121.92 83.82 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 7024a3c1-8b59-4fe3-af46-fa8790a2e518)
-    )
-    (pin "RESET_KEY" input (at 121.92 66.04 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 0104e6e1-a564-4b4f-b8c6-ab50dc63a4d6)
-    )
-    (pin "BOOT_KEY" input (at 121.92 69.85 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 71d975e6-e831-4129-a534-bf3bf37eb3d8)
-    )
-    (pin "RESET_AUTO" input (at 121.92 74.93 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 264d3628-525f-404f-855a-1c4dc18a067b)
-    )
-    (pin "BOOT_AUTO" input (at 121.92 78.74 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 9f414966-4724-499f-a186-d65abe9bb0c8)
-    )
-    (instances
-      (project "SH-ESP32"
-        (path "/dff502f1-2fe5-4c09-a767-aabc78c2e052" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 24.13 95.25) (size 33.02 26.67) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005fc50b89)
-    (property "Sheetname" "User Interface" (at 24.13 94.5384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "UI.kicad_sch" (at 24.13 122.5046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "RESET_KEY" input (at 57.15 100.33 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid cf817be1-a275-4f10-ab03-f5940cfee0b0)
-    )
-    (pin "BOOT_KEY" input (at 57.15 104.14 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 032ff916-7b5d-49b7-b142-d0a5a9a4ddb0)
-    )
-    (pin "LED" input (at 57.15 107.95 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e026ff37-ae2a-4fe7-8c3d-9b83b0f4e14c)
-    )
-    (instances
-      (project "SH-ESP32"
-        (path "/dff502f1-2fe5-4c09-a767-aabc78c2e052" (page "10"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "dff502f1-2fe5-4c09-a767-aabc78c2e052")
+	(paper "A4")
+	(title_block
+		(title "SH-ESP32")
+		(date "2024-06-27")
+		(rev "2.1.0")
+		(company "Hat Labs Oy")
+		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
+		(comment 2 "To view a copy of this license, visit ")
+		(comment 3 "SH-ESP32 is licensed under CC BY-SA 4.0.")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 59.69 107.95) (xy 57.15 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ea5c99-d4c4-44d1-86a6-063c7176d7ae")
+	)
+	(wire
+		(pts
+			(xy 119.38 69.85) (xy 121.92 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8a3c32-dda8-4b60-8399-1d73609dbcfd")
+	)
+	(wire
+		(pts
+			(xy 236.22 86.36) (xy 233.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10929663-8b51-4406-a349-e50a73d78f34")
+	)
+	(wire
+		(pts
+			(xy 156.21 60.96) (xy 158.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a033f79-2b12-4d75-b0f7-50479ec35c96")
+	)
+	(wire
+		(pts
+			(xy 59.69 100.33) (xy 57.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348698d9-efd1-4e75-9998-38e712eccf2f")
+	)
+	(wire
+		(pts
+			(xy 233.68 114.3) (xy 236.22 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b617d89-2e0f-4485-a1f4-43f279f59cd2")
+	)
+	(wire
+		(pts
+			(xy 121.92 54.61) (xy 119.38 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468db6fe-ebe5-4465-b340-b3f6f993953b")
+	)
+	(wire
+		(pts
+			(xy 236.22 58.42) (xy 233.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aaa1671-cc20-443e-a01f-8207b05b4f53")
+	)
+	(wire
+		(pts
+			(xy 158.75 80.01) (xy 156.21 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514a41a2-a62e-46f2-afc4-409c0352e731")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 121.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6f4dff-8a5b-4d16-b9fc-a5a2a030e191")
+	)
+	(wire
+		(pts
+			(xy 59.69 59.69) (xy 57.15 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61780bb7-d3e7-475b-a106-2b9a9869365e")
+	)
+	(wire
+		(pts
+			(xy 119.38 83.82) (xy 121.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6683b938-064e-49fd-a4ee-19bc10e94cd5")
+	)
+	(wire
+		(pts
+			(xy 119.38 50.8) (xy 121.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67eb57d9-504f-4616-9dac-7c0c3fac821d")
+	)
+	(wire
+		(pts
+			(xy 156.21 64.77) (xy 158.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683b88a6-0139-4c70-a688-3ec59533261e")
+	)
+	(wire
+		(pts
+			(xy 59.69 72.39) (xy 57.15 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721ae374-0abc-463c-874b-568f793edc13")
+	)
+	(wire
+		(pts
+			(xy 236.22 62.23) (xy 233.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76194bcc-3034-4314-a895-4ed0d4ce9c42")
+	)
+	(wire
+		(pts
+			(xy 233.68 118.11) (xy 236.22 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d071d2e-59af-434c-bbc1-d3de5e4e3d01")
+	)
+	(wire
+		(pts
+			(xy 236.22 33.02) (xy 233.68 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8181bb91-58d4-45b0-ac7d-ea3d99e7998a")
+	)
+	(wire
+		(pts
+			(xy 156.21 50.8) (xy 158.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e717cc-bcd7-46e3-bdfc-bdf219eca19e")
+	)
+	(wire
+		(pts
+			(xy 59.69 104.14) (xy 57.15 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a79166-ab2d-4a4e-9e72-0ced69ed1710")
+	)
+	(wire
+		(pts
+			(xy 57.15 63.5) (xy 59.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe06fe0-96cd-4849-b41b-0b71034a4c54")
+	)
+	(wire
+		(pts
+			(xy 119.38 74.93) (xy 121.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c88289-2222-41aa-9810-13fce6afcffc")
+	)
+	(wire
+		(pts
+			(xy 236.22 29.21) (xy 233.68 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf2be76-dcc7-4dcc-947a-fbbb9e330180")
+	)
+	(wire
+		(pts
+			(xy 59.69 76.2) (xy 57.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2f4e85-18b5-4167-90a3-706823e1ef63")
+	)
+	(wire
+		(pts
+			(xy 156.21 54.61) (xy 158.75 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a4bcb6-4dbb-4360-b0f6-c6bf219550e9")
+	)
+	(wire
+		(pts
+			(xy 57.15 114.3) (xy 59.69 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55c0baf-c866-4d3a-bd8d-6c5562eb384d")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 121.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaacef92-1636-4370-8f2a-8202f92edb57")
+	)
+	(wire
+		(pts
+			(xy 57.15 118.11) (xy 59.69 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed57907b-f174-4ade-b58d-1d39f94671fa")
+	)
+	(wire
+		(pts
+			(xy 158.75 83.82) (xy 156.21 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e41679-06e0-4f28-a181-e170764d002a")
+	)
+	(wire
+		(pts
+			(xy 156.21 72.39) (xy 158.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb39cab1-c53e-4c8f-8335-c1dbeeeb79a9")
+	)
+	(label "CAN_RX"
+		(at 233.68 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02294e53-b711-4100-93a4-0d4f878cefc7")
+	)
+	(label "RESET_KEY"
+		(at 59.69 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d9bd421-f578-42e5-a943-f7a9f28d22e0")
+	)
+	(label "USB_RXD"
+		(at 119.38 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ef6083f-3ee9-44a9-8f06-4a7cbc5c82b0")
+	)
+	(label "RESET_AUTO"
+		(at 59.69 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23826232-67f3-4af4-8ca5-050eb6295e7e")
+	)
+	(label "RESET_AUTO"
+		(at 119.38 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26058f52-d45f-4428-9704-c34add83f8f0")
+	)
+	(label "CAN_TX"
+		(at 59.69 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27cf54ed-85a4-4e56-87ba-48f54413d2cd")
+	)
+	(label "SCL"
+		(at 233.68 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2959642b-0efd-4e0b-9906-0bb1534e765f")
+	)
+	(label "LED"
+		(at 59.69 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4538e17b-0829-4ec8-b384-5f499d7f0685")
+	)
+	(label "CAN_TX"
+		(at 158.75 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64855620-1630-4a27-adf2-36019387b318")
+	)
+	(label "BOOT_KEY"
+		(at 59.69 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66d57726-bbbb-4cd5-b278-b0fe60b31726")
+	)
+	(label "SCL"
+		(at 158.75 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c1a037c-2111-4547-a2cc-0410ffc3f26e")
+	)
+	(label "RESET_KEY"
+		(at 119.38 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "788aa8fa-cbbe-401d-b6d2-5b91e1e99a32")
+	)
+	(label "CAN_RX"
+		(at 158.75 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cb02633-318d-4e28-af88-612ab58488dc")
+	)
+	(label "OPTO_IN1"
+		(at 233.68 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82314035-8192-4fd6-857f-6d4d121863d8")
+	)
+	(label "OPTO_OUT1"
+		(at 158.75 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8384df33-34d9-4e5c-9b2c-04b14a26ba0b")
+	)
+	(label "SDA"
+		(at 233.68 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84a508ab-f022-41bc-b09d-df562d10a71f")
+	)
+	(label "BOOT_KEY"
+		(at 119.38 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "875733c9-19b4-4cef-94f9-96e24a545685")
+	)
+	(label "DQ"
+		(at 233.68 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8dcc4d72-8235-48b4-8f1d-e8c25abae48f")
+	)
+	(label "DQ"
+		(at 158.75 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91a6fff7-fe6a-4062-b3d1-93d0d31e40ac")
+	)
+	(label "CAN_TX"
+		(at 233.68 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "925fa3bd-ac5d-4407-ad17-0df3d3ba9918")
+	)
+	(label "SDA"
+		(at 158.75 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a189b8fc-10c3-4218-a4f4-cd20cb22123c")
+	)
+	(label "USB_TXD"
+		(at 119.38 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a47a847c-3aea-4b4e-83f7-146cc5f93b3c")
+	)
+	(label "CAN_RX"
+		(at 59.69 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9d9dd47-cd0a-4d7a-8b33-70c8a568c2e9")
+	)
+	(label "USB_RXD"
+		(at 59.69 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfcf5e01-0e37-41c7-a79a-8d3d8e6531d5")
+	)
+	(label "BOOT_AUTO"
+		(at 59.69 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d39f7393-e4a2-489a-ac43-6b2e64aba8dd")
+	)
+	(label "OPTO_IN1"
+		(at 158.75 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d83d9296-c553-4803-a8f3-c19bec677666")
+	)
+	(label "LED"
+		(at 119.38 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9738d13-b95c-4747-81d3-2e88c652dd74")
+	)
+	(label "BOOT_AUTO"
+		(at 119.38 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dfaf573d-fce6-4fd7-b909-e8358d6ba0fe")
+	)
+	(label "USB_TXD"
+		(at 59.69 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e793a6f3-3474-4096-a87b-17f973c36d3d")
+	)
+	(label "OPTO_OUT1"
+		(at 233.68 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e942021f-81b9-4931-a119-911d80520b2a")
+	)
+	(sheet
+		(at 24.13 24.13)
+		(size 33.02 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005f6faf6e")
+		(property "Sheetname" "Power input"
+			(at 24.13 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power-input.kicad_sch"
+			(at 24.13 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SH-ESP32"
+				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 24.13)
+		(size 31.75 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005f733ba4")
+		(property "Sheetname" "CAN bus"
+			(at 236.22 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "canbus.kicad_sch"
+			(at 236.22 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 236.22 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "50ab88b1-1133-4135-8029-f8d5c9a68ad2")
+		)
+		(pin "CAN_TX" input
+			(at 236.22 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "adf7308c-4daa-4dc0-aa43-cd8f342c0acd")
+		)
+		(instances
+			(project "SH-ESP32"
+				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 54.61)
+		(size 33.02 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005f89c30a")
+		(property "Sheetname" "USB"
+			(at 24.13 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 24.13 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TXD" input
+			(at 57.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a1ed435-1c5c-4491-bfbb-218ef78ce0f0")
+		)
+		(pin "RXD" input
+			(at 57.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "162c9947-354e-42e4-8cf3-b34290a8f293")
+		)
+		(pin "BOOT_AUTO" input
+			(at 57.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fa5f775a-dba6-456a-ac1f-4d5df82ec104")
+		)
+		(pin "RESET_AUTO" input
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "048db74e-4011-45f0-8837-33febf955bfa")
+		)
+		(instances
+			(project "SH-ESP32"
+				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 54.61)
+		(size 31.75 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005f9be197")
+		(property "Sheetname" "I2C"
+			(at 236.22 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "I2C.kicad_sch"
+			(at 236.22 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" input
+			(at 236.22 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5fffc2eb-3da3-48ef-81cb-7357033941ee")
+		)
+		(pin "SCL" input
+			(at 236.22 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73a40e82-ce30-4a3c-9394-979c2e256f22")
+		)
+		(instances
+			(project "SH-ESP32"
+				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 82.55)
+		(size 31.75 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005faef03b")
+		(property "Sheetname" "Onewire"
+			(at 236.22 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "onewire.kicad_sch"
+			(at 236.22 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DQ" input
+			(at 236.22 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "93024b80-7613-4c9b-bff2-0314afcbe951")
+		)
+		(instances
+			(project "SH-ESP32"
+				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 110.49)
+		(size 31.75 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005fb2ae13")
+		(property "Sheetname" "Optocouplers"
+			(at 236.22 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "optocouplers.kicad_sch"
+			(at 236.22 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 236.22 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "426ef594-4852-4867-8226-ba6c45bab340")
+		)
+		(pin "OUT1" input
+			(at 236.22 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b3ca5436-6560-4a8d-9bfb-a61890f67b10")
+		)
+		(instances
+			(project "SH-ESP32"
+				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 130.81)
+		(size 33.02 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005fc0c355")
+		(property "Sheetname" "PCB"
+			(at 24.13 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCB.kicad_sch"
+			(at 24.13 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SH-ESP32"
+				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 45.72)
+		(size 34.29 63.5)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005fc3847d")
+		(property "Sheetname" "ESP32"
+			(at 121.92 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 121.92 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_TXD" input
+			(at 121.92 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b60610ce-d3e6-40af-b212-d3b385e1a293")
+		)
+		(pin "USB_RXD" input
+			(at 121.92 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "597b9d49-7779-4f12-9282-0ffccc5e9e36")
+		)
+		(pin "CAN_RX" input
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e203136f-79aa-4f0b-8f75-57b900addf65")
+		)
+		(pin "CAN_TX" input
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "17855ce3-2cdc-459b-9778-fcbf53e262b3")
+		)
+		(pin "SDA" input
+			(at 156.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f364e3d8-8687-4a3a-93e1-1046fb536099")
+		)
+		(pin "SCL" input
+			(at 156.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d3bfe369-15d1-4537-a1c1-2e03bc1bf0ea")
+		)
+		(pin "DQ" input
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ad2412c3-8162-4d81-9f2e-5e8fe85985a4")
+		)
+		(pin "OPTO_IN1" input
+			(at 156.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8190350e-dd27-4184-84e8-c431ef9466f6")
+		)
+		(pin "OPTO_OUT1" input
+			(at 156.21 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf6df6b5-62ee-4b96-a5a3-7c0458334908")
+		)
+		(pin "LED" input
+			(at 121.92 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7024a3c1-8b59-4fe3-af46-fa8790a2e518")
+		)
+		(pin "RESET_KEY" input
+			(at 121.92 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0104e6e1-a564-4b4f-b8c6-ab50dc63a4d6")
+		)
+		(pin "BOOT_KEY" input
+			(at 121.92 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "71d975e6-e831-4129-a534-bf3bf37eb3d8")
+		)
+		(pin "RESET_AUTO" input
+			(at 121.92 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "264d3628-525f-404f-855a-1c4dc18a067b")
+		)
+		(pin "BOOT_AUTO" input
+			(at 121.92 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f414966-4724-499f-a186-d65abe9bb0c8")
+		)
+		(instances
+			(project "SH-ESP32"
+				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 95.25)
+		(size 33.02 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005fc50b89")
+		(property "Sheetname" "User Interface"
+			(at 24.13 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UI.kicad_sch"
+			(at 24.13 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RESET_KEY" input
+			(at 57.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf817be1-a275-4f10-ab03-f5940cfee0b0")
+		)
+		(pin "BOOT_KEY" input
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "032ff916-7b5d-49b7-b142-d0a5a9a4ddb0")
+		)
+		(pin "LED" input
+			(at 57.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e026ff37-ae2a-4fe7-8c3d-9b83b0f4e14c")
+		)
+		(pin "CAN_RX" input
+			(at 57.15 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9f379b8b-1956-4a89-b144-3010b3cc92b3")
+		)
+		(pin "CAN_TX" input
+			(at 57.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2bcdc50-3b76-4b7c-8261-99559f5b2aa0")
+		)
+		(instances
+			(project "SH-ESP32"
+				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
