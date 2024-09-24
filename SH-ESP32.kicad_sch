@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "SH-ESP32")
-		(date "2024-06-27")
-		(rev "2.1.0")
+		(date "2024-09-24")
+		(rev "2.2.0")
 		(company "Hat Labs Oy")
 		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
 		(comment 2 "To view a copy of this license, visit ")
