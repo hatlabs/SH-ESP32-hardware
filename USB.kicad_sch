@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "SH-ESP32")
-		(date "2024-06-27")
-		(rev "2.1.0")
+		(date "2024-09-24")
+		(rev "2.2.0")
 		(company "Hat Labs Oy")
 		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
 		(comment 2 "To view a copy of this license, visit ")
@@ -718,7 +718,7 @@
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-				(at 1.27 -13.97 0)
+				(at -18.542 30.226 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -728,7 +728,7 @@
 				)
 			)
 			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf"
-				(at -8.89 20.32 0)
+				(at -6.604 33.274 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -736,8 +736,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB serial converter, UART, SOIC-16"
-				(at 0 0 0)
+			(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
+				(at -1.524 36.068 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -904,7 +904,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 15.24 270)
+					(at -2.54 15.24 270)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -957,8 +957,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -2.54 15.24 270)
+				(pin power_out line
+					(at 0 15.24 270)
 					(length 2.54)
 					(name "V3"
 						(effects
@@ -1012,7 +1012,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -7.62 -7.62 0)
+					(at -7.62 -5.08 0)
 					(length 2.54) hide
 					(name "NC"
 						(effects
@@ -1030,7 +1030,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -7.62 -10.16 0)
+					(at -7.62 -7.62 0)
 					(length 2.54) hide
 					(name "NC"
 						(effects
@@ -1146,7 +1146,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1158,7 +1158,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1170,7 +1170,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1182,7 +1182,7 @@
 					)
 					(stroke
 						(width 0.508)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1194,7 +1194,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
@@ -1205,7 +1205,7 @@
 					(radius 2.8194)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1336,7 +1336,7 @@
 					(end 5.08 7.62)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type background)
@@ -1347,7 +1347,7 @@
 					(radius 0.635)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
@@ -1358,7 +1358,7 @@
 					(radius 0.381)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
@@ -1369,7 +1369,7 @@
 					(end 0.127 -6.858)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1381,7 +1381,7 @@
 					)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1393,7 +1393,7 @@
 					)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1405,7 +1405,7 @@
 					)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1417,7 +1417,7 @@
 					)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
@@ -1429,7 +1429,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
@@ -1442,7 +1442,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1453,7 +1453,7 @@
 					(end -0.508 0.508)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
@@ -1464,7 +1464,7 @@
 					(end 4.318 -4.953)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1475,7 +1475,7 @@
 					(end 4.318 -2.413)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1486,7 +1486,7 @@
 					(end 4.318 0.127)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1497,7 +1497,7 @@
 					(end 4.318 5.207)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1617,9 +1617,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1667,7 +1667,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1717,8 +1717,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1737,9 +1737,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1787,7 +1787,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1813,8 +1813,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1881,7 +1881,7 @@
 		(uuid "78098a8a-e9d1-4018-ae74-95b86f07ef17")
 	)
 	(junction
-		(at 25.4 55.88)
+		(at 25.4 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4f0be7f-5e67-4aa4-b8fc-a50dd0aabf8d")
@@ -1940,7 +1940,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 55.88) (xy 22.86 54.61)
+			(xy 22.86 57.15) (xy 22.86 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2010,7 +2010,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 54.61) (xy 25.4 55.88)
+			(xy 25.4 54.61) (xy 25.4 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2040,7 +2040,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 55.88) (xy 25.4 55.88)
+			(xy 22.86 57.15) (xy 25.4 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2320,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 55.88) (xy 25.4 60.96)
+			(xy 25.4 57.15) (xy 25.4 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2789,7 +2789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 60.96 0)
 			(effects
 				(font
@@ -3025,7 +3025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
 			(at 52.07 127 0)
 			(effects
 				(font
@@ -3136,7 +3136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "SH-ESP32:SOT-23"
 			(at 135.89 103.505 0)
 			(effects
 				(font
@@ -3157,7 +3157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, SOT-23"
 			(at 130.81 101.6 0)
 			(effects
 				(font
@@ -3230,7 +3230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "SH-ESP32:SOT-23"
 			(at 135.89 118.745 0)
 			(effects
 				(font
@@ -3251,7 +3251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, SOT-23"
 			(at 130.81 120.65 0)
 			(effects
 				(font
@@ -3427,7 +3427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 177.8 46.99 0)
 			(effects
 				(font
@@ -3492,7 +3492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 52.07 142.24 0)
 			(effects
 				(font
@@ -3816,7 +3816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 114.3 57.15 0)
 			(effects
 				(font
@@ -3881,7 +3881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 57.15 0)
 			(effects
 				(font
@@ -4031,7 +4031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 69.85 95.25 0)
 			(effects
 				(font
@@ -4183,7 +4183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 59.69 60.96 0)
 			(effects
 				(font
@@ -4248,7 +4248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 97.79 67.31 0)
 			(effects
 				(font
@@ -4488,7 +4488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 85.09 67.31 0)
 			(effects
 				(font
@@ -4640,7 +4640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 91.44 67.31 0)
 			(effects
 				(font

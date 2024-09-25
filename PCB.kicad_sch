@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "SH-ESP32")
-		(date "2024-06-27")
-		(rev "2.1.0")
+		(date "2024-09-24")
+		(rev "2.2.0")
 		(company "Hat Labs Oy")
 		(comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
 		(comment 2 "To view a copy of this license, visit ")
@@ -234,9 +234,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -284,7 +284,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -334,8 +334,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -354,9 +354,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -404,7 +404,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -430,8 +430,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -612,12 +612,6 @@
 		(uuid "917f2384-498c-4287-a2fc-137888861979")
 	)
 	(junction
-		(at 91.44 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9df5c14a-62cd-4f0f-aa00-551f596ef10a")
-	)
-	(junction
 		(at 91.44 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -682,12 +676,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db79fb29-2771-4f8b-ab3e-4285b725096b")
-	)
-	(junction
-		(at 99.06 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc8f9511-b482-4d47-af5e-84073d178e81")
 	)
 	(junction
 		(at 111.76 62.23)
@@ -821,16 +809,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 67.31) (xy 99.06 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b3193b-d794-47ad-b88c-bd43f75d0c27")
-	)
-	(wire
-		(pts
 			(xy 91.44 128.27) (xy 91.44 133.35)
 		)
 		(stroke
@@ -851,7 +829,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 67.31) (xy 91.44 72.39)
+			(xy 91.44 62.23) (xy 91.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1231,17 +1209,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 62.23) (xy 91.44 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb6b826-bc65-4571-ab3b-1b47a831da34")
-	)
-	(wire
-		(pts
-			(xy 99.06 72.39) (xy 99.06 67.31)
+			(xy 99.06 62.23) (xy 99.06 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1802,94 +1770,6 @@
 			(project "SH-ESP32"
 				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc0c355"
 					(reference "C1004")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 95.25 67.31 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005fc0fece")
-		(property "Reference" "C1005"
-			(at 92.71 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 102.87 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 99.06 68.2752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 95.25 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_CORRECTION" ""
-			(at 95.25 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9514bcf-e26b-47f5-8c69-4daf62d03d18")
-		)
-		(pin "2"
-			(uuid "ca730761-fedf-4eae-98fa-a8325d785a83")
-		)
-		(instances
-			(project "SH-ESP32"
-				(path "/dff502f1-2fe5-4c09-a767-aabc78c2e052/00000000-0000-0000-0000-00005fc0c355"
-					(reference "C1005")
 					(unit 1)
 				)
 			)
@@ -3259,7 +3139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 99.06 41.91 0)
 			(effects
 				(font
@@ -3324,7 +3204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 91.44 148.59 0)
 			(effects
 				(font
@@ -3829,7 +3709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 119.38 41.91 0)
 			(effects
 				(font
@@ -3894,7 +3774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 111.76 90.17 0)
 			(effects
 				(font
