@@ -4193,7 +4193,7 @@
 				)
 			)
 		)
-		(property "Value" "VLS252012HBX-R24M-1"
+		(property "Value" "CBC3225T100KR"
 			(at 95.25 100.3554 90)
 			(effects
 				(font
@@ -4246,7 +4246,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C90315"
+		(property "LCSC" "C90321"
 			(at 95.25 102.87 0)
 			(effects
 				(font
@@ -4255,7 +4255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Alternatives: CBC3225T100KR, NLCV32T-100K-PFR"
+		(property "Notes" "Alternatives: CBC3225T100KR, CBC3225T100MR, NLCV32T-100K-PFR"
 			(at 95.25 102.87 90)
 			(effects
 				(font

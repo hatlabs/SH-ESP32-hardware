@@ -44164,7 +44164,7 @@
 				)
 			)
 		)
-		(property "Value" "VLS252012HBX-R24M-1"
+		(property "Value" "CBC3225T100KR"
 			(at 0 2.28 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -44241,7 +44241,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C90315"
+		(property "LCSC" "C90321"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44254,7 +44254,7 @@
 				)
 			)
 		)
-		(property "Notes" "Alternatives: CBC3225T100KR, NLCV32T-100K-PFR"
+		(property "Notes" "Alternatives: CBC3225T100KR, CBC3225T100MR, NLCV32T-100K-PFR"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
